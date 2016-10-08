@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/skin_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.widget.XListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092255" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:cacheColorHint="@null" android:divider="@null" />
+    <TextView android:textSize="16.0dip" android:textColor="#ff777777" android:gravity="center" android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091279" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a03da" android:drawableTop="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020b18" android:drawablePadding="20.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

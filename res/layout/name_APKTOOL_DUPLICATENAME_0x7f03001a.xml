@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mobileqq.widget.ClearableEditText android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03dd" android:textColorHint="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03db" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090283" android:background="@drawable/skin_setting_strip_bg_unpressed" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0240" android:hint="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1aa1" android:drawablePadding="6.0dip" android:contentDescription="搜索栏、QQ号、手机号、邮箱、群、公众号" style="@style/common_single_line_input_box_style" />
+    <com.tencent.mobileqq.widget.FormMutiItem android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090284" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0240" />
+    <com.tencent.mobileqq.widget.FormMutiItem android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090285" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.tencent.mobileqq.widget.FormMutiItem android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090286" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.tencent.mobileqq.widget.FormMutiItem android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090287" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.tencent.mobileqq.widget.FormMutiItem android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090288" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0240" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0240" layout="@layout/add_contacts_mayknow_recommend" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="10.0dip" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageSwitcher android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091dc6" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b02cb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b02cb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </ImageSwitcher>
+</RelativeLayout>

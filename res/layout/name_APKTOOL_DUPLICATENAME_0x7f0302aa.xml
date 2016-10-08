@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center|left|top" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09065e" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center|left|top" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e04" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.biz.webviewplugin.Hole android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e05" android:background="#00ff0000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0207a8" android:layout_width="320.0dip" android:layout_height="132.5dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="150.0dip" />
+        <View android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0207a7" android:layout_width="74.5dip" android:layout_height="19.5dip" android:layout_marginLeft="150.0dip" android:layout_marginTop="250.0dip" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e06" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0207c2" android:paddingLeft="34.0dip" android:paddingRight="34.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="51.0dip">
+        <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09052f" android:visibility="gone" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0d32" android:drawableTop="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0207c5" style="@style/qb_browser_include_float_btn_text_style" />
+        <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09022c" android:visibility="gone" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0d33" android:drawableTop="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0207c4" style="@style/qb_browser_include_float_btn_text_style" />
+        <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090525" android:visibility="gone" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0d34" android:drawableTop="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0207c3" style="@style/qb_browser_include_float_btn_text_style" />
+    </LinearLayout>
+    <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e07" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0207c0" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="260.0dip" android:layout_marginTop="250.0dip" />
+</FrameLayout>

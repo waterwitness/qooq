@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center|right" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902f1" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020ae6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="5.0dip">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902f2" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02008f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="18.0dip" />
+        <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0004" android:textColor="#ff333333" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902f3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="8.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a16c9" />
+    </LinearLayout>
+</LinearLayout>

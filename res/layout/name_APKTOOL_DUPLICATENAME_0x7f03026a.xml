@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d13" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/image" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0204b4" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="三五好友，随便聊聊" android:layout_below="@id/image" android:layout_centerHorizontal="true" />
+                <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d15" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="10.0dip" android:text="立即发起" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090d14" style="@style/ButtonBlue" />
+            </RelativeLayout>
+        </LinearLayout>
+        <com.tencent.mobileqq.widget.SlideDetectListView android:id="@id/lv_discussion" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02032d" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+    </RelativeLayout>
+</LinearLayout>

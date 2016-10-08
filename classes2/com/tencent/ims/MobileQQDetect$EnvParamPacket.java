@@ -1,0 +1,42 @@
+package com.tencent.ims;
+
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import com.tencent.mobileqq.pb.ByteStringMicro;
+import com.tencent.mobileqq.pb.MessageMicro;
+import com.tencent.mobileqq.pb.MessageMicro.FieldMap;
+import com.tencent.mobileqq.pb.PBBytesField;
+import com.tencent.mobileqq.pb.PBField;
+import com.tencent.mobileqq.pb.PBStringField;
+import com.tencent.mobileqq.pb.PBUInt32Field;
+
+public final class MobileQQDetect$EnvParamPacket
+  extends MessageMicro
+{
+  static final MessageMicro.FieldMap __fieldMap__;
+  public final PBBytesField bytes_androidid = PBField.initBytes(ByteStringMicro.EMPTY);
+  public final PBBytesField bytes_guid = PBField.initBytes(ByteStringMicro.EMPTY);
+  public final PBBytesField bytes_imei = PBField.initBytes(ByteStringMicro.EMPTY);
+  public final PBBytesField bytes_imsi = PBField.initBytes(ByteStringMicro.EMPTY);
+  public final PBStringField str_sysversion = PBField.initString("");
+  public final PBStringField str_wifimac = PBField.initString("");
+  public final PBUInt32Field u32_appid = PBField.initUInt32(0);
+  public final PBUInt32Field u32_network = PBField.initUInt32(0);
+  public final PBUInt32Field u32_platform = PBField.initUInt32(0);
+  public final PBUInt32Field u32_root = PBField.initUInt32(0);
+  
+  static
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+    ByteStringMicro localByteStringMicro1 = ByteStringMicro.EMPTY;
+    ByteStringMicro localByteStringMicro2 = ByteStringMicro.EMPTY;
+    ByteStringMicro localByteStringMicro3 = ByteStringMicro.EMPTY;
+    ByteStringMicro localByteStringMicro4 = ByteStringMicro.EMPTY;
+    __fieldMap__ = MessageMicro.initFieldMap(new int[] { 8, 18, 24, 34, 42, 50, 56, 64, 74, 82 }, new String[] { "u32_platform", "str_sysversion", "u32_appid", "bytes_guid", "bytes_imei", "bytes_androidid", "u32_network", "u32_root", "bytes_imsi", "str_wifimac" }, new Object[] { Integer.valueOf(0), "", Integer.valueOf(0), localByteStringMicro1, localByteStringMicro2, localByteStringMicro3, Integer.valueOf(0), Integer.valueOf(0), localByteStringMicro4, "" }, EnvParamPacket.class);
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes2-dex2jar.jar!\com\tencent\ims\MobileQQDetect$EnvParamPacket.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

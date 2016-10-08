@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mobileqq.widget.TroopMemberListSlideItem android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0922a3" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020328" android:layout_width="fill_parent" android:layout_height="62.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090719" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09071a" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021536" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091967" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090719" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" />
+        <LinearLayout android:orientation="horizontal" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f091967" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0023" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a6" android:ellipsize="end" android:id="@id/tv_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxLines="1" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0023" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03d6" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09006a" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="(接收但不提示)" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textSize="14.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0028" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09159b" android:background="#ffff3b2f" android:layout_width="90.0dip" android:layout_height="fill_parent" android:layout_marginBottom="1.0px" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a15be" />
+</com.tencent.mobileqq.widget.TroopMemberListSlideItem>

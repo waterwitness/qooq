@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091de8" android:background="#b3000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091de9" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_alignParentBottom="true" />
+    <com.qzone.proxy.feedcomponent.ui.ViewPagerMatchParent android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091dea" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="top" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091deb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignLeft="@id/name_APKTOOL_DUPLICATENAME_0x7f091dea" android:layout_alignParentTop="true">
+        <TextView android:textSize="14.0sp" android:textColor="#b3ffffff" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091dec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="推荐视频" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center|right" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ded" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091de5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021273" />
+        <TextView android:textSize="14.0sp" android:textColor="#b3ffffff" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091de6" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="重播" />
+    </LinearLayout>
+</RelativeLayout>

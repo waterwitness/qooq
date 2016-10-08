@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cae" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020dc6" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_alignParentBottom="true">
+        <Button android:textColor="#ffffffff" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090caf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="关闭" style="@style/ButtonRed" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f090cae">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cb0" android:layout_width="fill_parent" android:layout_height="480.0dip" />
+    </LinearLayout>
+    <com.tencent.biz.pubaccount.AccountDetailBounceScrollView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cb1" android:background="#ff59d3ff" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:cacheColorHint="@null" android:divider="@null" android:dividerHeight="0.0px" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f090cae">
+        <RelativeLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09065f" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cb2" android:background="#ff59d3ff" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cb3" android:layout_width="110.0dip" android:layout_height="110.0dip" android:layout_marginTop="52.0dip" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090215" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="47.0dip" android:layout_centerHorizontal="true" />
+                <RelativeLayout android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090217" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090cb3" android:layout_centerInParent="true">
+                    <TextView android:textSize="22.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:ellipsize="end" android:gravity="right" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cb4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="220.0dip" android:singleLine="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cb5" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090cb2">
+                <TextView android:textSize="16.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0051" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cb6" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="5.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.tencent.biz.pubaccount.AccountDetailBounceScrollView>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09021c" android:padding="0.0px" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:layout_alignParentTop="true">
+        <TextView android:textSize="17.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:gravity="center" android:id="@id/ivTitleBtnLeft" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020204" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:maxWidth="88.0dip" android:minWidth="55.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

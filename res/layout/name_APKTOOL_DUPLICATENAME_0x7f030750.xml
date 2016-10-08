@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mobileqq.widget.BounceScrollView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09164f" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020381" android:paddingTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c01e9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="left" android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.tencent.mobileqq.widget.BounceScrollView>

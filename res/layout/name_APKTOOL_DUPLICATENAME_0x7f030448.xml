@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ce" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09149e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09149c" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02022f" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a6" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0912ce" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:maxLines="1" android:singleLine="true" android:layout_toLeftOf="@id/name_APKTOOL_DUPLICATENAME_0x7f09149e" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+</RelativeLayout>

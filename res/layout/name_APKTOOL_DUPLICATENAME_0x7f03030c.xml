@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/qb_tenpay_loading_back_bg" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0208bc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0238" android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090f7d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.qzone.widget.QZonePullToRefreshListView android:scrollbarThumbVertical="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0213c7" android:scrollbarStyle="insideOverlay" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c56" android:paddingTop="90.0dip" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="0.0dip" android:listSelector="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:scrollingCache="false" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0dip" />
+    <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091dee" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0030" android:layout_alignParentTop="true">
+        <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c57" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c002f" />
+        <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c58" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021462" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0031" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c59" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c002e" layout="@layout/qzone_custom_commen_title" />
+    </FrameLayout>
+</RelativeLayout>

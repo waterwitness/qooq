@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center|top" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090df8" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090df9" android:background="#ff2e3132" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="#ff6f7476" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090dfa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="http://www.qq.com" />
+        <TextView android:textColor="#ff6f7476" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090dfb" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text=" QQ浏览器X5内核提供技术支持" android:drawableLeft="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02024a" />
+    </LinearLayout>
+    <com.tencent.biz.ui.RefreshView android:layout_gravity="bottom" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090dfc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="50.0dip">
+        <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090caa" android:background="#77000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.tencent.biz.ui.RefreshView>
+    <ViewStub android:layout_gravity="bottom" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090dfd" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f0302a9" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

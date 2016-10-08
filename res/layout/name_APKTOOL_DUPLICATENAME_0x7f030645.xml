@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c06b1" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c06b0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.qzone.widget.AsyncImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c17" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_margin="5.0dip" />
+    <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0212c6" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02032a" android:layout_width="fill_parent" android:layout_height="74.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091abd" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02030f" android:paddingBottom="7.5dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091abe" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021055" style="@style/ecshop_top_btn_img" />
+        <com.tencent.widget.SingleLineTextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091abf" android:text="发现" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f091abe" style="@style/ecshop_top_btn_text" />
+        <com.tencent.widget.FadeIconImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ac0" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f091abe" style="@style/ecshop_top_btn_reddot" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ac1" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02030f" android:paddingBottom="7.5dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ac2" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021058" style="@style/ecshop_top_btn_img" />
+        <com.tencent.widget.SingleLineTextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ac3" android:text="优惠" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f091ac2" style="@style/ecshop_top_btn_text" />
+        <com.tencent.widget.FadeIconImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ac4" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f091ac2" style="@style/ecshop_top_btn_reddot" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ac5" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02030f" android:paddingBottom="7.5dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ac6" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021057" style="@style/ecshop_top_btn_img" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ac7" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021053" android:padding="0.25dip" android:visibility="gone" android:duplicateParentState="true" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="12.0dip" android:layout_centerHorizontal="true" />
+        <com.tencent.widget.SingleLineTextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ac8" android:text="附近" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f091ac6" style="@style/ecshop_top_btn_text" />
+        <com.tencent.widget.FadeIconImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ac9" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f091ac6" style="@style/ecshop_top_btn_reddot" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091aca" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02030f" android:paddingBottom="7.5dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091acb" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021056" style="@style/ecshop_top_btn_img" />
+        <com.tencent.widget.SingleLineTextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091acc" android:text="我的" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f091acb" style="@style/ecshop_top_btn_text" />
+        <com.tencent.widget.FadeIconImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091acd" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f091acb" style="@style/ecshop_top_btn_reddot" />
+    </RelativeLayout>
+</LinearLayout>

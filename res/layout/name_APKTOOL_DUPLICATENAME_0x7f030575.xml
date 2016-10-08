@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091957" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020fe0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <com.tencent.mobileqq.intervideo.now.HorizontalLoadingView android:layout_gravity="top" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091958" android:layout_width="fill_parent" android:layout_height="183.0dip" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0912da" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0912db" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_centerHorizontal="true">
+        <com.tencent.mobileqq.filemanager.widget.AsyncImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902a3" android:layout_width="67.0dip" android:layout_height="67.0dip" android:scaleType="centerCrop" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0125" android:ellipsize="end" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09078a" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020ba2" android:visibility="gone" android:layout_width="70.0dip" android:layout_height="70.0dip" android:maxWidth="150.0dip" android:text="点击重试" android:maxLines="2" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b015c" android:ellipsize="end" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090232" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxWidth="80.0dip" android:singleLine="true" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0912db" android:layout_centerHorizontal="true" />
+</RelativeLayout>

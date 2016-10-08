@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09050b" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c06b7" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c06b7" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0214f8" android:scaleType="fitCenter" android:layout_alignParentBottom="true" android:contentDescription="@null" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff777777" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09050c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c06b8" android:layout_marginRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c06b9" android:text="深圳市南山区保利影院深圳市" android:maxLines="1" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f09050b" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c06ba" android:textColor="#ff777777" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09050d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="星期五 18:23" android:maxLines="1" android:singleLine="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</merge>

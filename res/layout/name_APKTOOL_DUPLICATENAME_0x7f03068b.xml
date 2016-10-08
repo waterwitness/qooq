@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c8b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0212ef" />
+        <TextView android:textColor="#ffc3c7c9" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c8c" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+        <Button android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091dba" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+    </LinearLayout>
+</RelativeLayout>

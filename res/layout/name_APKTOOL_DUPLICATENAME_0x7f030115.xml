@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dingdong="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090734" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.dingdong.widget.DingdongPromptView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090735" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" dingdong:promptText="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0311" dingdong:promptIconDrawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0202f3" dingdong:promptIconVisibility="name_APKTOOL_DUPLICATENAME_0x7f09002d" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:scrollbarStyle="insideOverlay" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090746" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="false" android:cacheColorHint="#00000000" android:divider="@null" />
+    </LinearLayout>
+</RelativeLayout>

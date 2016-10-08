@@ -1,0 +1,29 @@
+package NS_MOBILE_FEEDS;
+
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import java.io.Serializable;
+
+public final class e_permission_visit_flag
+  implements Serializable
+{
+  public static final int _enum_not_permission_some_fri = 8;
+  public static final int _enum_permission_each_other = 7;
+  public static final int _enum_permission_friend = 4;
+  public static final int _enum_permission_passwd = 2;
+  public static final int _enum_permission_private = 3;
+  public static final int _enum_permission_public = 1;
+  public static final int _enum_permission_qa = 5;
+  public static final int _enum_permission_second_fr = 9;
+  public static final int _enum_permission_some_fri = 6;
+  
+  public e_permission_visit_flag()
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes5-dex2jar.jar!\NS_MOBILE_FEEDS\e_permission_visit_flag.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

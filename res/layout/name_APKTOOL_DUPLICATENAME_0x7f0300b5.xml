@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/local_search" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:clickable="true" layout="@layout/qq_search_searchbox_in_dialog_theme_version2" />
+    <RelativeLayout android:id="@id/result_layout" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.widget.XListView android:id="@id/search_result_list" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:scrollingCache="false" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03d2" android:gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0905e7" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:paddingTop="100.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a188d" android:drawableTop="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0204b7" />
+        <com.tencent.widget.XListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0905e8" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:scrollingCache="false" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" />
+    </RelativeLayout>
+</LinearLayout>

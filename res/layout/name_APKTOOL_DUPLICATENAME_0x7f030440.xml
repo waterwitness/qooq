@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="@dimen/title_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/conversation_head" android:layout_width="37.0dip" android:layout_height="37.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020436" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09147a" android:focusable="true" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0145" />
+    <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09147b" android:layout_marginTop="7.0dip" android:layout_marginRight="7.0dip" android:layout_alignTop="@id/name_APKTOOL_DUPLICATENAME_0x7f09147a" android:layout_alignRight="@id/name_APKTOOL_DUPLICATENAME_0x7f09147a" style="@style/CustomNoteTxt" />
+</RelativeLayout>

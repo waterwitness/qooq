@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="314.0dip" android:layout_height="264.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021409" android:layout_width="300.0dip" android:layout_height="250.0dip" android:layout_marginLeft="7.0dip" android:layout_marginTop="7.0dip">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091e72" android:layout_width="fill_parent" android:layout_height="110.0dip" android:scaleType="fitXY" />
+        <TextView android:textSize="17.0sp" android:textColor="#ff000000" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="升级插件，体验酷炫直播。" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff777777" android:layout_gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091e73" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="插件约4M" />
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="17.0dip">
+            <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919a3" android:layout_width="255.0dip" android:layout_height="fill_parent" android:max="100" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0213eb" android:layout_centerHorizontal="true" style="?android:attr/progressBarStyleHorizontal" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff2e8ae7" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09061a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="立即升级" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0915cb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0212c0" />
+</FrameLayout>

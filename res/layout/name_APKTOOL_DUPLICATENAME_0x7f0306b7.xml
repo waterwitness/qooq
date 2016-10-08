@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091e7b" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091e7c" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.qzone.widget.AsyncImageView android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090235" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginRight="5.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091e7d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:maxLines="1" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091e7e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="(2345)" android:maxLines="1" />
+    </LinearLayout>
+    <View android:layout_gravity="center|right" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091e7f" android:background="#ff9b9b9b" android:layout_width="1.0dip" android:layout_height="14.0dip" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">"
+<TextView android:id="@id/title" style="@style/CardInfoItemTitle" />
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090235" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020ddc" android:visibility="gone" style="@style/CardInfoItemIcon" />
+    <TextView android:id="@id/info" style="@style/CardInfoItemInfo" />
+    <ImageView android:id="@id/icon" android:visibility="gone" android:scaleType="fitXY" style="@style/CardInfoIcon" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090362" style="@style/CardInfoItemArrow" />
+</LinearLayout>

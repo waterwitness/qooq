@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0202ac" />
+    <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0202a8" />
+    <padding android:left="100.0dip" android:top="100.0dip" android:right="100.0dip" android:bottom="100.0dip" />
+</selector>

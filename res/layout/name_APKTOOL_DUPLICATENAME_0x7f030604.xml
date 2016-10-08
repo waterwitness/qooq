@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b0b" android:background="#fff8f9fa" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/rlCommenTitle" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" layout="@layout/qvip_pay_commen_title" />
+    <com.tencent.mobileqq.widget.BounceScrollView android:scrollbarThumbVertical="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02150e" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09164f" android:focusable="true" android:focusableInTouchMode="true" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b4b" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b4c" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f030614" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b4d" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="15.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b4e" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.tencent.mobileqq.widget.BounceScrollView>
+</LinearLayout>

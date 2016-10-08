@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090ad9" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090ada" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020e8e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <Button android:textSize="19.0sp" android:textStyle="normal" android:textColor="#ffffffff" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090adb" android:background="#00000000" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="关闭" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="关闭预览" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tencent="http://schemas.android.com/apk/res/com.tencent.mobileqq">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09059a" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.widget.immersive.ImmersiveTitleBar2 android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090371" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_alignParentTop="true" />
+        <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090280" android:background="@drawable/skin_header_bar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090371">
+            <TextView android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09059b" android:background="@drawable/top_button_right_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:maxWidth="96.0dip" android:minWidth="52.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2173" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/TitleBtn" />
+            <TextView android:ellipsize="end" android:gravity="center" android:id="@id/ivTitleName" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a169a" android:singleLine="true" android:layout_centerInParent="true" style="@style/TitleText" />
+            <com.tencent.widget.SegmentedControlView android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09059c" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@null" android:layout_centerInParent="true" android:dividerPadding="0.0dip" tencent:firstButtonBackground="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021527" tencent:lastButtonBackground="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021528" tencent:middleButtonBackground="@null" tencent:uniqueButtonBackground="@null">
+                <RadioButton android:textSize="14.0dip" android:gravity="center" android:id="@id/rb_list_grouping" android:background="@null" android:layout_width="73.0dip" android:layout_height="29.0dip" android:button="@null" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1697" style="@style/TitleBtn" />
+                <RadioButton android:textSize="14.0dip" android:gravity="center" android:id="@id/rb_list_all" android:background="@null" android:layout_width="73.0dip" android:layout_height="29.0dip" android:button="@null" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1698" style="@style/TitleBtn" />
+            </com.tencent.widget.SegmentedControlView>
+            <com.tencent.mobileqq.widget.RedDotTextView android:id="@id/ivTitleBtnRightText" android:layout_marginRight="2.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1a9b" style="@style/CommonTitleRightTxt" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <include android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/common_main_loading" />
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09059f" android:visibility="gone" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f0300b1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0905a0" android:visibility="gone" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f0300a9" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

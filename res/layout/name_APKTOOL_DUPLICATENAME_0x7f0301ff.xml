@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020dc6" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="8.0dip" android:layout_centerInParent="true">
+        <Button android:textSize="16.0sp" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090b5f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="全员静音" style="@style/FootBarButtonWhite" />
+    </LinearLayout>
+</RelativeLayout>

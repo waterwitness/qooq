@@ -1,0 +1,61 @@
+package com.tencent.qidian.data;
+
+import android.text.TextUtils;
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import com.tencent.mobileqq.pb.PBStringField;
+import com.tencent.mobileqq.pb.PBUInt64Field;
+import com.tencent.mobileqq.persistence.Entity;
+import com.tencent.mobileqq.persistence.unique;
+import com.tencent.qidian.proto.mobileqq_qidian.InternalInfo;
+
+public class QidianInternalInfo
+  extends Entity
+{
+  public byte[] infoByte;
+  public String mobile;
+  @unique
+  public String uin;
+  
+  public QidianInternalInfo()
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+    this.uin = "";
+    this.mobile = "";
+  }
+  
+  public void from(mobileqq_qidian.InternalInfo paramInternalInfo)
+  {
+    this.infoByte = paramInternalInfo.toByteArray();
+    if (paramInternalInfo.uint64_uin.has()) {
+      this.uin = String.valueOf(paramInternalInfo.uint64_uin.get());
+    }
+    if (paramInternalInfo.str_internal_mobile.has()) {
+      this.mobile = paramInternalInfo.str_internal_mobile.get();
+    }
+  }
+  
+  public mobileqq_qidian.InternalInfo to()
+  {
+    mobileqq_qidian.InternalInfo localInternalInfo = new mobileqq_qidian.InternalInfo();
+    localInternalInfo.str_internal_mobile.set(this.mobile);
+    localInternalInfo.uint64_uin.set(Long.parseLong(this.uin));
+    return localInternalInfo;
+  }
+  
+  public void update(QidianInternalInfo paramQidianInternalInfo)
+  {
+    if ((paramQidianInternalInfo != null) && (this.uin.equals(paramQidianInternalInfo.uin)))
+    {
+      if (!TextUtils.isEmpty(paramQidianInternalInfo.mobile)) {
+        this.mobile = paramQidianInternalInfo.mobile;
+      }
+      this.infoByte = to().toByteArray();
+    }
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes2-dex2jar.jar!\com\tencent\qidian\data\QidianInternalInfo.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

@@ -1,0 +1,30 @@
+package com.tencent.mobileqq.mp;
+
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import com.tencent.mobileqq.pb.MessageMicro;
+import com.tencent.mobileqq.pb.MessageMicro.FieldMap;
+import com.tencent.mobileqq.pb.PBField;
+import com.tencent.mobileqq.pb.PBInt32Field;
+import com.tencent.mobileqq.pb.PBStringField;
+
+public final class MqqNearbyGdt$ExposeRequest
+  extends MessageMicro
+{
+  static final MessageMicro.FieldMap __fieldMap__ = MessageMicro.initFieldMap(new int[] { 10, 18, 26, 32, 40 }, new String[] { "resolution", "apurl", "qua", "platform_type", "ad_source" }, new Object[] { "", "", "", Integer.valueOf(0), Integer.valueOf(0) }, ExposeRequest.class);
+  public final PBInt32Field ad_source = PBField.initInt32(0);
+  public final PBStringField apurl = PBField.initString("");
+  public final PBInt32Field platform_type = PBField.initInt32(0);
+  public final PBStringField qua = PBField.initString("");
+  public final PBStringField resolution = PBField.initString("");
+  
+  static
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes2-dex2jar.jar!\com\tencent\mobileqq\mp\MqqNearbyGdt$ExposeRequest.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

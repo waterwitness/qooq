@@ -1,0 +1,37 @@
+import android.view.View;
+import android.view.View.OnClickListener;
+import com.tencent.mobileqq.activity.aio.item.VideoVipItemBuilder;
+import com.tencent.mobileqq.data.MessageForVideoVip;
+import com.tencent.mobileqq.data.MessageRecord;
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import com.tencent.mobileqq.statistics.ReportController;
+
+public class nsp
+  implements View.OnClickListener
+{
+  public nsp(VideoVipItemBuilder paramVideoVipItemBuilder, MessageForVideoVip paramMessageForVideoVip, MessageRecord paramMessageRecord)
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+  }
+  
+  public void onClick(View paramView)
+  {
+    this.jdField_a_of_type_ComTencentMobileqqActivityAioItemVideoVipItemBuilder.a(this.jdField_a_of_type_ComTencentMobileqqDataMessageForVideoVip.url);
+    if (this.jdField_a_of_type_ComTencentMobileqqDataMessageRecord.istroop == 0)
+    {
+      ReportController.b(this.jdField_a_of_type_ComTencentMobileqqActivityAioItemVideoVipItemBuilder.a, "CliOper", "", "", "0X80063FF", "0X80063FF", 0, 0, "", "", "", "");
+      ReportController.b(this.jdField_a_of_type_ComTencentMobileqqActivityAioItemVideoVipItemBuilder.a, "CliOper", "", "", "0X80063EF", "0X80063EF", 14, 0, "", "", "", "");
+    }
+    while (this.jdField_a_of_type_ComTencentMobileqqDataMessageRecord.istroop != 3000) {
+      return;
+    }
+    ReportController.b(this.jdField_a_of_type_ComTencentMobileqqActivityAioItemVideoVipItemBuilder.a, "CliOper", "", "", "0X8006400", "0X8006400", 0, 0, "", "", "", "");
+    ReportController.b(this.jdField_a_of_type_ComTencentMobileqqActivityAioItemVideoVipItemBuilder.a, "CliOper", "", "", "0X80063EF", "0X80063EF", 13, 0, "", "", "", "");
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes-dex2jar.jar!\nsp.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

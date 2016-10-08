@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custom="http://schemas.android.com/apk/res/com.tencent.mobileqq">
+    <com.tencent.mobileqq.profile.view.VipScaledViewPager android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090270" android:layout_width="fill_parent" android:layout_height="fill_parent" custom:matchChildId="@id/name_APKTOOL_DUPLICATENAME_0x7f091ba6" />
+</RelativeLayout>

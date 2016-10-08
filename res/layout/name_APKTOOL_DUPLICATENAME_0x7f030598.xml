@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.biz.qqstory.view.widget.ResponsiveScrollView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090517" android:visibility="gone" android:fadingEdge="vertical" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:fadeScrollbars="false">
+        <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919c2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09122c" android:background="#ffdedfe0" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919c3" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:layout_width="fill_parent" android:layout_height="61.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true">
+                    <LinearLayout android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919bf" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020fac" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                        <com.tencent.image.URLImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090531" android:layout_width="wrap_content" android:layout_height="19.0dip" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" android:scaleType="fitStart" />
+                        <View android:background="#33ffffff" android:layout_width="1.0px" android:layout_height="fill_parent" />
+                    </LinearLayout>
+                    <Button android:textSize="14.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919c0" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020fad" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="35.0dip" android:text="订阅" />
+                </LinearLayout>
+                <com.tencent.biz.qqstory.view.PressDarkImageButton android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919c1" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="19.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020fb5" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.tencent.biz.qqstory.view.widget.ResponsiveScrollView>
+    <com.tencent.biz.qqstory.view.widget.QQStoryLoadingView android:textSize="14.0dip" android:textColor="#ffa6a6a6" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09099b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="正在为你加载..." android:drawablePadding="15.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="16.0dip" android:textColor="#ffa6a6a6" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09194a" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="当前网络不可用，请检查你的网络设置\n点击重试" android:drawableTop="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021009" android:drawablePadding="20.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090a1b" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0051" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

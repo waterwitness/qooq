@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/QQSettingMeItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091805" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020ec5" style="@style/QQSetingMeItemIconL" />
+    <com.tencent.mobileqq.redtouch.RedTouchTextView android:id="@id/item_txt" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a23b4" style="@style/QQSettingMeItemTxt" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c01b4">
+        <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091147" android:visibility="gone" style="@style/CustomNoteTxt" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09180a" android:visibility="gone" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c01c7" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c01c7" android:layout_marginLeft="15.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091809" android:visibility="invisible" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021554" style="@style/QQSettingMeItemRightArrow" />
+</LinearLayout>

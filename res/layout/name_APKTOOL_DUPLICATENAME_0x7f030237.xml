@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02032a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="66.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.widget.FixSizeImageView android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09024c" android:focusable="false" android:clickable="false" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0206c3" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:contentDescription="@null" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ab" android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09099b" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="165.0dip" android:text="@string/about" android:singleLine="true" />
+</LinearLayout>

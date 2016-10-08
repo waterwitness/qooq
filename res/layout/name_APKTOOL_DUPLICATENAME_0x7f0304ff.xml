@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0914a5" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020328" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:text="上榜独享以下特权" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip">
+        <TextView android:textSize="12.0dip" android:textColor="#ff7f7f7f" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0917a4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:text="女神标识" android:drawableTop="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020e2a" android:drawablePadding="13.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff7f7f7f" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0dip" android:text="18张自拍秀" android:drawableTop="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020e2b" android:drawablePadding="13.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff7f7f7f" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更多收花机会" android:drawableTop="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020e2c" android:drawablePadding="13.0dip" />
+    </LinearLayout>
+    <View android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021692" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="23.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="48.0dip">
+        <TextView android:textSize="15.0dip" android:textColor="#ff00a5e0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="冲榜攻略" android:drawableRight="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020e29" android:drawablePadding="5.0dip" />
+    </LinearLayout>
+    <View android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021692" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

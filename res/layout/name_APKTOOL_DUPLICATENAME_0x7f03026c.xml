@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d1a" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d1b" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02167d" android:paddingTop="8.0dip" android:paddingBottom="3.0dip" android:focusable="true" android:focusableInTouchMode="true" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c009e">
+        <include android:id="@id/search_box" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/search_box_theme_version3" />
+    </LinearLayout>
+</LinearLayout>

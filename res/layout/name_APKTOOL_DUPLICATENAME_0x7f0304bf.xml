@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c028a" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0289"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.image.URLImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0904ff" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020001" android:scaleType="centerCrop" android:layout_weight="1.0" />
+    <TextView android:textSize="11.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03cd" android:ellipsize="end" android:gravity="bottom|center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c028b" android:text="Title Mary's Good Story" android:singleLine="true" />
+</LinearLayout>

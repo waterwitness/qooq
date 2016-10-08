@@ -1,0 +1,46 @@
+package com.tencent.mobileqq.app;
+
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import com.tencent.mobileqq.util.FetchBuddyAndTroopNameHelper;
+import mqq.manager.Manager;
+
+public class ContactFacade
+  implements Manager
+{
+  public static final String a = "Q.contacttab.ContactFacade";
+  private QQAppInterface jdField_a_of_type_ComTencentMobileqqAppQQAppInterface;
+  private FetchBuddyAndTroopNameHelper jdField_a_of_type_ComTencentMobileqqUtilFetchBuddyAndTroopNameHelper;
+  public Object a;
+  
+  public ContactFacade(QQAppInterface paramQQAppInterface)
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+    this.jdField_a_of_type_JavaLangObject = new Object();
+    this.jdField_a_of_type_ComTencentMobileqqAppQQAppInterface = paramQQAppInterface;
+  }
+  
+  public FetchBuddyAndTroopNameHelper a()
+  {
+    if (this.jdField_a_of_type_ComTencentMobileqqUtilFetchBuddyAndTroopNameHelper == null) {}
+    synchronized (this.jdField_a_of_type_JavaLangObject)
+    {
+      if (this.jdField_a_of_type_ComTencentMobileqqUtilFetchBuddyAndTroopNameHelper == null) {
+        this.jdField_a_of_type_ComTencentMobileqqUtilFetchBuddyAndTroopNameHelper = new FetchBuddyAndTroopNameHelper(this.jdField_a_of_type_ComTencentMobileqqAppQQAppInterface);
+      }
+      return this.jdField_a_of_type_ComTencentMobileqqUtilFetchBuddyAndTroopNameHelper;
+    }
+  }
+  
+  public void onDestroy()
+  {
+    if (this.jdField_a_of_type_ComTencentMobileqqUtilFetchBuddyAndTroopNameHelper != null) {
+      this.jdField_a_of_type_ComTencentMobileqqUtilFetchBuddyAndTroopNameHelper.a();
+    }
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes3-dex2jar.jar!\com\tencent\mobileqq\app\ContactFacade.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

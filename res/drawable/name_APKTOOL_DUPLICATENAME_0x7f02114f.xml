@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0556" />
+    <solid android:color="@android:color/white" />
+    <padding android:left="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0558" android:top="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0558" android:right="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0558" android:bottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0558" />
+</shape>

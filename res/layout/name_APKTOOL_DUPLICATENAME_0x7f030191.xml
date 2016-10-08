@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:paddingLeft="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0324" android:paddingRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0324" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090937" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020c07" />
+    <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0003" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a6" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090938" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1f90" />
+    <Button android:id="@id/phone_enable_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0327" android:text="启用" android:contentDescription="立即启用通讯录绑定" style="@style/ButtonBlue" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" />
+</LinearLayout>

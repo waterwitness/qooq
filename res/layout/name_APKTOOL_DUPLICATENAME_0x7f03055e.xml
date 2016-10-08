@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918ff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091905" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0217ae" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c075f" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a6" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091906" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020efd" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="城市名称" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f091905" />
+</RelativeLayout>

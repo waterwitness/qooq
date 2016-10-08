@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020328" android:layout_width="fill_parent" android:layout_height="120.0dip" android:minHeight="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091564" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03d3" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091565" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="好友纪念日" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091566" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/common_arrow_right_selector" android:scaleType="centerInside" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <com.tencent.widget.FixSizeImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091567" android:duplicateParentState="false" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginLeft="52.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020436" android:scaleType="fitXY" android:contentDescription="@null" />
+        <com.tencent.widget.FixSizeImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091568" android:duplicateParentState="false" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020436" android:scaleType="fitXY" android:contentDescription="@null" />
+        <com.tencent.widget.FixSizeImageView android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020ec7" android:duplicateParentState="false" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginLeft="12.0dip" android:scaleType="fitXY" android:contentDescription="@null" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="134.0dip">
+            <TextView android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0344" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5你前的今天，你和marton成为好" android:singleLine="true" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0344" android:ellipsize="end" android:id="@id/info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="友，快来看看你们之间的点滴回忆。" android:maxLines="2" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

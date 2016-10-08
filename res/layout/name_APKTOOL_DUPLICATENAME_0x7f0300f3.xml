@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tcwidget="http://schemas.android.com/apk/res/com.tencent.mobileqq">
+    <com.tencent.widget.TCWDatePicker android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906b5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" tcwidget:startYear="@integer/name_APKTOOL_DUPLICATENAME_0x7f0e0009" tcwidget:endYear="@integer/name_APKTOOL_DUPLICATENAME_0x7f0e000a" />
+</RelativeLayout>

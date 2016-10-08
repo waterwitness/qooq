@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906b1" android:paddingLeft="32.0dip" android:paddingTop="17.0dip" android:paddingRight="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mobileqq.widget.BounceScrollView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908d5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908d6" android:layout_width="66.0dip" android:layout_height="66.0dip" />
+            <TextView android:textSize="17.0dip" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908d7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" />
+            <TextView android:textSize="16.0dip" android:textColor="#ff777777" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908d8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:singleLine="true" />
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908d9" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" />
+            <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908da" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908db" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="2" />
+            <TextView android:textSize="16.0dip" android:textColor="#ff777777" android:ellipsize="end" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908dc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:singleLine="true" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="18.0dip">
+                <Button android:textSize="16.0dip" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908dd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="17.0dip" android:text="查看所有鲜花" android:layout_weight="1.0" style="@style/ButtonRed" />
+                <Button android:textSize="16.0dip" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908de" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="兑换购物卡" android:layout_weight="1.0" style="@style/ButtonRed" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.tencent.mobileqq.widget.BounceScrollView>
+</LinearLayout>

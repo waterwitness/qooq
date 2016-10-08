@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090bf1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.av.funchat.magicface.MagicfaceViewForAV android:enabled="false" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090bf2" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090bf3" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02108b" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" />
+</RelativeLayout>

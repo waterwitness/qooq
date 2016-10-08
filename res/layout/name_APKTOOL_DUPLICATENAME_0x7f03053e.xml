@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mobileqq.widget.FormSwitchItem android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918b7" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ce" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918b9" android:focusable="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0147" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0145" android:layout_marginRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0147" android:layout_marginBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0144" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0918b7" />
+</RelativeLayout>

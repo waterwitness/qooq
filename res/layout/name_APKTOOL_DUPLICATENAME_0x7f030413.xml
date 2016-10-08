@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913b6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="清除App" />
+    <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913b7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="App快速更新" />
+    <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913b8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="通用代码测试" />
+</LinearLayout>

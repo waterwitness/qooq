@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0203ee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907b4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907b5" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0203ed" android:clickable="true" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0203f1" android:contentDescription="面对面加好友" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff808080" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a276c" android:singleLine="true" android:includeFontPadding="false" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907b6" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0203f0" android:clickable="true" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0203f1" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a276d" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff808080" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a276d" android:singleLine="true" android:includeFontPadding="false" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907b7" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0203f3" android:clickable="true" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0203f1" android:contentDescription="面对面传文件" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff808080" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a276e" android:singleLine="true" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0203ef" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-44.0dip" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f0907b4" android:layout_centerInParent="true" />
+</RelativeLayout>

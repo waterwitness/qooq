@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mobileqq.widget.BounceScrollView android:scrollbarThumbVertical="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02150e" android:focusable="true" android:focusableInTouchMode="true" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c29" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="debug mode(当前)" />
+            <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c2a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="保持toolbar不消失" />
+            <TextView android:textSize="25.0sp" android:textColor="#ffff0000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="当前配置系统中各个入口开关值及wording文案： " />
+            <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c2b" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="25.0sp" android:textColor="#ffff0000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="当前灰度大开关及试用权限值： " />
+            <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c2c" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="25.0sp" android:textColor="#ffff0000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="当前资料卡（vip、试用状态、剩余时长等）相关信息： " />
+            <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c2d" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="25.0sp" android:textColor="#ffff0000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="以下设置各个资料字段中的值，会同步设置到服务器中，设置完成之后点击完成按钮： " />
+            <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c2e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="pstn c2c vip, 0:否，1：是" android:editable="true" android:inputType="number" />
+            <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c2f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="pstn multi vip, 0:否，1：是" android:editable="true" android:inputType="number" />
+            <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c30" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="pstn c2c ever vip, 0:否，1：是" android:editable="true" android:inputType="number" />
+            <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c31" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="pstn multi ever vip, 0:否，1：是" android:editable="true" android:inputType="number" />
+            <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c32" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="pstn c2c try status, 0:否，1：是" android:editable="true" android:inputType="number" />
+            <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c33" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="pstn multi try status, 0:否，1：是" android:editable="true" android:inputType="number" />
+            <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c34" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="pstn c2c call time" android:editable="true" android:inputType="number" />
+            <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c35" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="pstn multi call time" android:editable="true" android:inputType="number" />
+            <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c36" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="pstn c2c last guide time" android:editable="true" android:inputType="number" />
+            <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c37" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="pstn multi Last guide time" android:editable="true" android:inputType="number" />
+            <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c38" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置资料卡中资料值： 完成" />
+            <TextView android:textSize="25.0sp" android:textColor="#ffff0000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="以下设置灰度开关和试用权限中的值，仅本地生效，设置完成之后点击完成按钮： " />
+            <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c39" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="pstn 灰度大开关, 0:否，1：是" android:editable="true" android:inputType="number" />
+            <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c3a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="pstn c2c 试用权限, 0:无，1：有" android:editable="true" android:inputType="number" />
+            <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c3b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="pstn multi 试用权限, 0:无，1：有" android:editable="true" android:inputType="number" />
+            <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c3c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置灰度开关和试用权限： 完成" />
+            <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c3d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="来电vip红点, 0:无，1：有" android:editable="true" android:inputType="number" />
+            <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c3e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置来电会员红点： 完成" />
+        </LinearLayout>
+    </com.tencent.mobileqq.widget.BounceScrollView>
+</LinearLayout>

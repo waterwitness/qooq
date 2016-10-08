@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ce" android:gravity="center|left" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d44" android:background="@drawable/skin_group_list_sub_entry" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="25.0dip" android:singleLine="true" android:layout_alignParentLeft="true" />
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d45" layout="@layout/troop_list_item" />
+    <com.tencent.mobileqq.widget.ShaderAnimLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d46" android:visibility="gone" android:clickable="true" android:layout_width="100.0dip" android:layout_height="52.0dip" android:layout_alignParentRight="true">
+        <Button android:textSize="14.0dip" android:textColor="#ffffffff" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d47" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020370" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="设为常用群" android:layout_centerVertical="true" />
+    </com.tencent.mobileqq.widget.ShaderAnimLayout>
+</RelativeLayout>

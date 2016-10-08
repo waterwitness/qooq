@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/common_strip_setting_top" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="20.0dip">
+        <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c003b" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a6" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="年龄" />
+        <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c003b" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a6" android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09137b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/common_strip_setting_bottom" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c003b" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a6" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="星座" />
+        <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c003b" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a6" android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09137c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:text="你的星座" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0038" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03d2" android:gravity="bottom" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="8.0dip" android:text="选择出生日期，系统将会自动转换为年龄及星座。" android:layout_weight="1.0" />
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09137d" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    <com.tencent.mobileqq.conditionsearch.widget.IphonePickerView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09137e" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c071f" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.tencent.mobileqq.remind.widget.WheelView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090aa7" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0724" android:layout_marginBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0725" android:layout_weight="4.0" />
+                <com.tencent.mobileqq.remind.widget.WheelView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090aa8" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0724" android:layout_marginBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0725" android:layout_weight="3.0" />
+                <com.tencent.mobileqq.remind.widget.WheelView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090aa9" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0724" android:layout_marginBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0725" android:layout_weight="3.0" />
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c071f">
+                <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090aaa" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0727" />
+                <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090aab" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0728" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090aaa" />
+            </RelativeLayout>
+        </FrameLayout>
+    </com.tencent.mobileqq.conditionsearch.widget.IphonePickerView>
+</LinearLayout>

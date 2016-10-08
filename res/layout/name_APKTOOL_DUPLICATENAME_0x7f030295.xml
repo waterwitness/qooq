@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.image.URLImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090db6" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090db7" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0217af" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090db8" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020787" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0bbb" />
+</RelativeLayout>

@@ -1,0 +1,61 @@
+import android.text.TextUtils;
+import com.tencent.common.config.AppSetting;
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import com.tencent.mobileqq.remind.TimeHelper;
+import com.tencent.mobileqq.remind.widget.IosTimepicker.FormatDataListener;
+import com.tencent.mobileqq.remind.widget.WheelView;
+
+public final class ufl
+  implements IosTimepicker.FormatDataListener
+{
+  public ufl()
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+  }
+  
+  public long a(WheelView[] paramArrayOfWheelView, int[] paramArrayOfInt)
+  {
+    Object localObject2 = null;
+    if ((paramArrayOfInt.length != 3) || (paramArrayOfWheelView.length != 3)) {
+      return -1L;
+    }
+    String str2;
+    if (AppSetting.j)
+    {
+      str2 = TimeHelper.a(paramArrayOfInt[0]);
+      if ((paramArrayOfInt[1] < 0) || (paramArrayOfInt[1] >= TimeHelper.a.length)) {
+        break label197;
+      }
+    }
+    label197:
+    for (String str1 = TimeHelper.a[paramArrayOfInt[1]];; str1 = null)
+    {
+      Object localObject1 = localObject2;
+      if (paramArrayOfInt[2] >= 0)
+      {
+        localObject1 = localObject2;
+        if (paramArrayOfInt[2] < TimeHelper.b.length) {
+          localObject1 = TimeHelper.b[paramArrayOfInt[2]];
+        }
+      }
+      if ((!TextUtils.isEmpty(str2)) && (!TextUtils.isEmpty(str1)) && (!TextUtils.isEmpty((CharSequence)localObject1)))
+      {
+        str1 = "当前选中时间" + str2 + str1 + "时" + (String)localObject1 + "分";
+        int j = paramArrayOfWheelView.length;
+        int i = 0;
+        while (i < j)
+        {
+          paramArrayOfWheelView[i].setContentDescription(str1);
+          i += 1;
+        }
+      }
+      return TimeHelper.a(paramArrayOfInt[0], paramArrayOfInt[1], paramArrayOfInt[2]);
+    }
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes2-dex2jar.jar!\ufl.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

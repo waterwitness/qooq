@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092298" android:background="#c8000000" android:paddingLeft="1.0dip" android:paddingBottom="32.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091bee" android:background="#ff353535" android:layout_width="59.0dip" android:layout_height="89.0dip" android:layout_marginLeft="2.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091bef" android:layout_width="37.0dip" android:layout_height="32.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020ec5" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff808080" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="上传" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f091bef" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092299" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021117" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f091bee" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:text="从相册上传，\n自定义主题背景！" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f092299" android:lineSpacingExtra="2.0dip" />
+        <RelativeLayout android:layout_width="210.0dip" android:layout_height="40.0dip" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f092299">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021118" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09229a" android:background="#c8000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="105.0dip">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09229b" android:paddingLeft="35.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021117" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:paddingLeft="112.0dip" android:layout_width="240.0dip" android:layout_height="36.0dip" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f09229b" android:layout_centerHorizontal="true">
+            <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="上拉修改风格" android:layout_alignParentBottom="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021118" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

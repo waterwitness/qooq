@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="160.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0dip">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919a6" layout="@layout/qqstory_pendant_page_item_layout" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919a7" layout="@layout/qqstory_pendant_page_item_layout" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919a8" layout="@layout/qqstory_pendant_page_item_layout" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919a9" layout="@layout/qqstory_pendant_page_item_layout" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919aa" layout="@layout/qqstory_pendant_page_item_layout" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919ab" layout="@layout/qqstory_pendant_page_item_layout" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919ac" layout="@layout/qqstory_pendant_page_item_layout" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919ad" layout="@layout/qqstory_pendant_page_item_layout" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919ae" layout="@layout/qqstory_pendant_page_item_layout" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919af" layout="@layout/qqstory_pendant_page_item_layout" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

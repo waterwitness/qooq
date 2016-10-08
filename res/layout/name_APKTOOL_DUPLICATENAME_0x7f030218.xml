@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="1.0dip" android:layout_height="50.0dip" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090bb5" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="5.0dip" android:layout_centerVertical="true" />
+    <TextView android:textSize="21.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0051" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090bb6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:maxWidth="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0450" android:singleLine="true" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090bb5" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090bba" android:visibility="invisible" android:layout_width="21.0dip" android:layout_height="21.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020698" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090bb9" android:visibility="invisible" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginLeft="14.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020699" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090bbb" android:layout_width="9.0dip" android:layout_height="15.0dip" android:layout_marginLeft="14.0dip" android:src="@drawable/common_arrow_right_selector" />
+    </LinearLayout>
+</RelativeLayout>

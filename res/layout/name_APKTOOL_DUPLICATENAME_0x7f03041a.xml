@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913de" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913df" android:background="@drawable/skin_setting_strip_top_unpressed" android:layout_marginRight="-1.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a24e6" style="@style/BusinessCardTextView" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e1" style="@style/BusinessCardDisplayText" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e2" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020bf6" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0913de" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02cc" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0913de">
+        <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e4" android:background="@drawable/skin_setting_strip_top_unpressed" android:layout_marginRight="-1.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a24e9" style="@style/BusinessCardTextView" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e6" style="@style/BusinessCardDisplayText" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e7" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020bf6" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e3" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02cc" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e3">
+        <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e9" android:background="@drawable/skin_setting_strip_top_unpressed" android:layout_marginRight="-1.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a24ec" style="@style/BusinessCardTextView" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913ea" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0912cc" android:paddingTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02c7" android:paddingRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02c6" android:paddingBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02c8" android:layout_height="wrap_content" android:minHeight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02ca" style="@style/BusinessCardDisplayText" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913eb" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020bf6" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e8" />
+</RelativeLayout>

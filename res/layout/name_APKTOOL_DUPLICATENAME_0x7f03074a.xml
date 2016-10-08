@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/relativeItem" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02032a" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="66.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.widget.RecentDynamicAvatarView android:id="@id/icon" android:focusable="false" android:clickable="false" android:scaleType="fitXY" android:contentDescription="@null" style="@style/RecentContactListItemIcon" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true">
+        <com.tencent.widget.SingleLineTextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0332" android:id="@id/title" android:paddingRight="12.0dip" android:duplicateParentState="true" android:layout_marginBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c029c" android:includeFontPadding="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/RecentContactListItemTitle" />
+        <com.tencent.mobileqq.activity.recent.cur.DragTextView android:id="@id/unreadmsg" android:duplicateParentState="true" android:layout_marginRight="12.0dip" android:includeFontPadding="true" android:layout_below="@id/title" android:layout_alignParentRight="true" style="@style/CustomNoteTxt" />
+        <com.tencent.widget.SingleLineTextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0333" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0909a2" android:paddingRight="10.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:includeFontPadding="true" android:layout_toLeftOf="@id/unreadmsg" android:layout_below="@id/title" android:layout_alignLeft="@id/title" />
+    </RelativeLayout>
+</RelativeLayout>

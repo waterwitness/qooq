@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0123" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1741" style="@style/TroopInfoExItemTitle" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title" android:layout_alignLeft="@id/title">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091122" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020772" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0129" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0129" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091123" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090362" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f091122" android:layout_centerVertical="true">
+            <TextView android:textSize="14.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0051" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091124" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="郑凯部落" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b020a" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091125" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="窗前明月光，疑似地上霜，举头望明月，低头思故乡" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090362" style="@style/TroopInfoExItemArrow2" />
+    </RelativeLayout>
+</RelativeLayout>

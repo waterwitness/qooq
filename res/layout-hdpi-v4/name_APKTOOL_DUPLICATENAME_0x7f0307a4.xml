@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffefeff4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+        <View android:background="#ffc8c7cc" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092212" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:textColorHint="#ff929292" android:gravity="center_vertical" android:id="@id/account" android:background="#00ffffff" android:paddingLeft="10.0dip" android:paddingTop="2.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip" android:hint="@string/name_APKTOOL_DUPLICATENAME_0x7f0a162c" android:maxLines="1" android:ems="10" android:singleLine="true" android:layout_alignParentTop="true" style="@style/B3_Font">
+                <requestFocus />
+            </EditText>
+            <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092213" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020399" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="#ffc8c7cc" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:textColorHint="#ff929292" android:gravity="center_vertical" android:id="@id/password" android:background="#00ffffff" android:paddingLeft="10.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginRight="25.0dip" android:hint="@string/password" android:maxLines="1" android:maxLength="16" android:inputType="textPassword" android:imeOptions="actionDone" style="@style/B3_Font" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip">
+                <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092214" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020399" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <View android:background="#ffc8c7cc" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090a4a" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="15.0dip" android:text="@string/login" style="@style/ButtonBlue" />
+    <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092215" android:layout_width="0.0dip" android:layout_height="0.0dip" android:hint="focus_edit" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff007aff" android:layout_gravity="left" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092216" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1633" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c05b1" android:paddingRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c05b2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tencent="http://schemas.android.com/apk/res/com.tencent.mobileqq">
+    <com.tencent.mobileqq.troop.ablum.preview.AsyncMultiTransformImageView android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d6d" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <com.tencent.mobileqq.troop.ablum.preview.AsyncMultiTransformImageView android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d6e" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090a17" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <View android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d6f" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021370" android:layout_width="38.0dip" android:layout_height="38.0dip" />
+        <TextView android:textSize="10.0sp" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d70" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" />
+    </FrameLayout>
+</RelativeLayout>

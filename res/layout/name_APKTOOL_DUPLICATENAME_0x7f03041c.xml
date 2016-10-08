@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913de" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913df" android:background="@drawable/skin_setting_strip_top_unpressed" android:layout_marginRight="-1.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a24e6" style="@style/BusinessCardTextView" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913fc" android:background="@drawable/skin_setting_strip_top_unpressed" android:paddingRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02c6" android:hint="@string/name_APKTOOL_DUPLICATENAME_0x7f0a24e7" android:inputType="number" style="@style/BusinessCardEditTextView" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913fd" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a24e8" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0913de" style="@style/BusinessCardAddView" />
+    <View android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020bf6" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0913fd" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02cc" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0913fd">
+        <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e4" android:background="@drawable/skin_setting_strip_top_unpressed" android:layout_marginRight="-1.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a24e9" style="@style/BusinessCardTextView" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913fe" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02ca" layout="@layout/qq_business_card_qq_edit" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913ff" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a24eb" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e3" style="@style/BusinessCardAddView" />
+    <View android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020bf6" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0913ff" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02cc" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0913ff">
+        <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e9" android:background="@drawable/skin_setting_strip_top_unpressed" android:layout_marginRight="-1.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a24ec" style="@style/BusinessCardTextView" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913ea" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091400" android:background="@drawable/skin_setting_strip_top_unpressed" android:paddingTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02c7" android:paddingRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02c6" android:paddingBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02c8" android:layout_height="wrap_content" android:minHeight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02ca" android:hint="@string/name_APKTOOL_DUPLICATENAME_0x7f0a24ed" style="@style/BusinessCardEditTextView" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091401" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a24ee" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0913e8" style="@style/BusinessCardAddView" />
+    <View android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020bf6" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f091401" />
+</RelativeLayout>

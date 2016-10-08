@@ -1,0 +1,90 @@
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
+import android.widget.LinearLayout;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.RadioGroup.OnCheckedChangeListener;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import com.tencent.mobileqq.app.QQAppInterface;
+import com.tencent.mobileqq.filemanager.activity.FMActivity;
+import com.tencent.mobileqq.filemanager.activity.VerifyPwdView;
+import com.tencent.mobileqq.filemanager.util.IReport_Ver51;
+import com.tencent.mobileqq.filemanager.widget.SendBottomBar;
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import mqq.app.MobileQQ;
+
+public class rnh
+  implements RadioGroup.OnCheckedChangeListener
+{
+  public rnh(FMActivity paramFMActivity)
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+  }
+  
+  public void onCheckedChanged(RadioGroup paramRadioGroup, int paramInt)
+  {
+    int i = -1;
+    if (this.a.jdField_b_of_type_AndroidWidgetTextView != null) {
+      this.a.jdField_b_of_type_AndroidWidgetTextView.setVisibility(8);
+    }
+    this.a.g();
+    this.a.jdField_a_of_type_AndroidWidgetLinearLayout.setVisibility(8);
+    this.a.jdField_a_of_type_ComTencentMobileqqFilemanagerWidgetSendBottomBar.setVisibility(0);
+    if (this.a.jdField_a_of_type_ComTencentMobileqqFilemanagerActivityVerifyPwdView != null)
+    {
+      this.a.jdField_b_of_type_AndroidWidgetRelativeLayout.removeAllViews();
+      this.a.jdField_a_of_type_ComTencentMobileqqFilemanagerActivityVerifyPwdView.setVisibility(8);
+      this.a.jdField_a_of_type_ComTencentMobileqqFilemanagerActivityVerifyPwdView.a();
+      this.a.jdField_a_of_type_ComTencentMobileqqFilemanagerActivityVerifyPwdView = null;
+      this.a.jdField_b_of_type_AndroidWidgetRelativeLayout.addView(this.a.jdField_a_of_type_ComTencentMobileqqFilemanagerWidgetQfileTabBarView);
+    }
+    if (paramInt == 2131300941)
+    {
+      this.a.a().f();
+      ((RadioButton)this.a.findViewById(2131300942)).setSelected(false);
+      ((RadioButton)this.a.findViewById(2131300943)).setSelected(false);
+      FMActivity.d(this.a);
+      i = 0;
+    }
+    for (;;)
+    {
+      paramRadioGroup = this.a.app.getApplication().getSharedPreferences("aio_last_select_file", 0).edit();
+      paramRadioGroup.putInt("last_select_tab_type", i);
+      paramRadioGroup.commit();
+      return;
+      if (paramInt == 2131300942)
+      {
+        this.a.a().e();
+        FMActivity.e(this.a);
+        ((RadioButton)this.a.findViewById(2131300941)).setSelected(false);
+        ((RadioButton)this.a.findViewById(2131300943)).setSelected(false);
+        paramInt = 1;
+        i = paramInt;
+        if (this.a.g == 0)
+        {
+          i = paramInt;
+          if (this.a.j)
+          {
+            this.a.jdField_a_of_type_AndroidWidgetLinearLayout.setVisibility(0);
+            i = paramInt;
+          }
+        }
+      }
+      else if (paramInt == 2131300943)
+      {
+        this.a.a().d();
+        ((RadioButton)this.a.findViewById(2131300942)).setSelected(false);
+        ((RadioButton)this.a.findViewById(2131300941)).setSelected(false);
+        FMActivity.a(this.a, 2);
+        i = 2;
+      }
+    }
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes5-dex2jar.jar!\rnh.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

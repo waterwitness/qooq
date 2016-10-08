@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910d0" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091148" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09075a" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginRight="10.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f09075a" android:layout_alignTop="@id/name_APKTOOL_DUPLICATENAME_0x7f09075a" android:layout_alignBottom="@id/name_APKTOOL_DUPLICATENAME_0x7f09075a" android:layout_centerInParent="true">
+            <TextView android:textSize="14.0dip" android:textColor="#ff777777" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09049d" android:padding="0.0dip" android:layout_width="148.0dip" android:layout_height="wrap_content" android:maxWidth="148.0dip" android:text="主题" />
+            <TextView android:textSize="12.0dip" android:textColor="#ffbbbbbb" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/content" android:padding="0.0dip" android:layout_width="148.0dip" android:layout_height="wrap_content" android:maxWidth="148.0dip" android:text="内容" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090ddb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f091148" android:layout_alignLeft="@id/name_APKTOOL_DUPLICATENAME_0x7f091148" android:layout_alignRight="@id/name_APKTOOL_DUPLICATENAME_0x7f091148">
+        <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910d1" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="22.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="22.0dip" />
+        <com.etrump.mixlayout.ETTextView android:textSize="16.0dip" android:textColor="#ff777777" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e38" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="评论内容" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0910d1" />
+    </RelativeLayout>
+</RelativeLayout>

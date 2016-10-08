@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mobileqq.widget.ProfileCardMoreInfoView android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091747" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0096" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091748" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091749" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

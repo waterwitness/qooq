@@ -1,0 +1,47 @@
+import android.view.View;
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import java.lang.ref.SoftReference;
+import java.util.concurrent.Future;
+
+public final class tqc
+{
+  public final int a;
+  public final Integer a;
+  public Long a;
+  public final Object a;
+  public final String a;
+  public SoftReference a;
+  public Future a;
+  public SoftReference b;
+  public SoftReference c;
+  
+  public tqc(String paramString, View paramView1, View paramView2, Object paramObject, int paramInt1, int paramInt2, long paramLong)
+  {
+    this.jdField_a_of_type_JavaLangString = paramString;
+    this.jdField_a_of_type_JavaLangRefSoftReference = new SoftReference(paramView1);
+    if (paramView2 != null) {}
+    for (paramString = new SoftReference(paramView2);; paramString = null)
+    {
+      this.b = paramString;
+      this.jdField_a_of_type_JavaLangObject = paramObject;
+      this.jdField_a_of_type_Int = paramInt1;
+      this.jdField_a_of_type_JavaLangInteger = Integer.valueOf(paramInt2);
+      this.c = null;
+      this.jdField_a_of_type_JavaLangLong = Long.valueOf(paramLong);
+      this.jdField_a_of_type_JavaUtilConcurrentFuture = null;
+      return;
+    }
+  }
+  
+  public tqc(String paramString, View paramView, Object paramObject, int paramInt1, int paramInt2, long paramLong)
+  {
+    this(paramString, paramView, null, paramObject, paramInt1, paramInt2, paramLong);
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes5-dex2jar.jar!\tqc.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

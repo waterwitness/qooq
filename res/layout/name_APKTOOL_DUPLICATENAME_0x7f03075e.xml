@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090733" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dingdong="http://schemas.android.com/apk/res-auto">
+    <com.dingdong.business.Schedule.data.EmptyScheduleView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09214d" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092127" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0sp" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09214e" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09214f" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0202f3" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f09214e" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.tencent.widget.SwipListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092150" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" />
+</RelativeLayout>

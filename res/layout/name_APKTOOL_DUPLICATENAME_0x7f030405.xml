@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mobileqq.activity.aio.audiopanel.AudioPanel android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09137f" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mobileqq.activity.aio.audiopanel.AudioPanelViewPager android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0909d6" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091380" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091381" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02155f" />
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091382" android:scrollX="-122.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="11.0sp" android:textColor="#ff808080" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091383" android:paddingLeft="9.0dip" android:paddingTop="5.0dip" android:paddingRight="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2877" />
+            <TextView android:textSize="11.0sp" android:textColor="#ff808080" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091384" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="对讲" />
+            <TextView android:textSize="11.0sp" android:textColor="#ff808080" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091385" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:text="录音" />
+        </LinearLayout>
+    </LinearLayout>
+</com.tencent.mobileqq.activity.aio.audiopanel.AudioPanel>

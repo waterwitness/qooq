@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:paddingTop="140.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09066b" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0202f3" android:scaleType="center" />
+    <com.dataline.util.widget.WaitTextView android:textSize="15.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ce" android:gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09190c" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2afa" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f09066b" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0915ec" android:layout_width="27.0dip" android:layout_height="27.0dip" android:scaleType="fitXY" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0915ed" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0204a8" android:padding="3.0dip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0204ab" android:scaleType="fitXY" android:layout_centerVertical="true" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0128" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0915ee" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0204a8" android:paddingLeft="3.0dip" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_centerVertical="true">
+        <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0915ef" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c028d" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c028d">
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0915f0" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c028d" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c028d" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0204aa" android:scaleType="fitXY" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0128" />
+            <com.tencent.mobileqq.widget.ArcImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0915f1" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c028d" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c028d"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c007b" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0195" android:ellipsize="end" android:gravity="left" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0915f2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:maxWidth="100.0dip" android:text="songname" android:singleLine="true" android:drawableRight="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0204a7" android:drawablePadding="4.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

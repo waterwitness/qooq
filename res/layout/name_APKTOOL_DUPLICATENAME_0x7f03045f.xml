@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913d3" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="116.0dip" android:layout_alignParentBottom="true">
+        <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0914f7" android:layout_width="0.0px" android:layout_height="0.0px" android:layout_alignParentBottom="true" />
+        <Button android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0911a7" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020e73" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="取消" />
+        <com.tencent.mobileqq.widget.CircleProgress android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0914fc" android:visibility="visible" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_centerInParent="true" />
+        <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0914fe" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020e7f" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="变脸" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0911a6" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020e9c" android:layout_alignLeft="@id/name_APKTOOL_DUPLICATENAME_0x7f0911a7" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091501" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="正在准备中" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f0913d3" android:layout_centerHorizontal="true" android:contentDescription="正在准备中" />
+</RelativeLayout>

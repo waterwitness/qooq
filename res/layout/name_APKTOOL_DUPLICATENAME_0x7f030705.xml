@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091eff" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_marginTop="0.0dip">
+            <com.qzone.widget.AsyncImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091fea" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091dee" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0030" android:layout_alignParentTop="true">
+            <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c57" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c002f" />
+            <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c58" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021462" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0031" />
+            <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c59" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c002e" layout="@layout/qzone_custom_commen_title" />
+        </FrameLayout>
+    </FrameLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091feb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="13.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="9.0dip" android:text="自定义视频背景" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:gravity="center" android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091fec" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0211dd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="动态" android:singleLine="true" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f091feb" />
+        </LinearLayout>
+        <CheckBox android:textSize="13.0sp" android:textColor="#ff808080" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091fed" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:checked="false" android:button="@null" android:text="分享到好友动态" android:drawableLeft="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0213da" android:drawablePadding="5.0dip" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f091feb" android:layout_alignParentLeft="true" />
+        <Button android:textSize="18.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0396" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091fee" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0213db" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_margin="15.0dip" android:text="使用" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091fef" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021421" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_margin="15.0dip" android:layout_alignParentBottom="true">
+            <TextView android:textSize="18.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b010c" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091d09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开通黄钻" android:drawableLeft="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0214d7" android:drawablePadding="8.0dip" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

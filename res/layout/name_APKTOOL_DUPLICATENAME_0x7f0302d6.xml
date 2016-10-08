@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090635" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/qb_troop_bar_assistant_empty" />
+        <com.tencent.widget.SwipListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e8a" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b021c" android:paddingTop="5.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:cacheColorHint="@android:color/transparent" android:divider="@color/name_APKTOOL_DUPLICATENAME_0x7f0b013a" android:dividerHeight="0.5dip" android:headerDividersEnabled="false" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e27" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f0302dc" android:inflatedId="@id/name_APKTOOL_DUPLICATENAME_0x7f090e27" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

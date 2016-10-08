@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0901c2" android:background="@drawable/skin_header_bar_bg" android:padding="0.0px" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:layout_alignParentTop="true">
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@id/ivTitleName" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="96.0dip" android:layout_marginRight="96.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a07f9" android:singleLine="true" android:layout_centerInParent="true" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a07f9" style="@style/TitleText" />
+        <TextView android:gravity="center" android:id="@id/ivTitleBtnRightText" android:background="@drawable/top_button_right_selector" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:maxWidth="100.0dip" android:minWidth="52.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0559" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a07fa" style="@style/TitleBtn" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0901c2">
+        <TextView android:textSize="17.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b01da" android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c59" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a07fc" />
+        <com.tencent.widget.XListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090737" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" />
+    </FrameLayout>
+</RelativeLayout>

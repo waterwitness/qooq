@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919de" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919df" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020f16" />
+        <TextView android:textSize="13.0dip" android:textColor="#ffbbbbbb" android:gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919e0" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip" android:maxLines="2" android:singleLine="false" />
+        <Button android:textSize="16.0dip" android:textColor="#ff000000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919e1" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020f37" android:layout_width="115.0dip" android:layout_height="38.0dip" android:text="重试" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919e2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919e3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020f27" />
+        <TextView android:textSize="10.0sp" android:textColor="#ffbbbbbb" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09078a" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="这里一片荒芜。。。" android:maxLines="2" android:singleLine="false" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0919e3" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919e4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.tencent.biz.qqstory.storyHome.qqstorylist.view.StoryLoadingView android:layout_gravity="center" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="5.0dip" />
+        <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加载中..." />
+    </LinearLayout>
+</RelativeLayout>

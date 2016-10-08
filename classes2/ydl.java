@@ -1,0 +1,44 @@
+import android.os.Bundle;
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import cooperation.photoplus.PhotoPlusManager;
+import cooperation.photoplus.PhotoPlusModule;
+import cooperation.photoplus.sticker.Sticker;
+import eipc.EIPCResult;
+import java.util.Iterator;
+import java.util.List;
+import org.json.JSONArray;
+
+public class ydl
+  implements Runnable
+{
+  public ydl(PhotoPlusModule paramPhotoPlusModule, PhotoPlusManager paramPhotoPlusManager, int paramInt)
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+  }
+  
+  public void run()
+  {
+    Object localObject = this.jdField_a_of_type_CooperationPhotoplusPhotoPlusManager.a();
+    JSONArray localJSONArray = new JSONArray();
+    if (localObject != null)
+    {
+      localObject = ((List)localObject).iterator();
+      while (((Iterator)localObject).hasNext())
+      {
+        Sticker localSticker = (Sticker)((Iterator)localObject).next();
+        if (localSticker.toJsonObject() != null) {
+          localJSONArray.put(localSticker.toJsonObject());
+        }
+      }
+    }
+    localObject = new Bundle();
+    ((Bundle)localObject).putString("param_sticker_templates", localJSONArray.toString());
+    this.jdField_a_of_type_CooperationPhotoplusPhotoPlusModule.callbackResult(this.jdField_a_of_type_Int, EIPCResult.createSuccessResult((Bundle)localObject));
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes2-dex2jar.jar!\ydl.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

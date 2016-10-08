@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mobileqq.widget.BounceScrollView android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="70.0dip" android:layout_height="58.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="70.0dip">
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09231d" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="0.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02174c" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09231e" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0216bd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="99+" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09231f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" style="@style/TitleText" />
+        <TextView android:gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092320" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="20.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a228a" style="@style/C5_Font" />
+        <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092321" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="15.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a228c" style="@style/ButtonBlue" />
+        <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092322" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="10.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a228b" style="@style/ButtonWhite" />
+    </LinearLayout>
+</com.tencent.mobileqq.widget.BounceScrollView>

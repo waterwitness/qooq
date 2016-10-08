@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02119a" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c95" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="7.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/image" android:clickable="false" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="9.0dip" android:scaleType="fitXY" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0397" android:layout_gravity="center_vertical" android:id="@id/title" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="编辑相册" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

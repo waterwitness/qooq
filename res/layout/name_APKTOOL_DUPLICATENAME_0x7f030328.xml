@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020898" android:layout_width="fill_parent" android:layout_height="63.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View style="@style/qb_tenpay_line" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c6d" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090ff2" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="15.0dip" android:contentDescription="@null" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0243" android:id="@id/title" android:text="" style="@style/qb_tenpay_chose_title" />
+            <TextView android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0243" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0909df" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0ed2" style="@style/qb_tenpay_chose_sub_title" />
+        </LinearLayout>
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0909e0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020822" />
+        <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09011b" android:visibility="gone" android:layout_marginRight="15.0dip" style="@style/qb_tenpay_chose_price" />
+    </LinearLayout>
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09102c" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:scaleType="fitXY" />
+</FrameLayout>

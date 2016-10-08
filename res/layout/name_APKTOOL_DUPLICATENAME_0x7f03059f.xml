@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mobileqq.activity.richmedia.view.CameraCover android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090397" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.mobileqq.activity.richmedia.view.FSurfaceViewLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0914e6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0913d0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </com.tencent.mobileqq.activity.richmedia.view.CameraCover>
+    <RelativeLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0914e7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919d4" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020e6f" android:layout_width="181.0dip" android:layout_height="267.0dip" android:layout_marginTop="116.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="13.0dip" android:textColor="#ffffffff" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0914e8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="请将脸部对准摄像头" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0919d4" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="13.0dip" android:textColor="#ffffffff" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919d5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="212.0dip" android:text="张开嘴" android:layout_centerHorizontal="true" />
+    <com.tencent.mobileqq.shortvideo.widget.ImageViewVideoPlayer android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0914ac" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0914e4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.tencent.biz.qqstory.takevideo.CameraFocusView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919d6" android:paddingLeft="50.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020f35" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0914e4" />
+    <include layout="@layout/qqstory_take_video_control_layout" />
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919d7" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f03059c" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919d8" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f03059a" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919d9" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f0305b3" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919da" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f0305a5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="70.0dip" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="24.0dip" android:textColor="#cbffffff" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919db" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableTop="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020f31" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="24.0dip" android:textColor="#cbffffff" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919dc" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:drawableTop="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020f32" android:layout_centerVertical="true" />
+    <com.tencent.biz.qqstory.view.UnHandleTouchEventViewPager android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919dd" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

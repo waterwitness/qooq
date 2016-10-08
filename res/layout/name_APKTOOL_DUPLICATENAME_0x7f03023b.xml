@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.av.smallscreen.SmallScreenRelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c5a" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0206ca" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0810"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c60" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0206cb" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="11.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b01c3" android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090b12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:maxLines="1" android:layout_centerHorizontal="true" />
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090af4" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0206cd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" />
+</com.tencent.av.smallscreen.SmallScreenRelativeLayout>

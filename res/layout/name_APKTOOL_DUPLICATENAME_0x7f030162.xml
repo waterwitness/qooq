@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090867" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090868" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906a0" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0243" android:layout_alignParentBottom="true">
+        <Button android:id="@id/btn_login" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/login" android:layout_weight="1.0" style="@style/ButtonWhite" />
+        <Button android:id="@id/btn_register" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1630" android:layout_weight="1.0" style="@style/ButtonBlue" />
+    </LinearLayout>
+</RelativeLayout>

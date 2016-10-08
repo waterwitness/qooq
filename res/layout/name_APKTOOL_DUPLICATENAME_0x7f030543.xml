@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0123" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/title" android:minWidth="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c011c" style="@style/TroopInfoExItemTitleCenter" />
+        <LinearLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918c2" android:paddingBottom="0.0dip" style="@style/TroopInfoExItemContent">
+            <View style="@style/TroopInfoExItemSpace" />
+            <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091120" style="@style/TroopInfoExItemReddot2" />
+            <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091121" style="@style/TroopInfoExItemInfo" />
+        </LinearLayout>
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090362" style="@style/TroopInfoExItemArrow2" />
+        <LinearLayout android:gravity="left" android:id="@id/content" android:paddingTop="7.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_marginLeft="12.0dip" style="@style/TroopInfoExItemContent3">
+            <com.tencent.image.URLImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09154f" style="@style/TroopInfoExItemPhoto" />
+            <com.tencent.image.URLImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091550" style="@style/TroopInfoExItemPhoto" />
+            <com.tencent.image.URLImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091551" style="@style/TroopInfoExItemPhoto" />
+            <com.tencent.image.URLImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918c3" style="@style/TroopInfoExItemPhoto" />
+            <View style="@style/TroopInfoExItemSpace" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092069" android:paddingLeft="15.0dip" android:paddingTop="18.0dip" android:paddingRight="15.0dip" android:paddingBottom="19.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.qzone.module.feedcomponent.ui.FeedFriendBirthdayGiftView android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09206a" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.qzone.proxy.feedcomponent.model.SafeTextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09206b" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.qzone.module.feedcomponent.ui.FeedFriendBirthdayGiftView android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09206c" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.qzone.proxy.feedcomponent.model.SafeTextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09206d" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.qzone.module.feedcomponent.ui.FeedFriendBirthdayGiftView android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09206e" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.qzone.proxy.feedcomponent.model.SafeTextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09206f" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.qzone.module.feedcomponent.ui.FeedFriendBirthdayGiftView android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092070" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

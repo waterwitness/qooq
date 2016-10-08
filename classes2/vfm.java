@@ -1,0 +1,18 @@
+import com.tencent.mobileqq.app.TroopObserver;
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import com.tencent.mobileqq.troop.activity.PubAccBindTroopListActivity;
+
+public class vfm
+  extends TroopObserver
+{
+  public vfm(PubAccBindTroopListActivity paramPubAccBindTroopListActivity)
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes2-dex2jar.jar!\vfm.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

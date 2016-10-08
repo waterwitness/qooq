@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0911ef" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0911f0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_alignParentTop="true" layout="@layout/custom_commen_title" />
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0911f1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ff0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="基本信息" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="UIN：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ff1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="QUA：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ff2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="APPID：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ff3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NetworkType：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ff4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ff5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="关键结果信息" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="播放返回码：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ff6" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下载返回码：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ff7" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ff8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="基本播放信息" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="启动时间：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ff9" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="持续时间：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ffa" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="启动类型：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ffb" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="播放ID：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ffc" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="视频URL：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ffd" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="视频总时长：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ffe" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091fff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="播放时间信息" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="首次播放时长：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092000" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="总播放时长：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092001" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="总播放时长（去重）：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092002" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="播放完整度：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092003" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092004" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="基本下载信息" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下载服务器IP：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092005" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="总下载时间：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092006" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="总下载量：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092007" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092008" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="详细下载结果信息" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="详细下载结果列表：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092009" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09200a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="基本耗时信息" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="防盗链换取耗时：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09200b" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="VKEY更新耗时：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09200c" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="URL重定向耗时：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09200d" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09200e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="缓冲相关信息" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="预下载耗时：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09200f" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="首次缓冲耗时：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092010" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="除首次外的缓冲耗时：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092011" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="缓冲次数：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092012" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="进度条拖动次数：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092013" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092014" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="播放区间信息" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="播放区间列表：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092015" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="播放区间列表（去重）：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092016" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092017" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="操作过程信息" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="操作列表：" />
+                <TextView android:textColor="#ffff0000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092018" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

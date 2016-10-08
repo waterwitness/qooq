@@ -1,0 +1,22 @@
+import com.tencent.mobileqq.app.PhoneContactManagerImp;
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+
+public class qcm
+  implements Runnable
+{
+  public qcm(PhoneContactManagerImp paramPhoneContactManagerImp)
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+  }
+  
+  public void run()
+  {
+    this.a.a(false, false);
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes-dex2jar.jar!\qcm.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

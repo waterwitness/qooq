@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.dataline.util.widget.AsyncImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906a7" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0211ff" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c00a6" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c00a6" android:scaleType="centerCrop" android:adjustViewBounds="false" android:layout_alignParentLeft="true" />
+    <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:shrinkColumns="0" android:layout_toLeftOf="@id/name_APKTOOL_DUPLICATENAME_0x7f0906a8" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f0906a7" android:layout_centerVertical="true">
+        <TableRow>
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a6" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09023d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:singleLine="true" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03d2" android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906a9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </TableRow>
+    </TableLayout>
+    <view android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906a8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" class="com.tencent.widget.Switch" />
+</RelativeLayout>

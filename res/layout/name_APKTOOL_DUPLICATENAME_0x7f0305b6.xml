@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.biz.qqstory.view.widget.DragFrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091945" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091946" android:background="#ef000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091947" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0051" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.biz.qqstory.playvideo.CustomViewPager android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091a37" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.tencent.biz.qqstory.view.SplitedProgressBar android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919b7" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" />
+        <LinearLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091a10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <View android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <com.tencent.biz.qqstory.playvideo.QQStoryVideoPlayerErrorView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091a38" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.tencent.biz.qqstory.view.widget.QQStoryLoadingView android:textSize="14.0dip" android:textColor="#ff777777" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091a39" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="加载中..." android:drawablePadding="15.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <com.tencent.biz.qqstory.takevideo.doodle.ui.widget.ElasticImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091a28" android:padding="4.0dip" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginTop="31.0dip" android:layout_marginRight="11.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020f3d" android:layout_alignParentRight="true" />
+        <com.tencent.biz.qqstory.playvideo.watcherlist.QQStoryWatcherListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091a3a" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09194c" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </RelativeLayout>
+</com.tencent.biz.qqstory.view.widget.DragFrameLayout>

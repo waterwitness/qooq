@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092030" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.qzone.proxy.feedcomponent.ui.WrapContentViewPager android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09190e" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

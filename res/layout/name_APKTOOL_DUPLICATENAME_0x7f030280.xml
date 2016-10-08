@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d6a" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:layout_alignParentTop="true" layout="@layout/qb_group_nearby_troops_title_bar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090d6a">
+        <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d12" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.tencent.mobileqq.widget.GraphicTabBarView android:gravity="center" android:layout_gravity="bottom" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09059c" android:background="@drawable/skin_bottom_bar_background" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

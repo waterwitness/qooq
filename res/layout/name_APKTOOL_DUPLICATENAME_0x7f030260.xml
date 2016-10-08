@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cf1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cf2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <include android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cf3" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/qb_troop_info_app_item" />
+        <include android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cf4" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/qb_troop_info_app_item" />
+        <include android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cf5" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/qb_troop_info_app_item" />
+        <include android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cf6" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/qb_troop_info_app_item" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cf7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <include android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cf8" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/qb_troop_info_app_item" />
+        <include android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cf9" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/qb_troop_info_app_item" />
+        <include android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cfa" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/qb_troop_info_app_item" />
+        <include android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cfb" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/qb_troop_info_app_item" />
+    </LinearLayout>
+</LinearLayout>

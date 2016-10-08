@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mobileqq.widget.BounceScrollView android:scrollbarThumbVertical="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02150e" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:focusable="true" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:formItem="http://schemas.android.com/apk/res/com.tencent.mobileqq">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.mobileqq.widget.FormSwitchItem android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091625" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0049" formItem:bgType="name" formItem:switchText="@string/name_APKTOOL_DUPLICATENAME_0x7f0a29e4" formItem:switchChecked="true" />
+        <com.tencent.mobileqq.widget.FormSwitchItem android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091626" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" formItem:bgType="name_APKTOOL_DUPLICATENAME_0x7f090001" formItem:switchText="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1ebd" formItem:switchChecked="true" />
+    </LinearLayout>
+</com.tencent.mobileqq.widget.BounceScrollView>

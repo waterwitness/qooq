@@ -1,0 +1,12 @@
+package com.tencent.biz.pubaccount.readinjoy.video;
+
+public abstract interface VideoPluginInstall$OnVideoPluginInstallListener
+{
+  public abstract void b(boolean paramBoolean);
+}
+
+
+/* Location:              E:\apk\QQ_91\classes5-dex2jar.jar!\com\tencent\biz\pubaccount\readinjoy\video\VideoPluginInstall$OnVideoPluginInstallListener.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

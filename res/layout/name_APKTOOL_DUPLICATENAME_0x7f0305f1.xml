@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:layout_width="275.0dip" android:layout_height="320.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b18" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+    <Button android:textColor="#ff12b7f5" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b19" android:layout_width="140.0dip" android:layout_height="35.0dip" android:layout_marginBottom="15.0dip" android:text="点击查看" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b1a" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0210d9" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="7.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@null" />
+</RelativeLayout>

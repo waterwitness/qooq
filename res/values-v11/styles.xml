@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="name_APKTOOL_DUPLICATENAME_0x7f0d0222" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowActionModeOverlay">false</item>
+    </style>
+    <style name="name_APKTOOL_DUPLICATENAME_0x7f0d02dc">
+        <item name="android:windowEnterAnimation">@anim/name_APKTOOL_DUPLICATENAME_0x7f0400e4</item>
+        <item name="android:windowExitAnimation">@anim/name_APKTOOL_DUPLICATENAME_0x7f0400e5</item>
+    </style>
+    <style name="name_APKTOOL_DUPLICATENAME_0x7f0d02fa">
+        <item name="android:windowEnterAnimation">@anim/name_APKTOOL_DUPLICATENAME_0x7f040016</item>
+        <item name="android:windowExitAnimation">@anim/name_APKTOOL_DUPLICATENAME_0x7f040017</item>
+    </style>
+</resources>

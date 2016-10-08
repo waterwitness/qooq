@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0911d3" android:background="@drawable/skin_aio_input_bar_bg" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="15.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ba" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0911d4" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1090" android:layout_weight="1.0" />
+    <Button android:textSize="15.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ba" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0911d5" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1092" android:layout_weight="1.0" />
+    <Button android:textSize="15.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0362" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0911d6" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1972" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="right" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0911d7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:textSize="15.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0238" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0911d8" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1091" style="@style/SmallButtonBlue" />
+    </LinearLayout>
+</LinearLayout>

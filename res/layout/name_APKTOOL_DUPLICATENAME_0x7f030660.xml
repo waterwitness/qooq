@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c1c" android:background="#ffeaeaea" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c1d" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/qzone_album_divider" />
+            <EditText android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b02c2" android:textColorHint="#ff707070" android:gravity="top" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091d0a" android:background="#ffffffff" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="10.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="80.0dip" android:minHeight="133.0dip" android:hint="@string/name_APKTOOL_DUPLICATENAME_0x7f0a12fe" android:maxLines="8" android:imeOptions="actionDone" />
+            <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091d0b" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="94.0dip">
+                <include layout="@layout/qzone_forward_content2" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" style="@style/boss_unipay_wrapper"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#90000000" style="@style/boss_unipay_wrapper" />
+    <LinearLayout style="@style/boss_unipay_toast.big">
+        <ImageView android:layout_marginBottom="10.0dip" style="@style/boss_unipay_ic_right_toast.big" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0008" android:gravity="center" android:id="@id/boss_unipay_id_title" android:layout_marginBottom="10.0dip" android:text="支付成功" style="@style/boss_unipay_tx" />
+        <TextView android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0002" android:gravity="center" android:id="@id/boss_unipay_id_succinfo" android:text="200书币（赠送2书币）" android:singleLine="false" style="@style/boss_unipay_tx.middle" />
+    </LinearLayout>
+</RelativeLayout>

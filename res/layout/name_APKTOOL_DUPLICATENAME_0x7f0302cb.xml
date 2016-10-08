@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tencent="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.biz.pubaccount.readinjoy.view.ReadInJoyTipsView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e74" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.tencent.biz.pubaccount.readinjoy.view.ReadInJoyXListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e75" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" tencent:showHeaderView="true" tencent:showFooterView="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e76" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e77" android:layout_width="19.0dip" android:layout_height="19.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/common_loading6" android:indeterminateBehavior="repeat" android:layout_centerInParent="true" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03d2" android:gravity="center" android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e78" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="正在加载" />
+        </LinearLayout>
+        <include layout="@layout/qb_public_account_readinjoy_feeds_network_error" />
+    </LinearLayout>
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e79" android:background="#77000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

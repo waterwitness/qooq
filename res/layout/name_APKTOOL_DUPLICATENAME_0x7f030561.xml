@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/skin_list_item_normal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="74.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ff969696" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="2.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2b02" android:singleLine="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff0db8f6" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09190a" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="2.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2b03" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

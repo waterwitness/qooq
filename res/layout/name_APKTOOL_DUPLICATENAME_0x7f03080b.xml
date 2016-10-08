@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02032d" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d11" android:padding="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.mobileqq.widget.TabBarView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09059c" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d12" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.tencent.widget.PinnedHeaderExpandableListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092348" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="false" android:cacheColorHint="#00000000" android:indicatorLeft="16.0dip" android:indicatorRight="28.0dip" android:divider="@null" />
+        <com.tencent.widget.PinnedHeaderExpandableListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092349" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="false" android:cacheColorHint="#00000000" android:indicatorLeft="16.0dip" android:indicatorRight="28.0dip" android:divider="@null" />
+        <com.tencent.mobileqq.nearby.anim.NearbyZanAnimLayout android:layout_gravity="bottom|center|right" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09234a" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

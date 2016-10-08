@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tencent="http://schemas.android.com/apk/res/com.tencent.mobileqq">
+    <com.tencent.widget.ProtectedWebView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092318" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092319" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0024" android:textStyle="bold" android:textColor="#ffb6b6b6" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09231a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1f33" android:drawableTop="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0204b7" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09231b" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02045f" android:indeterminateBehavior="repeat" android:layout_centerInParent="true" />
+</RelativeLayout>

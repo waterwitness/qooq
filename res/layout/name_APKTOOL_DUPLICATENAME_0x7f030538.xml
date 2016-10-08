@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918b3" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    <com.tencent.widget.XListView android:id="@id/common_xlistview" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cae" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020dc6" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_alignParentBottom="true">
+        <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090a73" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c00ee" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2004" style="@style/FootBarButtonBlue" />
+    </LinearLayout>
+</RelativeLayout>

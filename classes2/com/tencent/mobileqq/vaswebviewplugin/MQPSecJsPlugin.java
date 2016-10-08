@@ -1,0 +1,690 @@
+package com.tencent.mobileqq.vaswebviewplugin;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+import android.text.TextUtils;
+import android.widget.TextView;
+import com.tencent.biz.common.util.Util;
+import com.tencent.biz.pubaccount.CustomWebView;
+import com.tencent.mobileqq.app.utils.SMSBodyObserver;
+import com.tencent.mobileqq.app.utils.SmsContent;
+import com.tencent.mobileqq.emosm.Client.onRemoteRespObserver;
+import com.tencent.mobileqq.emosm.DataFactory;
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import com.tencent.mobileqq.util.Utils;
+import com.tencent.mobileqq.utils.HexUtil;
+import com.tencent.mobileqq.webview.swift.JsBridgeListener;
+import com.tencent.mobileqq.webview.swift.MultiNameSpacePluginCompact;
+import com.tencent.mobileqq.webview.swift.WebUiBaseInterface;
+import com.tencent.mobileqq.webview.swift.WebViewPlugin.PluginRuntime;
+import com.tencent.mobileqq.webviewplugin.WebUiUtils.QQBrowserBaseActivityInterface;
+import com.tencent.mobileqq.widget.QQProgressDialog;
+import com.tencent.qphone.base.util.QLog;
+import com.tencent.smtt.sdk.CookieManager;
+import com.tencent.smtt.sdk.CookieSyncManager;
+import java.net.URLDecoder;
+import java.util.Arrays;
+import org.json.JSONObject;
+
+public class MQPSecJsPlugin
+  extends VasWebviewJsPlugin
+  implements SMSBodyObserver, MultiNameSpacePluginCompact
+{
+  public static final String NAMESPACE_DEV_LOCK = "EquipLockManager";
+  public static final String NAMESPACE_PUZZLE_VERIFY_CODE = "CAPTCHA";
+  public static final String NAMESPACE_SET_PWD = "SetPwdJsInterface";
+  private static final String tag = "MQPSecJsPlugin";
+  protected Activity activity;
+  boolean isSubaccount;
+  private String mEmergencyPhoneMask;
+  private int mEmergencyPhoneState;
+  private boolean mIsCloseWeb;
+  private boolean mOpenDevlockCalled;
+  private int mSeq;
+  boolean needResult;
+  private QQProgressDialog progressDialog;
+  String resultMobileMask;
+  boolean resultSetMobile;
+  String resultSppkey;
+  int resultState;
+  String resultUin;
+  SmsContent smsContent;
+  String subAccountUin;
+  String tagRequest;
+  private boolean waittingResponse;
+  
+  public MQPSecJsPlugin()
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+    this.smsContent = null;
+    this.resultSppkey = null;
+    this.resultState = 1;
+    this.resultSetMobile = false;
+    this.mEmergencyPhoneState = 1;
+    this.mSeq = -1;
+    this.mIsCloseWeb = true;
+  }
+  
+  private void hideProgressDialog()
+  {
+    if (this.activity == null) {
+      return;
+    }
+    this.activity.runOnUiThread(new MQPSecJsPlugin.3(this));
+  }
+  
+  private boolean onBackEvent()
+  {
+    if ((this.resultState == 2) && (!TextUtils.isEmpty(this.resultSppkey)) && (!this.mOpenDevlockCalled))
+    {
+      this.mOpenDevlockCalled = true;
+      openEquipmentLock(this.resultUin, this.resultMobileMask, this.resultSppkey);
+    }
+    while (this.waittingResponse) {
+      return true;
+    }
+    closeWeb(true);
+    return false;
+  }
+  
+  private void showProgressDialog()
+  {
+    this.mRuntime.a().runOnUiThread(new MQPSecJsPlugin.2(this));
+  }
+  
+  public void changeEquipLockMobile(String paramString1, String paramString2, String paramString3)
+  {
+    this.resultState = 3;
+    this.resultUin = paramString1;
+    this.resultMobileMask = paramString2;
+    this.resultSppkey = paramString3;
+    closeWeb(false);
+  }
+  
+  public void closeWeb(boolean paramBoolean)
+  {
+    Intent localIntent;
+    if (this.needResult)
+    {
+      localIntent = new Intent();
+      localIntent.putExtra("resultMobileMask", this.resultMobileMask);
+      localIntent.putExtra("resultUin", this.resultUin);
+      localIntent.putExtra("resultSppkey", this.resultSppkey);
+      localIntent.putExtra("resultState", this.resultState);
+      localIntent.putExtra("emergency_phone_mask", this.mEmergencyPhoneMask);
+      localIntent.putExtra("emergency_phone_state", this.mEmergencyPhoneState);
+      if (this.resultState == 2) {
+        localIntent.putExtra("resultSetMobile", this.resultSetMobile);
+      }
+      if (!paramBoolean) {
+        break label139;
+      }
+      this.activity.setResult(0, localIntent);
+    }
+    for (;;)
+    {
+      if (QLog.isColorLevel()) {
+        QLog.d("MQPSecJsPlugin", 2, "close Web");
+      }
+      hideProgressDialog();
+      this.activity.finish();
+      return;
+      label139:
+      this.activity.setResult(-1, localIntent);
+    }
+  }
+  
+  public String[] getMultiNameSpace()
+  {
+    return new String[] { "SetPwdJsInterface", "EquipLockManager", "CAPTCHA" };
+  }
+  
+  protected long getPluginBusiness()
+  {
+    return 2149629952L;
+  }
+  
+  protected boolean handleJsRequest(JsBridgeListener paramJsBridgeListener, String paramString1, String paramString2, String paramString3, String... paramVarArgs)
+  {
+    if (("EquipLockManager".equalsIgnoreCase(paramString2)) || ("SetPwdJsInterface".equalsIgnoreCase(paramString2)) || ("CAPTCHA".equalsIgnoreCase(paramString2)))
+    {
+      if (QLog.isColorLevel()) {
+        QLog.d("MQPSecJsPlugin", 2, "pkg: " + paramString2 + ", method: " + paramString3 + ", url: " + URLDecoder.decode(paramString1));
+      }
+      if ("openDevLock".equals(paramString3))
+      {
+        int i = paramString1.indexOf("=");
+        if ((i == -1) || (i + 1 > paramString1.length() - 1)) {
+          return true;
+        }
+        paramString1 = paramString1.substring(i + 1);
+        if (TextUtils.isEmpty(paramString1)) {
+          return true;
+        }
+        paramJsBridgeListener = null;
+        boolean bool = true;
+        try
+        {
+          paramString2 = new JSONObject(URLDecoder.decode(paramString1, "UTF-8"));
+          paramString1 = paramString2.getString("callback");
+          if (paramString2.has("devlockOpenSource")) {
+            paramJsBridgeListener = paramString2.getString("devlockOpenSource");
+          }
+          if (paramString2.has("showAuthDevList")) {
+            bool = paramString2.getBoolean("showAuthDevList");
+          }
+          paramString3 = paramString2.getString("title");
+          paramVarArgs = paramString2.getString("wording");
+          String str = paramString2.getString("button");
+          paramString2 = paramString2.getString("jumpText");
+          JSONObject localJSONObject = new JSONObject();
+          localJSONObject.put("title", paramString3);
+          localJSONObject.put("wording", paramVarArgs);
+          localJSONObject.put("image_res_id", 2130840668);
+          localJSONObject.put("btn_text", str);
+          localJSONObject.put("jump_text", paramString2);
+          localJSONObject.put("jump_url", "");
+          openDevLock(bool, paramJsBridgeListener, localJSONObject.toString(), paramString1);
+          return true;
+        }
+        catch (Exception paramJsBridgeListener)
+        {
+          if (QLog.isColorLevel()) {
+            QLog.i("MQPSecJsPlugin", 2, "openDevLock parse url param failed" + paramJsBridgeListener.getMessage());
+          }
+          return true;
+        }
+      }
+      return call(paramString3, Arrays.asList(paramVarArgs));
+    }
+    return false;
+  }
+  
+  public void handleMessage(String paramString1, String paramString2)
+  {
+    paramString1 = Utils.c(paramString1, paramString2);
+    if ((paramString1 != null) && (paramString1.length() > 0)) {
+      callJs("_pushInputVcode", new String[] { paramString1 });
+    }
+  }
+  
+  public void handleWebError(String paramString1, String paramString2, String paramString3)
+  {
+    this.resultState = 1;
+    this.resultUin = paramString1;
+    this.resultMobileMask = paramString2;
+    this.resultSppkey = paramString3;
+    closeWeb(false);
+  }
+  
+  public void isNotNet()
+  {
+    if (QLog.isColorLevel()) {
+      QLog.d("MQPSecJsPlugin", 2, "SetPwdJsPlugin isNotNet ");
+    }
+    new Handler(this.activity.getMainLooper()).post(new MQPSecJsPlugin.4(this));
+  }
+  
+  void onBindedToClient()
+  {
+    if (this.activity == null) {}
+    long l;
+    do
+    {
+      return;
+      Object localObject = this.activity.getIntent();
+      l = ((Intent)localObject).getLongExtra("business", 0L);
+      if ((0x8000 & l) != 0L)
+      {
+        localObject = ((Intent)localObject).getStringExtra("uin");
+        Bundle localBundle = new Bundle();
+        localBundle.putString("uin", (String)localObject);
+        sendRemoteReq(DataFactory.a("getA2", "", this.mOnRemoteResp.key, localBundle), true, false);
+        hideProgressDialog();
+        return;
+      }
+    } while ((l & 0x200000) == 0L);
+    sendRemoteReq(DataFactory.a("puzzle_verify_code_clearProgressDialog", "", this.mOnRemoteResp.key, new Bundle()), true, false);
+  }
+  
+  protected void onCreate()
+  {
+    super.onCreate();
+    WebUiBaseInterface localWebUiBaseInterface = this.mRuntime.a(this.mRuntime.a());
+    if ((localWebUiBaseInterface != null) && ((localWebUiBaseInterface instanceof WebUiUtils.QQBrowserBaseActivityInterface))) {
+      this.activity = this.mRuntime.a();
+    }
+  }
+  
+  protected void onDestroy()
+  {
+    super.onDestroy();
+    if (this.smsContent != null)
+    {
+      this.smsContent.a();
+      this.smsContent = null;
+    }
+    hideProgressDialog();
+  }
+  
+  public void onLoadIsSetPsw(String paramString)
+  {
+    if (QLog.isColorLevel()) {
+      QLog.d("MQPSecJsPlugin", 2, "SetPwdJsPlugin onLoadIsSetPsw isSet =" + paramString);
+    }
+    if ((paramString != null) && (paramString.equals("1"))) {
+      sendRemoteReq(DataFactory.a("setHasSetPwd", "", this.mOnRemoteResp.key, new Bundle()), true, false);
+    }
+  }
+  
+  public void onResponse(Bundle paramBundle)
+  {
+    if (paramBundle != null)
+    {
+      localObject1 = paramBundle.getString("cmd");
+      if (!TextUtils.isEmpty((CharSequence)localObject1)) {
+        break label35;
+      }
+      if (QLog.isColorLevel()) {
+        QLog.i("MQPSecJsPlugin", 2, "cmd is empty.");
+      }
+    }
+    label35:
+    label353:
+    do
+    {
+      do
+      {
+        do
+        {
+          do
+          {
+            do
+            {
+              do
+              {
+                return;
+                localObject2 = paramBundle.getBundle("response");
+                if (QLog.isColorLevel()) {
+                  QLog.i("MQPSecJsPlugin", 2, "response:" + (String)localObject1);
+                }
+                if (!((String)localObject1).equalsIgnoreCase("openEquipmentLock")) {
+                  break;
+                }
+              } while (((Bundle)localObject2).getInt("checkDevLockSms_ret") >= 0);
+              hideProgressDialog();
+              closeWeb(false);
+              return;
+              if (!((String)localObject1).equalsIgnoreCase("setWaitingResponse")) {
+                break;
+              }
+              this.waittingResponse = ((Bundle)localObject2).getBoolean("isWaiting", false);
+            } while (this.waittingResponse);
+            hideProgressDialog();
+            return;
+            if (((String)localObject1).equalsIgnoreCase("setMobileResult"))
+            {
+              this.resultSetMobile = ((Bundle)localObject2).getBoolean("setMobileResult", false);
+              return;
+            }
+            if ((((String)localObject1).equalsIgnoreCase("closeWeb")) && (this.mIsCloseWeb))
+            {
+              closeWeb(((Bundle)localObject2).getBoolean("isBack"));
+              return;
+            }
+            if (!((String)localObject1).equalsIgnoreCase("getA2")) {
+              break label353;
+            }
+            paramBundle = ((Bundle)localObject2).getString("A2");
+            if (!TextUtils.isEmpty(paramBundle)) {
+              break;
+            }
+          } while (!QLog.isColorLevel());
+          QLog.i("MQPSecJsPlugin", 2, "a2 is empty.");
+          return;
+          localObject1 = this.activity.getIntent().getStringExtra("url");
+          if (!TextUtils.isEmpty((CharSequence)localObject1)) {
+            break;
+          }
+        } while (!QLog.isColorLevel());
+        QLog.i("MQPSecJsPlugin", 2, "url is empty.");
+        return;
+        localObject2 = Util.c((String)localObject1);
+        if (!TextUtils.isEmpty((CharSequence)localObject2)) {
+          break;
+        }
+      } while (!QLog.isColorLevel());
+      QLog.i("MQPSecJsPlugin", 2, "domain is empty.");
+      return;
+      CookieSyncManager.createInstance(this.mRuntime.a().getContext());
+      CookieManager localCookieManager = CookieManager.getInstance();
+      localCookieManager.setAcceptCookie(true);
+      localCookieManager.setCookie((String)localObject1, String.format("A2=%1$s; domain=%2$s; path=/", new Object[] { paramBundle, localObject2 }));
+      CookieSyncManager.getInstance().sync();
+      return;
+      if (((String)localObject1).equalsIgnoreCase("openDevLock"))
+      {
+        bool1 = ((Bundle)localObject2).getBoolean("auth_dev_open");
+        localObject1 = ((Bundle)localObject2).getByteArray("devlock_roam_sig");
+        paramBundle = paramBundle.getString("callbackid");
+        try
+        {
+          localObject2 = new JSONObject();
+          ((JSONObject)localObject2).put("result", 0);
+          ((JSONObject)localObject2).put("devlockIsOpen", bool1);
+          ((JSONObject)localObject2).put("sigDA2", HexUtil.a((byte[])localObject1));
+          if (QLog.isColorLevel()) {
+            QLog.i("MQPSecJsPlugin", 2, "openDevLock callJS: " + ((JSONObject)localObject2).toString());
+          }
+          super.callJs(paramBundle, new String[] { ((JSONObject)localObject2).toString() });
+          return;
+        }
+        catch (Exception paramBundle)
+        {
+          return;
+        }
+      }
+    } while (!((String)localObject1).equalsIgnoreCase("queryDevLockStatus"));
+    boolean bool1 = ((Bundle)localObject2).getBoolean("auth_dev_open");
+    boolean bool2 = ((Bundle)localObject2).getBoolean("allow_set");
+    Object localObject2 = ((Bundle)localObject2).getString("phone_num");
+    if (bool1)
+    {
+      paramBundle = "true";
+      if (!bool2) {
+        break label565;
+      }
+    }
+    label565:
+    for (Object localObject1 = "true";; localObject1 = "false")
+    {
+      callJs("_onQueryDevLockStatus", new String[] { paramBundle, localObject1, localObject2 });
+      return;
+      paramBundle = "false";
+      break;
+    }
+  }
+  
+  public void onTimeOut()
+  {
+    if (QLog.isColorLevel()) {
+      QLog.d("MQPSecJsPlugin", 2, "SetPwdJsPlugin onTimeOut");
+    }
+    hideProgressDialog();
+  }
+  
+  public void onVerifyCAPTCHA(String paramString)
+  {
+    int i = 0;
+    for (;;)
+    {
+      try
+      {
+        paramString = new JSONObject(paramString);
+        if (Integer.parseInt(paramString.getString("result")) == 0)
+        {
+          bool1 = true;
+          String str = paramString.getString("ticket");
+          paramString = null;
+          if (this.activity == null) {
+            break label246;
+          }
+          Object localObject = this.activity.getIntent();
+          if (localObject == null) {
+            break label246;
+          }
+          boolean bool3 = ((Intent)localObject).getBooleanExtra("is_register_uin", false);
+          bool2 = bool3;
+          if (bool3)
+          {
+            i = ((Intent)localObject).getIntExtra("register_uin_msg", 0);
+            paramString = ((Intent)localObject).getStringExtra("register_uin_class");
+            bool2 = bool3;
+          }
+          localObject = new Bundle();
+          ((Bundle)localObject).putInt("seq", this.mSeq);
+          ((Bundle)localObject).putBoolean("result", bool1);
+          ((Bundle)localObject).putString("ticket", str);
+          ((Bundle)localObject).putBoolean("is_register_uin", bool2);
+          if (bool2)
+          {
+            ((Bundle)localObject).putInt("register_uin_msg", i);
+            ((Bundle)localObject).putString("register_uin_class", paramString);
+          }
+          sendRemoteReq(DataFactory.a("puzzle_verify_code_setTicket", "", this.mOnRemoteResp.key, (Bundle)localObject), true, false);
+          if (this.activity != null) {
+            this.activity.finish();
+          }
+          return;
+        }
+      }
+      catch (Throwable paramString)
+      {
+        boolean bool1;
+        if (!QLog.isColorLevel()) {
+          continue;
+        }
+        QLog.d("MQPSecJsPlugin", 2, "onVerifyCAPTCHA error:" + paramString.getMessage());
+        return;
+      }
+      bool1 = false;
+      continue;
+      label246:
+      boolean bool2 = false;
+    }
+  }
+  
+  public void onWebMakeSureBack()
+  {
+    if (QLog.isColorLevel()) {
+      QLog.d("MQPSecJsPlugin", 2, "SetPwdJsPlugin onWebMakeSureBack");
+    }
+    showProgressDialog();
+  }
+  
+  public void onWebMakeSureFinishBack(String paramString)
+  {
+    if (QLog.isColorLevel()) {
+      QLog.d("MQPSecJsPlugin", 2, "SetPwdJsPlugin onWebMakeSureFinishBack isSuccess =" + paramString);
+    }
+    if ((paramString != null) && (paramString.equals("1"))) {
+      sendRemoteReq(DataFactory.a("setHasSetPwd", "", this.mOnRemoteResp.key, new Bundle()), true, false);
+    }
+    hideProgressDialog();
+  }
+  
+  protected void onWebViewCreated(CustomWebView paramCustomWebView)
+  {
+    super.onWebViewCreated(paramCustomWebView);
+    long l;
+    if (this.activity != null)
+    {
+      paramCustomWebView = this.activity.getIntent();
+      l = paramCustomWebView.getLongExtra("business", 0L);
+      if ((0x4000 & l) == 0L) {
+        break label147;
+      }
+      this.tagRequest = paramCustomWebView.getStringExtra("tag");
+      this.needResult = paramCustomWebView.getBooleanExtra("needResult", false);
+      this.isSubaccount = paramCustomWebView.getBooleanExtra("isSubaccount", false);
+      if (this.isSubaccount) {
+        this.subAccountUin = paramCustomWebView.getStringExtra("subAccountUin");
+      }
+      this.smsContent = new SmsContent(null);
+      this.smsContent.a(this.activity, this);
+      paramCustomWebView = (TextView)this.activity.findViewById(2131297083);
+      if (paramCustomWebView != null) {
+        paramCustomWebView.setOnClickListener(new MQPSecJsPlugin.1(this));
+      }
+    }
+    label147:
+    while ((l & 0x200000) == 0L) {
+      return;
+    }
+    this.mSeq = paramCustomWebView.getIntExtra("seq", -1);
+  }
+  
+  public void openDevLock(boolean paramBoolean, String paramString1, String paramString2, String paramString3)
+  {
+    this.mIsCloseWeb = false;
+    Bundle localBundle = new Bundle();
+    localBundle.putString("devlock_guide_config", paramString2);
+    if (!TextUtils.isEmpty(paramString1)) {
+      localBundle.putString("devlock_open_source", paramString1);
+    }
+    for (;;)
+    {
+      localBundle.putBoolean("devlock_show_auth_dev_list", paramBoolean);
+      sendRemoteReq(DataFactory.a("openDevLock", paramString3, this.mOnRemoteResp.key, localBundle), true, false);
+      return;
+      localBundle.putString("devlock_open_source", "Unknown");
+    }
+  }
+  
+  public void openEquipmentLock(String paramString1, String paramString2, String paramString3)
+  {
+    this.resultState = 2;
+    this.resultUin = paramString1;
+    this.resultMobileMask = paramString2;
+    this.resultSppkey = paramString3;
+    showProgressDialog();
+    byte[] arrayOfByte = null;
+    if (paramString3 != null) {
+      arrayOfByte = paramString3.getBytes();
+    }
+    this.waittingResponse = true;
+    paramString3 = new Bundle();
+    paramString3.putString("uin", paramString1);
+    paramString3.putString("mobileMask", paramString2);
+    paramString3.putByteArray("sppkey", arrayOfByte);
+    sendRemoteReq(DataFactory.a("openEquipmentLock", "", this.mOnRemoteResp.key, paramString3), true, false);
+  }
+  
+  public void pushMobileResult(String paramString1, String paramString2, String paramString3, String paramString4)
+  {
+    if (QLog.isColorLevel()) {
+      QLog.d("MQPSecJsPlugin", 2, "pushMobileResult uin=" + paramString1 + " mobileMask=" + paramString2 + " state=" + paramString3 + " sppkey=" + paramString4);
+    }
+    updateResult(paramString1, paramString2, paramString3, paramString4);
+  }
+  
+  public void pushMobileReturn()
+  {
+    if (QLog.isColorLevel()) {
+      QLog.d("MQPSecJsPlugin", 2, "SetPwdJsPlugin pushMobileReturn");
+    }
+    this.activity.finish();
+  }
+  
+  public void pushMobileReturn(String paramString1, String paramString2, String paramString3, String paramString4)
+  {
+    if (QLog.isColorLevel()) {
+      QLog.d("MQPSecJsPlugin", 2, "pushMobileReturn uin=" + paramString1 + " mobileMask=" + paramString2 + " state=" + paramString3 + " sppkey=" + paramString4);
+    }
+    if (TextUtils.isEmpty(paramString4))
+    {
+      updateResult(paramString1, paramString2, paramString3, paramString4);
+      if ((this.resultState == 2) && (!TextUtils.isEmpty(this.resultSppkey)) && (!this.mOpenDevlockCalled))
+      {
+        this.mOpenDevlockCalled = true;
+        openEquipmentLock(this.resultUin, this.resultMobileMask, this.resultSppkey);
+      }
+    }
+    do
+    {
+      return;
+      closeWeb(false);
+      return;
+      if (!"1".equals(paramString3)) {
+        break;
+      }
+    } while (this.mOpenDevlockCalled);
+    this.mOpenDevlockCalled = true;
+    openEquipmentLock(paramString1, paramString2, paramString4);
+    return;
+    if (TextUtils.isEmpty(paramString4)) {}
+    for (String str = "dummy";; str = paramString4)
+    {
+      updateResult(paramString1, paramString2, paramString3, str);
+      if (!TextUtils.isEmpty(paramString4)) {
+        this.resultSppkey = paramString4;
+      }
+      closeWeb(false);
+      return;
+    }
+  }
+  
+  public void queryDevLockStatus()
+  {
+    sendRemoteReq(DataFactory.a("queryDevLockStatus", "", this.mOnRemoteResp.key, null), true, false);
+  }
+  
+  public void updateResult(String paramString1, String paramString2, String paramString3, String paramString4)
+  {
+    this.resultUin = paramString1;
+    int i = 0;
+    try
+    {
+      int j = Integer.parseInt(paramString3);
+      i = j;
+    }
+    catch (Exception paramString1)
+    {
+      for (;;)
+      {
+        paramString1.printStackTrace();
+      }
+      this.mEmergencyPhoneState = 2;
+      return;
+    }
+    if (TextUtils.isEmpty(paramString4))
+    {
+      this.mEmergencyPhoneMask = paramString2;
+      switch (i)
+      {
+      default: 
+        this.mEmergencyPhoneState = 1;
+        return;
+      case 1: 
+      case 2: 
+        this.mEmergencyPhoneState = 3;
+        return;
+      }
+      this.mEmergencyPhoneState = 4;
+      return;
+    }
+    this.resultMobileMask = paramString2;
+    this.resultSppkey = paramString4;
+    switch (i)
+    {
+    case -3: 
+    case -2: 
+    case -1: 
+    case 0: 
+    default: 
+      this.resultState = 1;
+      return;
+    case 1: 
+      this.resultState = 2;
+      return;
+    case 2: 
+      this.resultState = 3;
+      return;
+    case 3: 
+      this.resultState = 4;
+      return;
+    case 4: 
+      this.resultState = 5;
+      return;
+    }
+    this.resultState = 6;
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes2-dex2jar.jar!\com\tencent\mobileqq\vaswebviewplugin\MQPSecJsPlugin.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0083"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0322" android:id="@id/txt" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c032a" style="@style/FootBarButtonWhite" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0917e1" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0216b9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/txt" android:layout_alignTop="@id/txt" android:contentDescription="@null" />
+</RelativeLayout>

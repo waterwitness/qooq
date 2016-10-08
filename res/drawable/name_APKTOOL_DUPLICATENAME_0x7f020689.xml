@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.tencent.mobileqq">
+    <item android:state_enabled="true" android:state_selected="false" android:state_pressed="false" android:drawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020688" app:tint_color="#80ffffff" />
+    <item android:state_enabled="true" android:state_selected="false" android:state_pressed="true" android:drawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020688" />
+    <item android:state_enabled="true" android:state_selected="true" android:state_pressed="false" android:drawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020687" app:tint_color="#80ffffff" />
+    <item android:state_enabled="true" android:state_selected="true" android:state_pressed="true" android:drawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020687" />
+    <item android:state_enabled="false" android:drawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020688" app:tint_color="#33ffffff" />
+</selector>

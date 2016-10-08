@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d97" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.tencent.mobileqq.dating.widget.InputBar android:gravity="center" android:orientation="horizontal" android:id="@id/inputBar" android:background="@drawable/skin_aio_input_bar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f090d97">
+        <ImageButton android:id="@id/emo_btn" android:background="@drawable/trans" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021222" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0bc0" />
+        <com.tencent.widget.XEditTextEx android:textSize="16.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03dd" android:layout_gravity="center_vertical" android:id="@id/input" android:background="@drawable/skin_aio_input_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:maxLength="50" android:layout_weight="1.0" android:inputType="textMultiLine" android:textSelectHandle="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021720" />
+        <Button android:textSize="14.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a0" android:id="@id/send_btn" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020084" android:layout_width="59.0dip" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c00c9" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a17cd" />
+    </com.tencent.mobileqq.dating.widget.InputBar>
+</merge>

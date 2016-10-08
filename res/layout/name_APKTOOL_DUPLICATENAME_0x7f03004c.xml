@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0903b1" android:paddingLeft="25.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" style="@style/BlessCircleButton" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0903b4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201dc" android:layout_alignLeft="@id/name_APKTOOL_DUPLICATENAME_0x7f0903b1" android:layout_centerVertical="true" />
+    <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0903b2" android:paddingLeft="25.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="191.0dip" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f0903b1" style="@style/BlessCircleButton" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0903b5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201df" android:layout_alignLeft="@id/name_APKTOOL_DUPLICATENAME_0x7f0903b2" android:layout_centerVertical="true" />
+</RelativeLayout>

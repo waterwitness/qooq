@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b0b" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/rlCommenTitle" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:layout_alignParentTop="true" layout="@layout/qvip_pay_commen_title" />
+    <com.tencent.mobileqq.widget.BounceScrollView android:scrollbarThumbVertical="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02150e" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b0c" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b00ac" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="false" android:layout_below="@id/rlCommenTitle">
+        <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b0d" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b0e" layout="@layout/qvip_pay_tenpay_item" />
+            <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b0f" layout="@layout/qvip_pay_tenpay_item" />
+            <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="4.0dip" />
+            <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b11" layout="@layout/qvip_pay_add_bank_item" />
+            <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b12" android:visibility="gone" layout="@layout/qvip_pay_add_bank_item" />
+            <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b13" android:visibility="gone" layout="@layout/qvip_pay_add_bank_item" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b14" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b00ac" android:paddingTop="10.0dip" android:paddingBottom="16.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b00af" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a122e" />
+                <TextView android:textSize="12.0sp" android:layout_gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.tencent.mobileqq.widget.BounceScrollView>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b16" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b00ac" android:paddingTop="10.0dip" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="12.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b00af" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a122e" />
+        <TextView android:textSize="12.0sp" android:layout_gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+    </LinearLayout>
+</RelativeLayout>

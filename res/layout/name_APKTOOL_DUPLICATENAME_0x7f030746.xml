@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.bitapp.BitAppViewGroup android:layout_gravity="center" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020098" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0920f5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0904a6" android:layout_width="16.0dip" android:layout_height="16.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020331" android:indeterminateBehavior="repeat" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0024" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0904a7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2937" />
+    </LinearLayout>
+    <com.tencent.image.URLImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0920f6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="180.0dip" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0920f7" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0204e5" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</com.tencent.bitapp.BitAppViewGroup>

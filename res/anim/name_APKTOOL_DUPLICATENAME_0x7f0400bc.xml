@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02102f" />
+    <item android:duration="200" android:drawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021031" />
+    <item android:duration="200" android:drawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021033" />
+</animation-list>

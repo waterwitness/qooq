@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.qzone.widget.AsyncMarkImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091e80" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021135" android:scaleType="centerCrop" />
+    <TextView android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091e81" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="更多" android:layout_centerInParent="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021155" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f091e81" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910f6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="7.0dip" android:layout_alignTop="@id/name_APKTOOL_DUPLICATENAME_0x7f0910f7" android:layout_alignBottom="@id/name_APKTOOL_DUPLICATENAME_0x7f0910f7" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910f7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="11.0dip" android:textColor="#ffff5b84" android:ellipsize="start" android:gravity="center" android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910f8" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:singleLine="true" />
+        <ImageView android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910f9" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02d5" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02d5" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip" android:scaleType="fitXY" />
+        <TextView android:textSize="13.0dip" android:textColor="#ff777777" android:gravity="center" android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910fa" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="#ffbbbbbb" android:gravity="center" android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910fb" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" />
+    </LinearLayout>
+</RelativeLayout>

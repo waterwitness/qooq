@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091aad" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02107f" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="@color/name_APKTOOL_DUPLICATENAME_0x7f0b02b6" />
+    <item android:color="#ff2d8ae7" />
+</selector>

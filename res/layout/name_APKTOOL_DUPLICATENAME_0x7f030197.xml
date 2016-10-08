@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906a0" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021583" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip" android:layout_alignParentBottom="true">
+        <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090954" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2088" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/SmallButtonWhiteLocalAlbums" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090955" android:background="@drawable/skin_header_bar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:layout_alignParentTop="true">
+        <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090956" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020dad" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:scaleType="centerInside" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2097" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@null" style="@style/TitleBtnLocalAlbums" />
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a208f" android:layout_centerInParent="true" style="@style/TitleTextLocalAlbums" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090957" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f0906a0" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090955" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090eab" android:visibility="visible" android:layout_width="150.0dip" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="81.0dip">
+            <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090eac" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090ead" android:layout_width="150.0dip" android:layout_height="81.0dip" android:scaleType="fitXY" android:contentDescription="@null" />
+                <TextView android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02056c" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090eae" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginLeft="6.0dip" android:layout_marginBottom="5.0dip" android:layout_alignLeft="@id/name_APKTOOL_DUPLICATENAME_0x7f090eac" android:layout_alignParentBottom="true" android:contentDescription="@null" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0029" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090eaf" android:layout_width="fill_parent" android:layout_height="21.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090eae" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <TextView android:textSize="13.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b001b" android:ellipsize="end" android:gravity="center|left" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090ea8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:maxWidth="150.0dip" android:minHeight="32.0dip" android:maxLines="2" android:includeFontPadding="false" />
+        <Button android:textSize="14.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0227" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090eb0" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0207f6" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="26.0dip" android:maxWidth="150.0dip" android:text="关注" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090eb1" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0207f2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="26.0dip" android:src="@drawable/common_loading6" android:scaleType="center" android:maxWidth="150.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090eb2" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020800" android:visibility="gone" android:layout_width="150.0dip" android:layout_height="fill_parent">
+        <TextView android:textSize="14.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0227" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090eb3" android:background="@android:color/transparent" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查看更多" />
+    </LinearLayout>
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090eb4" android:background="@drawable/trans" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="fill_parent" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090eb2" />
+</RelativeLayout>

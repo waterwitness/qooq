@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0051" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090f58" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="关闭" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0051" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919d3" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="清空" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0051" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="预加载队列显示" />
+    </LinearLayout>
+    <ListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09125e" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

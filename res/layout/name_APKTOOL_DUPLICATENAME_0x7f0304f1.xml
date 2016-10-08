@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/icon" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020dde" style="@style/CardInfoItemIcon" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0088" android:paddingBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0088" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091767" android:paddingBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c00a7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" />
+        <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c007e" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a6" android:ellipsize="end" android:id="@id/info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:maxLines="1" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091768" android:visibility="gone" style="@style/CardInfoItemLock" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090362" style="@style/CardInfoItemArrow" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090460" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090461" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f030072" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090462" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/qb_pabrowser_fullscreen_webivew_content" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902ed" android:visibility="gone" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginTop="-25.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/common_loading6" android:indeterminateBehavior="repeat" android:layout_centerInParent="true" />
+    <com.tencent.mobileqq.widget.WebViewProgressBar android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090463" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_alignParentTop="true" />
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090464" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f0302aa" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

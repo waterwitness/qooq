@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020dc6" android:paddingLeft="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0324" android:paddingTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0326" android:paddingBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0328" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09140d" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0329" android:layout_weight="1.0" layout="@layout/qq_profilecard_white_btn" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09140e" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0329" android:layout_weight="1.0" layout="@layout/qq_profilecard_white_btn" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09140f" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0324" android:layout_weight="1.0" layout="@layout/qq_profilecard_blue_btn" />
+    </LinearLayout>
+</LinearLayout>

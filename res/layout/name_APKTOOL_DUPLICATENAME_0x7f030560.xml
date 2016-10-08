@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091907" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091908" android:layout_width="fill_parent" android:layout_height="60.0dip" layout="@layout/qq_yellowpage_search_box" />
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091909" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f091908" layout="@layout/qq_yellowpage_city_content" />
+</RelativeLayout>

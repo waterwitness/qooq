@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09022d" android:background="@drawable/common_strip_setting_middle" android:clickable="true" android:layout_width="fill_parent" android:layout_height="62.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09022e" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/icon" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09022f" android:visibility="invisible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="60.0dip">
+        <View android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02039c" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.tencent.mobileqq.widget.ShaderAnimLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090230" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <Button android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c032b" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03bc" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090231" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0214e5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0331" android:minHeight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0330" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1972" android:shadowDx="1.5" android:shadowDy="1.5" android:shadowRadius="1.5" android:layout_centerInParent="true" />
+    </com.tencent.mobileqq.widget.ShaderAnimLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_toLeftOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090230" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f09022e" android:layout_centerVertical="true">
+        <TextView android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a9" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090232" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03cf" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090233" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

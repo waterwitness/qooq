@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="18.0sp" android:textStyle="bold" android:gravity="center|left|top" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d9a" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:paddingLeft="10.0dip" android:paddingTop="7.0dip" android:paddingRight="10.0dip" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="1" android:singleLine="false" android:maxLength="45" android:lineSpacingExtra="8.0dip" />
+    <View style="@style/qb_group_troopBar_publish_divider_style" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="16.0sp" android:gravity="center|left|top" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d9b" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:paddingLeft="10.0dip" android:paddingTop="8.0dip" android:paddingRight="10.0dip" android:paddingBottom="57.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="4" android:lineSpacingExtra="7.0dip" />
+        <com.tencent.mobileqq.troop.widget.PublishItemBar android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d9c" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:paddingLeft="15.0dip" android:paddingTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c018d" android:paddingRight="3.0dip" android:paddingBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c018e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/name_APKTOOL_DUPLICATENAME_0x7f090d9b" />
+        <TextView android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b029c" android:gravity="right" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090d9d" android:background="@null" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c018e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/name_APKTOOL_DUPLICATENAME_0x7f090d9c" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</merge>

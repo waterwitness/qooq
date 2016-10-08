@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mobileqq.emoticonview.EmoticonMainPanel android:id="@id/emoview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/emotion_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f090773">
+        <com.tencent.mobileqq.widget.QQViewPager android:id="@id/viewPager" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090775" android:visibility="invisible" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f030121" android:inflatedId="@id/name_APKTOOL_DUPLICATENAME_0x7f090776" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090777" android:visibility="invisible" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f030140" android:inflatedId="@id/name_APKTOOL_DUPLICATENAME_0x7f090778" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090779" android:visibility="gone" android:layout_width="33.0dip" android:layout_height="30.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="23.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021079" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090773" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0112" android:layout_alignParentBottom="true">
+        <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902c4" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <RelativeLayout android:id="@id/container_secondary_tab" android:layout_width="fill_parent" android:layout_height="36.0dip">
+            <com.tencent.mobileqq.emoticonview.HorizontalListViewEx android:orientation="horizontal" android:id="@id/tab_sencondary_emoticon" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="54.0dip" />
+            <ImageView android:id="@id/btn_more_emoticon" android:layout_width="60.0dip" android:layout_height="fill_parent" android:scaleType="center" android:layout_alignParentRight="true" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a28a9" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.tencent.mobileqq.emoticonview.EmoticonMainPanel>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020889" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b025b" android:layout_width="fill_parent" android:layout_height="24.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02088a" android:scaleType="fitCenter" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b025c" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0ff1" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0ff1" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b024b" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <View android:layout_width="0.0px" android:layout_height="50.0dip" />
+        <Button android:textSize="30.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0243" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091020" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02088b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="1" android:layout_weight="1.0" android:contentDescription="1" />
+        <View android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b024b" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+        <Button android:textSize="30.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0243" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091021" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02088b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="2" android:layout_weight="1.0" android:contentDescription="2" />
+        <View android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b024b" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+        <Button android:textSize="30.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0243" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091022" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02088b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="3" android:layout_weight="1.0" android:contentDescription="3" />
+    </LinearLayout>
+    <View android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b024b" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <View android:layout_width="0.0px" android:layout_height="50.0dip" />
+        <Button android:textSize="30.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0243" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091023" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02088b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="4" android:layout_weight="1.0" android:contentDescription="4" />
+        <View android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b024b" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+        <Button android:textSize="30.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0243" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091024" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02088b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="5" android:layout_weight="1.0" android:contentDescription="5" />
+        <View android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b024b" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+        <Button android:textSize="30.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0243" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091025" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02088b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="6" android:layout_weight="1.0" android:contentDescription="6" />
+    </LinearLayout>
+    <View android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b024b" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <View android:layout_width="0.0px" android:layout_height="50.0dip" />
+        <Button android:textSize="30.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0243" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091026" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02088b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="7" android:layout_weight="1.0" android:contentDescription="7" />
+        <View android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b024b" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+        <Button android:textSize="30.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0243" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091027" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02088b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="8" android:layout_weight="1.0" android:contentDescription="8" />
+        <View android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b024b" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+        <Button android:textSize="30.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0243" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091028" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02088b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="9" android:layout_weight="1.0" android:contentDescription="9" />
+    </LinearLayout>
+    <View android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b024b" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <View android:layout_width="0.0px" android:layout_height="50.0dip" />
+        <Button android:textSize="20.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0243" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091029" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02088b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b024b" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+        <Button android:textSize="30.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0243" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09102a" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02088b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="0" android:layout_weight="1.0" android:contentDescription="0" />
+        <View android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b024b" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09102b" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02088b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02088c" android:layout_weight="1.0" android:contentDescription="删除" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContactsSource
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ContactsDataKind android:icon="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020c1f" android:mimeType="vnd.android.cursor.item/vnd.com.tencent.mobileqq.voicecall.profile" android:summaryColumn="data2" android:detailColumn="data3" android:detailSocialSummary="true" />
+    <ContactsDataKind android:icon="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020c1e" android:mimeType="vnd.android.cursor.item/vnd.com.tencent.mobileqq.zchat" android:summaryColumn="data2" android:detailColumn="data3" android:detailSocialSummary="true" />
+</ContactsSource>

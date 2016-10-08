@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020328" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c01a1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:clickable="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="18.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0">
+        <TextView android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03c9" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b01" android:singleLine="true" style="@style/HornAnimationText" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <TextView android:textSize="13.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ce" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b02" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxWidth="190.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/skin_blue" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b03" android:clickable="true" android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a24d6" android:singleLine="true" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#ffdfdfdf" android:clickable="false" android:layout_width="1.0dip" android:layout_height="39.0dip" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b04" android:padding="12.0dip" android:clickable="true" android:layout_width="53.0dip" android:layout_height="53.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021091" android:contentDescription="展开地图" />
+</LinearLayout>

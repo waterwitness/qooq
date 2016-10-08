@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mobileqq.widget.MyGridView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091762" android:focusable="false" android:focusableInTouchMode="false" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="2.0dip" android:listSelector="@null" android:horizontalSpacing="2.0dip" android:verticalSpacing="2.0dip" android:numColumns="3" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091763" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f091762">
+        <ProgressBar android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="4.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02045f" android:indeterminateBehavior="repeat" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0081" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a23b2" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091764" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f091762">
+        <TextView android:textSize="14.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0081" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091765" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a21d9" android:drawableRight="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0207f0" android:drawablePadding="5.0dip" />
+    </LinearLayout>
+</RelativeLayout>

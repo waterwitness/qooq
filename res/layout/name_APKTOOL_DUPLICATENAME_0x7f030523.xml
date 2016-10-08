@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09185d" android:background="#ff000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09185e" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02059b" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0909b8" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:layout_alignParentTop="true">
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0909b9" android:padding="0.0px" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_alignParentTop="true" android:layout_centerVertical="true">
+                <TextView android:textSize="17.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b038f" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090f5f" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020204" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:maxWidth="88.0dip" android:minWidth="55.0dip" android:text="返回" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09185f" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <ImageView android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020db0" android:layout_width="30.0dip" android:layout_height="30.0dip" android:scaleType="center" android:includeFontPadding="false" android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

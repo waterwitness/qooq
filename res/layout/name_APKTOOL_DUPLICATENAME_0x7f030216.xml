@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090bed" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090bee" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0891" android:layout_alignParentBottom="true" android:onClick="BtnOnClick" style="@style/ButtonBlueNew" />
+    <com.tencent.widget.XListView android:id="@id/common_xlistview" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:paddingLeft="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0075" android:paddingRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0075" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f090bee" android:layout_alignParentTop="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</RelativeLayout>

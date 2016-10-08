@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="name">22</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e0001">18</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e0002">16</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e0003">14</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e0004">12</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e0005">8</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e0006">400</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e0007">200</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e0008">300</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e0009">1800</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e000a">2100</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e000b">16</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e000c">12</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e000d">150</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e000e">150</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e000f">3</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e0010">4</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e0011">4</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e0012">4</integer>
+    <integer name="name_APKTOOL_DUPLICATENAME_0x7f0e0013">3</integer>
+</resources>

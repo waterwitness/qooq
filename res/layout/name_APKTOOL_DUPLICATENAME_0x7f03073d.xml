@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09207d" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0217be" android:layout_width="wrap_content" android:layout_height="35.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="7.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0920e1" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02126e" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b02b1" android:ellipsize="none" android:gravity="center|left" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0920e2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="置顶" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0217c0" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="0.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</merge>

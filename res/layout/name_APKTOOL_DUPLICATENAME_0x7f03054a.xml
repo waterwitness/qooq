@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.huangye.activity.QQYPScrollView android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918dd" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09081b" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/qq_yellowpage_search_box" />
+                </LinearLayout>
+                <TabHost android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09026e" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="515.0dip">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TabWidget android:id="@android:id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+                        <View android:background="@drawable/skin_list_item_pressed" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                        <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                            <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09026f" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+                            <android.support.v4.view.ViewPager android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090270" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                        </FrameLayout>
+                    </LinearLayout>
+                </TabHost>
+            </LinearLayout>
+        </LinearLayout>
+    </com.huangye.activity.QQYPScrollView>
+    <com.huangye.activity.widget.QQYPIndexView android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918de" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020464" android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:paddingRight="10.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+</RelativeLayout>

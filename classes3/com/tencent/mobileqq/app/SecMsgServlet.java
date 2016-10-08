@@ -1,0 +1,80 @@
+package com.tencent.mobileqq.app;
+
+import android.content.Intent;
+import android.os.Bundle;
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import com.tencent.mobileqq.utils.httputils.PkgTools;
+import com.tencent.qphone.base.remote.FromServiceMsg;
+import com.tencent.qphone.base.util.QLog;
+import mqq.app.MSFServlet;
+import mqq.app.Packet;
+
+public class SecMsgServlet
+  extends MSFServlet
+{
+  public static final String a = "cmd";
+  public static final String b = "data";
+  public static final String c = "timeout";
+  private static final String d = "SecMsgServlet";
+  private static final String e = "secmsg.";
+  
+  public SecMsgServlet()
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+  }
+  
+  public void onReceive(Intent paramIntent, FromServiceMsg paramFromServiceMsg)
+  {
+    if (QLog.isColorLevel()) {
+      QLog.d("SecMsgServlet", 2, "onReceive cmd=" + paramIntent.getStringExtra("cmd"));
+    }
+    byte[] arrayOfByte;
+    if (paramFromServiceMsg.isSuccess())
+    {
+      int i = paramFromServiceMsg.getWupBuffer().length - 4;
+      arrayOfByte = new byte[i];
+      PkgTools.a(arrayOfByte, 0, paramFromServiceMsg.getWupBuffer(), 4, i);
+    }
+    for (;;)
+    {
+      new Bundle().putByteArray("data", arrayOfByte);
+      SecMsgHandler localSecMsgHandler = (SecMsgHandler)((QQAppInterface)super.getAppRuntime()).a(40);
+      if (localSecMsgHandler != null) {
+        localSecMsgHandler.a(paramIntent, paramFromServiceMsg, arrayOfByte);
+      }
+      if (QLog.isColorLevel()) {
+        QLog.d("SecMsgServlet", 2, "onReceive exit");
+      }
+      return;
+      arrayOfByte = null;
+    }
+  }
+  
+  public void onSend(Intent paramIntent, Packet paramPacket)
+  {
+    if (QLog.isColorLevel()) {
+      QLog.d("SecMsgServlet", 2, "onSend cmd=" + paramIntent.getStringExtra("cmd"));
+    }
+    String str = paramIntent.getStringExtra("cmd");
+    byte[] arrayOfByte = paramIntent.getByteArrayExtra("data");
+    long l = paramIntent.getLongExtra("timeout", 30000L);
+    paramPacket.setSSOCommand("secmsg." + str);
+    paramPacket.setTimeout(l);
+    if (arrayOfByte != null)
+    {
+      paramIntent = new byte[arrayOfByte.length + 4];
+      PkgTools.a(paramIntent, 0, arrayOfByte.length + 4);
+      PkgTools.a(paramIntent, 4, arrayOfByte, arrayOfByte.length);
+      paramPacket.putSendData(paramIntent);
+    }
+    if (QLog.isColorLevel()) {
+      QLog.d("SecMsgServlet", 2, "onSend exit");
+    }
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes3-dex2jar.jar!\com\tencent\mobileqq\app\SecMsgServlet.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

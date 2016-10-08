@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.av.smallscreen.SmallScreenRelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c5a" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a080f"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090a80" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:tencent="http://schemas.android.com/apk/res/com.tencent.mobileqq">
+        <com.tencent.av.opengl.ui.GLRootView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c5b" android:layout_width="fill_parent" android:layout_height="fill_parent" tencent:is_smallscreen="true" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c5c" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c051a" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c051a" android:layout_marginLeft="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020e9c" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c5d" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0205e4" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.tencent.av.widget.RotateLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c5e" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c5f" android:layout_width="wrap_content" android:layout_height="wrap_content" tencent:layout_angle="0">
+                <TextView android:textSize="10.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b01c3" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090bc2" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0425" android:layout_height="wrap_content" android:text="@null" android:singleLine="true" />
+                <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0013" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03b0" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090bc4" android:background="@drawable/skin_aio_friend_bubble_nor" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="44.0dip" android:text="@null" />
+            </LinearLayout>
+        </com.tencent.av.widget.RotateLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906ca" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906cb" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" style="@style/LoadingProgressStyle" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090a86" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0206cf" android:contentDescription="@null" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b01c6" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906cc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090af4" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b01da" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.tencent.av.smallscreen.SmallScreenRelativeLayout>

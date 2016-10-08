@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09036b" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_alignParentTop="true" />
+            <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09036c" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+            <com.tencent.mobileqq.widget.QQVideoView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09036d" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09036e" android:layout_width="fill_parent" android:layout_height="250.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_centerHorizontal="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f09036e">
+                <ImageView android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09036f" android:layout_width="254.0dip" android:layout_height="41.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02dd" android:layout_marginRight="15.0dip" android:scaleType="fitXY" />
+                <Button android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090370" android:layout_width="250.0dip" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02de" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2941" style="@style/BlessRoundButton" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <RelativeLayout android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.widget.immersive.ImmersiveTitleBar2 android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090371" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_alignParentTop="true" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090372" android:padding="0.0px" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090371">
+            <TextView android:textSize="19.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:ellipsize="end" android:gravity="center" android:id="@id/ivTitleName" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2940" android:singleLine="true" android:layout_centerInParent="true" />
+            <TextView android:textSize="17.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0324" android:gravity="center" android:id="@id/ivTitleBtnLeft" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201f6" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:maxWidth="88.0dip" android:minWidth="55.0dip" android:text="@string/button_back" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

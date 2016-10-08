@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02fd" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02f3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02fd" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02f3">
+        <com.tencent.mobileqq.hotchat.ui.GlowView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0915a1" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02ff" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02ff" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0915a2" android:layout_width="7.0dip" android:layout_height="7.0dip" android:layout_marginLeft="72.0dip" android:layout_marginTop="33.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0216b9" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0915a3" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="63.0dip" android:layout_marginTop="33.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0203ea" />
+    </RelativeLayout>
+</RelativeLayout>

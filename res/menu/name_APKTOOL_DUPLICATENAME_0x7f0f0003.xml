@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923e5" android:title="取消订阅" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923e6" android:title="屏蔽" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923e7" android:title="发消息" />
+</menu>

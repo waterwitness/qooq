@@ -1,0 +1,33 @@
+package com.tencent.pb.vipfontupdate;
+
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import com.tencent.mobileqq.pb.MessageMicro;
+import com.tencent.mobileqq.pb.MessageMicro.FieldMap;
+import com.tencent.mobileqq.pb.PBField;
+import com.tencent.mobileqq.pb.PBInt32Field;
+import com.tencent.mobileqq.pb.PBStringField;
+import com.tencent.mobileqq.pb.PBUInt32Field;
+import com.tencent.mobileqq.pb.PBUInt64Field;
+
+public final class VipFontUpdate$TFontSsoRsp
+  extends MessageMicro
+{
+  static final MessageMicro.FieldMap __fieldMap__ = MessageMicro.initFieldMap(new int[] { 8, 18, 24, 32, 42, 50 }, new String[] { "i32_ret", "str_msg", "u32_cmd", "u64_seq", "st_fresh_rsp", "st_md5_check_rsp" }, new Object[] { Integer.valueOf(0), "", Integer.valueOf(0), Long.valueOf(0L), null, null }, TFontSsoRsp.class);
+  public final PBInt32Field i32_ret = PBField.initInt32(0);
+  public VipFontUpdate.TFontFreshRsp st_fresh_rsp = new VipFontUpdate.TFontFreshRsp();
+  public VipFontUpdate.TFontMd5CheckRsp st_md5_check_rsp = new VipFontUpdate.TFontMd5CheckRsp();
+  public final PBStringField str_msg = PBField.initString("");
+  public final PBUInt32Field u32_cmd = PBField.initUInt32(0);
+  public final PBUInt64Field u64_seq = PBField.initUInt64(0L);
+  
+  static
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes2-dex2jar.jar!\com\tencent\pb\vipfontupdate\VipFontUpdate$TFontSsoRsp.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

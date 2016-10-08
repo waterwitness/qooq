@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title" android:background="#ff12b7f5" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0916be" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a12ed" android:drawableLeft="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0203f9" android:drawablePadding="2.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0916bf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="找校友" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0916c0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:src="@drawable/common_loading5" android:layout_toLeftOf="@id/name_APKTOOL_DUPLICATENAME_0x7f0916bf" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09065f" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="14.0dip" android:textColor="#ff777777" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090596" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="正在加载…" android:layout_centerInParent="true" />
+        <Button android:textSize="16.0dip" android:textColor="#ffffffff" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0916c1" android:background="@drawable/common_btn_blue" android:visibility="gone" android:layout_width="120.0dip" android:layout_height="44.0dip" android:layout_marginTop="20.0dip" android:text="重新加载" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090596" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

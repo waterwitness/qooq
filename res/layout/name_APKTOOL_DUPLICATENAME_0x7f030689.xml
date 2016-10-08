@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c59" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" layout="@layout/qzone_custom_tab_commen_title" />
+    <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09065e" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

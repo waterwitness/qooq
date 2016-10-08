@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906a1" android:layout_width="wrap_content" android:layout_height="200.0dip" android:layout_marginTop="100.0dip" android:layout_centerHorizontal="true">
+        <com.qqdataline.wifiphoto.RouterWifiPhotoGallery android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906a2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:spacing="2.0dip" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f0906a3" />
+        <com.dataline.util.widget.AsyncImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09024c" android:background="#00ff0000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0211ff" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f0906a3" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ce" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906a3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <Button android:textSize="20.0sp" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906a4" android:paddingLeft="60.0dip" android:paddingRight="60.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="50.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="10.0dip" android:text="" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0906a1" android:layout_centerHorizontal="true" style="@style/ButtonBlue" />
+</RelativeLayout>

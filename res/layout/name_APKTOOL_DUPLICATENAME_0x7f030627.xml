@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff353535" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custom="http://schemas.android.com/apk/res/com.tencent.mobileqq">
+    <com.tencent.mobileqq.widget.ProfileCardScrollImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091bbb" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <Button android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091bbc" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0202ca" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a23a4" android:layout_alignParentBottom="true" />
+    <com.tencent.widget.CirclePageIndicator android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919f2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f091bbc" android:layout_centerHorizontal="true" custom:fillColor="#ffffffff" custom:pageColor="#ff5d5d5d" custom:circle_radius="3.0dip" />
+    <com.tencent.mobileqq.profile.view.VipScaledViewPager android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090270" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f0919f2" custom:matchChildId="@id/name_APKTOOL_DUPLICATENAME_0x7f091ba6" />
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091793" android:background="#77000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

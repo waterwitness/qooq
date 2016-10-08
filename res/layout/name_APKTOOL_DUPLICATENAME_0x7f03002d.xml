@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902eb" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <LinearLayout android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902ec" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0207d8" android:visibility="gone" android:layout_width="160.0dip" android:layout_height="33.0dip" android:layout_marginBottom="65.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ProgressBar android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902ed" android:layout_width="18.0dip" android:layout_height="18.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/common_loading5" android:indeterminateBehavior="repeat" />
+        <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c003b" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902ee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2348" />
+    </LinearLayout>
+    <com.tencent.biz.ui.CustomMenuBar android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902ef" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021584" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.tencent.mobileqq.widget.PublicMenuBar android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902f0" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020dc0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</merge>

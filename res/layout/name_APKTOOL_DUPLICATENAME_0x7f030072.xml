@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090465" android:background="#ffe3f3ff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090466" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="3.0dip" android:max="100" android:progressDrawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0207d7" android:layout_alignParentTop="true" style="?android:attr/progressBarStyleHorizontal" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090467" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0051" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090468" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:drawablePadding="8.0dip" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090469" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/common_icon_arrow_right" android:maxHeight="30.0dip" />
+    </LinearLayout>
+</RelativeLayout>

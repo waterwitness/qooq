@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091137" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090372" android:padding="0.0px" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height">
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@id/ivTitleName" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@null" android:singleLine="true" android:layout_centerInParent="true" style="@style/TitleText" />
+        <TextView android:gravity="center" android:id="@id/ivTitleBtnLeft" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:maxWidth="88.0dip" android:minWidth="55.0dip" android:text="@null" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/TitleBtn" />
+        <TextView android:id="@id/ivTitleBtnRightText" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0a0c" style="@style/CommonTitleRightTxt" />
+    </RelativeLayout>
+    <com.tencent.mobileqq.troop.widget.RadarView android:layout_gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091138" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.tencent.mobileqq.troop.widget.ScaleGallery android:layout_gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091139" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02a8" android:layout_marginBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02aa" android:spacing="-15.0dip" />
+</LinearLayout>

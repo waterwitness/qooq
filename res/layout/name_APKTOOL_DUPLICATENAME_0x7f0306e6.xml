@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091f5d" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <CheckBox android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091f5e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="choose test environment" />
+    <CheckBox android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091f5f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="enable local url" />
+    <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091f60" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

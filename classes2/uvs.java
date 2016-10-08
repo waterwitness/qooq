@@ -1,0 +1,24 @@
+import android.view.View;
+import android.view.View.OnLongClickListener;
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import com.tencent.mobileqq.structmsg.StructMsgItemLive;
+
+public class uvs
+  implements View.OnLongClickListener
+{
+  public uvs(StructMsgItemLive paramStructMsgItemLive)
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+  }
+  
+  public boolean onLongClick(View paramView)
+  {
+    return true;
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes2-dex2jar.jar!\uvs.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qzone.widget.LinerLayoutForListViewItem android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091dd1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091dd2" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c05d9">
+        <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091dd3" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+        <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091dd4" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0031" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f091dd3" />
+        <com.qzone.cover.business.QZoneWidgetControllerDecorator android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c5f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:layout_marginBottom="51.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <com.qzone.cover.ui.QzoneAvatarDecorator android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c20" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginBottom="46.0dip" android:layout_alignParentBottom="true" />
+        <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091dd5" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f03070c" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c05e3" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c05e4" android:layout_marginLeft="9.0dip" android:layout_marginBottom="-13.0dip" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f091c20" android:layout_alignParentLeft="true" />
+        <com.qzone.navigationbar.NavigatorBar android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091dd6" android:background="#80000000" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c05db" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f091dd3" />
+    </RelativeLayout>
+    <include android:layout_width="fill_parent" android:layout_height="50.0dip" layout="@layout/qzone_viewstub_feed_mood_entry" />
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091dd7" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f030696" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.qzone.widget.LinerLayoutForListViewItem>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0200ac" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923b8" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a276f" />
+</menu>

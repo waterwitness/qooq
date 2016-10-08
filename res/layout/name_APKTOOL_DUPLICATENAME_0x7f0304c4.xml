@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.widget.PinnedHeaderExpandableListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0916c6" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:scrollingCache="false" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0dip" />
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0916c7" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f0304b3" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0916c8" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/common_main_loading" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091be4" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="25.0dip" />
+    <RelativeLayout android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f091be4">
+        <TextView android:textSize="14.0sp" android:textColor="#ff808080" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091be5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2419" android:maxLines="1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <Button android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091be6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a240c" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/SmallButtonBlue" />
+    </RelativeLayout>
+    <TextView android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_below="@id/info" />
+</RelativeLayout>

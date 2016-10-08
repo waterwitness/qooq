@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02004a" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0013" android:textStyle="bold" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0904cf" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="20.0dip" android:text="@null" android:maxLines="2" android:layout_weight="1.0" />
+    <com.tencent.image.URLImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0904d0" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:scaleType="fitXY" />
+</LinearLayout>

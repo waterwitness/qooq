@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0214bf" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.qzone.proxy.feedcomponent.model.SafeTextView android:textSize="12.0sp" android:gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092068" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="给更多好友送礼物" android:drawableTop="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021250" android:drawablePadding="15.0dip" />
+</RelativeLayout>

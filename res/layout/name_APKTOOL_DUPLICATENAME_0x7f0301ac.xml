@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090999" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tencent.widget.GridView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09099a" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/title_bar_height" android:layout_marginBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c033b" android:listSelector="@null" />
+    </LinearLayout>
+</LinearLayout>

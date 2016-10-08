@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/root" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021605" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0753">
+        <com.huangye.activity.widget.CycleViewPager android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09190e" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090a90" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:layout_width="wrap_content" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0751" android:layout_marginTop="8.0dip" android:layout_marginBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0752" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c073c" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ce" android:gravity="center|left" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09190f" android:background="@drawable/skin_group_list_sub_entry" android:paddingLeft="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c073d" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c073b" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2af9" android:layout_below="@id/root" />
+</RelativeLayout>

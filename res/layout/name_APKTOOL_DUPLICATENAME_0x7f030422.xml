@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/skin_setting_strip_top_unpressed" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a6" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091408" android:background="@null" android:layout_marginRight="50.0dip" android:hint="@string/name_APKTOOL_DUPLICATENAME_0x7f0a24ea" android:layout_centerVertical="true" android:inputType="number" style="@style/BusinessCardEditTextView" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091409" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020bf3" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02cb" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1ae4" />
+</RelativeLayout>

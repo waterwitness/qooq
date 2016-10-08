@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091272" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+        <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091273" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0076" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0328" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091274" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a03a4" android:drawablePadding="6.0dip" />
+        <RelativeLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091275" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+    </LinearLayout>
+    <com.tencent.mobileqq.filemanager.widget.SendBottomBar android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09126c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.tencent.mobileqq.filemanager.widget.QfileEditBottomBar android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091231" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

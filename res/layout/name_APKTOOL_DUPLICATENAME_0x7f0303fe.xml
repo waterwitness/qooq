@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mobileqq.widget.ClearableEditText android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03dd" android:textColorHint="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03db" android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cc4" android:background="@drawable/skin_setting_strip_bg_unpressed" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0240" android:hint="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1aa1" android:drawablePadding="6.0dip" style="@style/common_single_line_input_box_style" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ce" android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091362" android:background="@drawable/skin_group_list_sub_entry" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="28.5dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0a92" />
+</LinearLayout>

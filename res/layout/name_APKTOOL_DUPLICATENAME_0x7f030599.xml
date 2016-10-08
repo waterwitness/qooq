@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center|left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020fc1" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginLeft="20.0dip" android:layout_marginBottom="80.0dip">
+        <ImageView android:layout_width="16.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020fc3" />
+        <TextView android:textSize="18.0dip" android:textColor="@android:color/white" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091974" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="16.0dip" android:text="深圳市,南山区" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0250" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/qb_tenpay_common_title_bar" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020836" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="8.0dip">
+        <Button android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0354" android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09102d" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02083b" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0ec1" style="@style/qb_tenpay_link_blue" />
+        <View style="@style/qb_tenpay_line" />
+        <Button android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0354" android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09102e" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02083b" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0ec3" style="@style/qb_tenpay_link_blue" />
+    </LinearLayout>
+    <TextView android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0250" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0ec6" style="@style/qb_tenpay_txt_gray" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091f82" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091f89" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0212ee" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0025" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09155c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f091f89" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0915cb" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021331" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

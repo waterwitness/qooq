@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b006b" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091daf" android:paddingLeft="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c058e" android:paddingTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c058e" android:paddingRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c058e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091db0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c003b" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0306" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09064c" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021204" android:layout_width="250.0dip" android:layout_height="40.0dip" android:layout_marginBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0595" android:text="立即下载" android:layout_alignBottom="@id/name_APKTOOL_DUPLICATENAME_0x7f091db0" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021203" android:layout_alignTop="@id/name_APKTOOL_DUPLICATENAME_0x7f091daf" android:layout_alignRight="@id/name_APKTOOL_DUPLICATENAME_0x7f091daf" />
+</RelativeLayout>

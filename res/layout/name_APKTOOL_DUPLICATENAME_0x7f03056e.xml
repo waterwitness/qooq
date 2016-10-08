@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b031d" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091436" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0738" android:text="北京" android:drawableRight="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020f07" android:drawablePadding="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0737"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

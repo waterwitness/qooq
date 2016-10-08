@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091a81" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020039" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="44.0dip" android:layout_toRightOf="@id/icon" android:layout_below="@id/textView1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mobileqq.widget.AnimationTextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0013" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03b0" android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0904ce" android:paddingLeft="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c00b7" android:paddingTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c00b5" android:paddingRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c00b8" android:paddingBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c00b6" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="32.0dip" android:text="@null" />
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090088" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tencent.mobileqq.widget.RotateableView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091a82" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021028" />
+    </RelativeLayout>
+</LinearLayout>

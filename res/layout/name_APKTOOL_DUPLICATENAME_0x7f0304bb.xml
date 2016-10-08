@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/head_layout" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0312" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0313" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020d4f" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0912ab" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c030c" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c030d" android:layout_marginLeft="75.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020d52" android:scaleType="centerInside" android:layout_below="@id/head_layout" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0916ba" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c030a" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c030a" android:layout_marginLeft="75.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020d59" android:scaleType="centerCrop" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0912ab" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e04" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c030e" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c030f" android:layout_marginLeft="10.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020d53" android:scaleType="centerInside" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f0916ba" android:layout_alignBottom="@id/name_APKTOOL_DUPLICATENAME_0x7f0916ba" />
+    </RelativeLayout>
+</LinearLayout>

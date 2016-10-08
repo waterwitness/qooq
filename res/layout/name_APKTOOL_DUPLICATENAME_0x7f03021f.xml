@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c02" layout="@layout/qav_multi_member_item" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c03" layout="@layout/qav_multi_member_item" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c04" layout="@layout/qav_multi_member_item" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c05" layout="@layout/qav_multi_member_item" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090c01" android:layout_centerHorizontal="true">
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c07" layout="@layout/qav_multi_member_item" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c08" layout="@layout/qav_multi_member_item" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c09" layout="@layout/qav_multi_member_item" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c0a" layout="@layout/qav_multi_member_item" />
+    </LinearLayout>
+</RelativeLayout>

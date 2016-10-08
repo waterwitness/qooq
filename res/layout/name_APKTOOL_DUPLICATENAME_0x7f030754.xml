@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tencent="http://schemas.android.com/apk/res/com.tencent.mobileqq">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021545" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip">
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0022" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a6" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092113" android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1a22" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0022" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ce" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091436" android:background="@android:color/white" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="CHINA" android:layout_toLeftOf="@id/name_APKTOOL_DUPLICATENAME_0x7f092114" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f092113" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0022" android:textColor="@color/skin_blue" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092114" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="15.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a173c" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021549" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0022" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a6" android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1a23" />
+            <EditText android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ce" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092115" android:background="@android:color/white" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="15.0dip" android:hint="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1a24" android:maxLength="20" android:inputType="number" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip">
+        <CheckBox android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0024" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ce" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092116" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02024d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1a28" />
+        <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0024" android:textColor="@color/skin_blue" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092117" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1a29" />
+    </LinearLayout>
+</LinearLayout>

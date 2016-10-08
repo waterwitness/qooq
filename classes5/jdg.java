@@ -1,0 +1,40 @@
+import android.content.Intent;
+import com.tencent.biz.troop.TroopMemberApiService;
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import oicq.wlogin_sdk.request.WFastLoginInfo;
+import oicq.wlogin_sdk.request.WUserSigInfo;
+import oicq.wlogin_sdk.request.WtloginHelper;
+import oicq.wlogin_sdk.request.WtloginListener;
+import oicq.wlogin_sdk.tools.ErrMsg;
+
+public class jdg
+  extends WtloginListener
+{
+  public jdg(TroopMemberApiService paramTroopMemberApiService, WtloginHelper paramWtloginHelper)
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+  }
+  
+  public void OnException(ErrMsg paramErrMsg, int paramInt, WUserSigInfo paramWUserSigInfo)
+  {
+    super.OnException(paramErrMsg, paramInt, paramWUserSigInfo);
+    this.jdField_a_of_type_ComTencentBizTroopTroopMemberApiService.a(62, null);
+  }
+  
+  public void onGetA1WithA1(String paramString, long paramLong1, int paramInt1, long paramLong2, byte[] paramArrayOfByte1, long paramLong3, long paramLong4, long paramLong5, byte[] paramArrayOfByte2, byte[] paramArrayOfByte3, WUserSigInfo paramWUserSigInfo, WFastLoginInfo paramWFastLoginInfo, int paramInt2, ErrMsg paramErrMsg)
+  {
+    if (paramInt2 == 0)
+    {
+      paramString = this.jdField_a_of_type_OicqWlogin_sdkRequestWtloginHelper.PrepareQloginResult(paramString, paramLong4, paramLong5, paramInt2, paramWFastLoginInfo);
+      this.jdField_a_of_type_ComTencentBizTroopTroopMemberApiService.a(62, paramString.getExtras());
+      return;
+    }
+    this.jdField_a_of_type_ComTencentBizTroopTroopMemberApiService.a(62, null);
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes5-dex2jar.jar!\jdg.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

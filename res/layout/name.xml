@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090229" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="#ffe2e3e4" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

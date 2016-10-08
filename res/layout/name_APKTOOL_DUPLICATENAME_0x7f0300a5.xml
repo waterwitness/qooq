@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mobileqq.activity.main.CommonLoadingView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090595" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03db" android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090596" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="正在加载…" />
+</com.tencent.mobileqq.activity.main.CommonLoadingView>

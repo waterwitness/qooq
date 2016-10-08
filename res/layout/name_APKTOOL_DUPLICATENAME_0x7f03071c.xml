@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qzone.module.feedcomponent.ui.FeedSeparator android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092027" android:background="@null" android:paddingTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c06a4" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

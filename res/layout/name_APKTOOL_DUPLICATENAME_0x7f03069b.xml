@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cooperation.qzone.QZoneTopGestureLayout android:orientation="vertical" android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:qzone="http://schemas.android.com/apk/res-auto">
+    <com.qzone.widget.QZonePullToRefreshListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c56" android:scrollbars="@null" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="0.0dip" android:listSelector="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0dip" qzone:ptrCoverMode="true" />
+    <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091dee" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0030" android:layout_alignParentTop="true">
+        <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c57" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c002f" />
+        <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c58" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021462" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0031" />
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c59" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c002e" layout="@layout/qzone_custom_commen_title" />
+    </FrameLayout>
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c5a" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f030693" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091def" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f0306ff" android:inflatedId="@id/name_APKTOOL_DUPLICATENAME_0x7f091c5b" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c002f" android:layout_alignParentRight="true" />
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091df0" android:visibility="gone" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f0306c8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091c5c" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f030694" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091df1" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f0306b5" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</cooperation.qzone.QZoneTopGestureLayout>

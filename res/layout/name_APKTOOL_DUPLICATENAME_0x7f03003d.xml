@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0119" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0117"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.image.URLImageView android:id="@id/tabView" android:background="@null" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0118" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0118" android:scaleType="centerCrop" android:adjustViewBounds="false" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090345" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0216b9" android:layout_toRightOf="@id/tabView" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <View android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902c4" android:layout_width="1.0dip" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0113" />
+</LinearLayout>

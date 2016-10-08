@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021605" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.dataline.util.widget.NoScrollGridView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09190b" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0744" android:stretchMode="columnWidth" android:numColumns="4" />
+    <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c073c" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ce" android:gravity="center|left" android:background="@drawable/skin_group_list_sub_entry" android:paddingLeft="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c073d" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c073b" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2afa" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2afb" />
+</LinearLayout>

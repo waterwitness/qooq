@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.image.URLImageView android:id="@id/pic" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="10.0dip" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+    <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090db3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090db4" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020788" android:scaleType="centerCrop" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b020e" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090db5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </FrameLayout>
+    <TextView android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0051" android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09023d" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="15.0dip" android:layout_toLeftOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090db3" android:layout_toRightOf="@id/pic" android:layout_centerVertical="true" />
+    <View android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0208" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="65.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

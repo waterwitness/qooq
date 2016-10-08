@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="20.0dip">
+        <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="该页面仅在测试版本中出现" />
+    </FrameLayout>
+    <Spinner android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090748" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.dingdong.widget.DingdongListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090749" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="1.0dip" android:listSelector="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0203c3" android:divider="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0203cc" android:dividerHeight="0.5dip" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09065e" android:background="#ff181818" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091502" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_below="@id/title">
+        <com.qzone.video.widget.FixedSizeVideoView android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091503" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091504" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <ImageView android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091505" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021478" android:scaleType="center" />
+    </FrameLayout>
+    <com.qzone.video.widget.VideoFrameSelectBar android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091506" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

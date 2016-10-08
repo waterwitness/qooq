@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090722" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090723" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0203b9" android:clickable="false" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090722" android:layout_width="fill_parent" android:layout_height="45.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ce" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090724" android:layout_width="160.0dip" android:layout_height="48.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0309" android:singleLine="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090725" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0203b9" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="12.0dip" android:layout_toLeftOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090724" android:layout_centerVertical="true" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090726" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0203b9" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="18.0dip" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090724" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090723" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0203b9" android:clickable="false" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

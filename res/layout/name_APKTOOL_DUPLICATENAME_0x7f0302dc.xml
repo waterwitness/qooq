@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e2a" android:background="#0c000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e2b" android:paddingBottom="15.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090ea9" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b013a" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentTop="true" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b021e" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0abc" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <ImageButton android:id="@id/close" android:background="@null" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginRight="3.5dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0207f7" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.tencent.widget.HorizontalListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090eaa" android:background="@null" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginBottom="19.0dip" />
+</LinearLayout>

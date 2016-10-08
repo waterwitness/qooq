@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/newer_mask_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="65.0dip">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09021e" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020430" android:layout_width="65.0dip" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_alignParentRight="true" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2394" />
+        <ImageView android:background="#95000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="65.0dip" />
+    </RelativeLayout>
+    <RelativeLayout android:background="#95000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="65.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="55.0dip" android:layout_marginRight="20.0dip">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0922b9" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020431" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2395" />
+    </RelativeLayout>
+</RelativeLayout>

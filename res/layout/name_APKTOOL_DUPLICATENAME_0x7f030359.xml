@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910ea" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910eb" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:editable="false" />
+    <com.tencent.mobileqq.troop.widget.TroopFileListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910ec" android:layout_width="fill_parent" android:layout_height="fill_parent" android:transcriptMode="disabled" android:cacheColorHint="@null" android:divider="@null" android:dividerHeight="0.0dip" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910ed" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020756" android:visibility="gone" android:layout_width="90.0dip" android:layout_height="110.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="25.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910ee" android:background="@android:color/transparent" android:paddingBottom="100.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910e8" android:layout_width="110.0dip" android:layout_height="90.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b026a" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910e9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0910e8" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/qb_group_file_upload_optionbar" />
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910ef" android:visibility="gone" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f030353" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

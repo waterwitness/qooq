@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:focusable="true" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:formItem="http://schemas.android.com/apk/res/com.tencent.mobileqq">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906b7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906b8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0203a4" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffa6a6a6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0286" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0906b8" android:layout_centerHorizontal="true" />`
+</RelativeLayout>
+    <TextView android:gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906b9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="6.0dip" android:text="开启后将可以接收到设备发来的消息" android:layout_centerHorizontal="true" style="@style/D4_Font" />
+    <com.tencent.mobileqq.widget.BounceScrollView android:scrollbarThumbVertical="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02150e" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906ba" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:focusable="true" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0906b9">
+        <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906bb" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.tencent.mobileqq.widget.BounceScrollView>
+</RelativeLayout>

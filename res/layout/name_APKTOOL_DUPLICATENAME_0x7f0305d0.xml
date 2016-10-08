@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e17" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="60.0dip">
+        <View android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02047a" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="30.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0381" android:gravity="center" android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090a73" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a18ba" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902ed" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:minHeight="60.0dip">
+        <ProgressBar android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091a85" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="12.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02045f" android:indeterminateBehavior="repeat" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03d2" android:gravity="center" android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090899" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a18bb" />
+    </LinearLayout>
+</LinearLayout>

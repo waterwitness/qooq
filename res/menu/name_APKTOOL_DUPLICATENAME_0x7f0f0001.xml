@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923b9" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a17d4" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923ba" android:title="调试" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923bb" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a17d5" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923bc" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a17d6" />
+    <item android:icon="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0204a1" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923bd" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a156c" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923be" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1839" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923bf" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a183a" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923c0" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a28d1" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923c1" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a183e" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090491" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1d41" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e01" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0ffe" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923c2" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1866" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923c3" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1867" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923c4" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1d41" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090061" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1860" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09140b" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a156d" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923c5" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a157b" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923c6" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1d4a" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923c7" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1d4b" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923c8" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1d4c" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923c9" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a226a" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923ca" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0d56" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923cb" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0d4b" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923cc" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a03c1" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923cd" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a03c0" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923ce" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a03bc" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923cf" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1860" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923d0" android:title="打开厘米秀" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923d1" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0476" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923d2" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0474" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923d3" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0475" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923d4" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a019c" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923d5" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a11ac" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923d6" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0943" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923d7" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0943" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923d8" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0944" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923d9" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0944" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923da" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0945" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923db" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0946" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923dc" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0947" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923dd" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0948" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923de" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0949" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923df" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a094a" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923e0" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a094b" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923e1" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a094c" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923e2" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a094d" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923e3" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0d1e" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923e4" android:title="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0d1f" />
+    <item android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0923ba" android:title="调试信息" />
+</menu>

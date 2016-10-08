@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020328" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0745"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.widget.FixSizeImageView android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918f7" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0746" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0747" android:layout_marginLeft="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0748" android:layout_marginRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0749" android:scaleType="fitXY" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c074a" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a6" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918f8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f0918f7" android:layout_centerVertical="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c074e" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CardInfoItemArrow" />
+</RelativeLayout>

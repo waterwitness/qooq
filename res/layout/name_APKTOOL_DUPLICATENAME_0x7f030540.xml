@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090362" style="@style/TroopInfoExItemArrow2" />
+    <RelativeLayout android:id="@id/head" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090362" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <TextView android:id="@id/title" style="@style/TroopInfoExItemTitle" />
+        <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091120" style="@style/TroopInfoExItemReddot" />
+        <LinearLayout android:id="@id/content" style="@style/TroopInfoExItemContent2">
+            <View style="@style/TroopInfoExItemSpace" />"
+<TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918b6" style="@style/TroopInfoExItemInfo" />"
+</LinearLayout>
+    </RelativeLayout>
+    <TextView android:textSize="15.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03d4" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0125" android:layout_marginBottom="20.0dip" android:layout_toLeftOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090362" android:layout_below="@id/head" android:layout_alignParentLeft="true" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/info" />
+</RelativeLayout>

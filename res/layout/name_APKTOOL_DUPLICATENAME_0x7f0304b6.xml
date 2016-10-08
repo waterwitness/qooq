@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09164e" android:visibility="gone" layout="@layout/qq_nearpeople_edit_interest" />
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09164c" android:visibility="gone" layout="@layout/qq_nearpeople_no_more" />
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09164d" android:visibility="gone" layout="@layout/morebtn_footer" />
+</LinearLayout>

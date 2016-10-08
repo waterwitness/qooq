@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091af4" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02032d" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.widget.XListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091af5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_alignParentTop="true" />
+    <com.tencent.mobileqq.maproam.widget.RoamLocalSearchBar android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091af6" android:background="@drawable/skin_header_bar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c01a2" android:layout_alignTop="@id/name_APKTOOL_DUPLICATENAME_0x7f091af5" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091af7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c01a1" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f091af6" layout="@layout/qvip_maproam_roam_filter" />
+</RelativeLayout>

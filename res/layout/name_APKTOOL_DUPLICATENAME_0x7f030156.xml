@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b001b" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090845" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <EditText android:textStyle="bold" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090846" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:scrollHorizontally="true" android:selectAllOnFocus="true" android:inputType="text" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffefeff4" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020f40" android:scaleType="centerCrop" />
+        <TextView android:textSize="16.0dip" android:textColor="#ffa6a6a6" android:gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09078a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="50.0dip" android:text="该日迹已过期\n好友故事发表24小时后销毁" android:lineSpacingExtra="2.0dip" />
+    </LinearLayout>
+</RelativeLayout>

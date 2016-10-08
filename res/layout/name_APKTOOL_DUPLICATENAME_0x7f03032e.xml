@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c6d" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="15.0sp" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="余额" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090ff2" android:background="@drawable/cm_blue_check_checked" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="15.0dip" android:contentDescription="@null" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091062" android:background="@drawable/qvip_pay_pressed_cover_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View style="@style/qb_tenpay_line" />
+</FrameLayout>

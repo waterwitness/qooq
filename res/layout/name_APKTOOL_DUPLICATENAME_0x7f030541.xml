@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0123" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0332" android:id="@id/title" android:paddingBottom="0.0dip" style="@style/TroopInfoExItemTitle" />
+        <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091120" android:visibility="invisible" style="@style/TroopInfoExItemReddot4" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090362" style="@style/TroopInfoExItemArrow2" />
+        <LinearLayout android:id="@id/content" android:paddingBottom="0.0dip" style="@style/TroopInfoExItemContent">
+            <View style="@style/TroopInfoExItemSpace" />
+            <TextView android:id="@id/info" style="@style/TroopInfoExItemInfo" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918bb" android:paddingLeft="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0127" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/title">
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918bc" android:visibility="gone" style="@style/TroopInfoMemberFace" />
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918bd" android:visibility="gone" style="@style/TroopInfoMemberFace" />
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918be" android:visibility="gone" style="@style/TroopInfoMemberFace" />
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918bf" android:visibility="gone" style="@style/TroopInfoMemberFace" />
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918c0" android:visibility="gone" android:layout_width="50.0dip" style="@style/TroopInfoMemberFace" />
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918c1" android:visibility="gone" style="@style/TroopInfoMemberFace" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091fb1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091fb2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:layout_gravity="center|top" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091fb3" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1534" style="@style/SvInteractOverlayTpsText" />
+        <cooperation.qzone.video.interact.CircleProgressBar android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091fb4" android:visibility="invisible" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c06e5" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c06e5" />
+    </FrameLayout>
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091fb5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0211be" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <cooperation.qzone.video.interact.ParaMoveImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091fb6" android:visibility="gone" android:layout_width="200.0dip" android:layout_height="200.0dip" />
+</RelativeLayout>

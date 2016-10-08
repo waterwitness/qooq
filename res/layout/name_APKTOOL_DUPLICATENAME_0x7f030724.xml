@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qzone.module.feedcomponent.ui.FeedAttachView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09202f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c06a1"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

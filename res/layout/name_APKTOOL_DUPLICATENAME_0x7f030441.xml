@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090387" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09147c" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020ca9" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0dip" android:textColor="#ffdf0000" android:gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09147d" android:visibility="visible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="120.0dip" android:text="20:00派发红包" />
+    </LinearLayout>
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09147e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020ca6" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="春节活动入口" />
+</LinearLayout>

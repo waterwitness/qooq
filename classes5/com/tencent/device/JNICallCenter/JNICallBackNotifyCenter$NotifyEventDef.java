@@ -1,0 +1,168 @@
+package com.tencent.device.JNICallCenter;
+
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+
+public class JNICallBackNotifyCenter$NotifyEventDef
+{
+  public static final String A = "SmartDevice_AudioData";
+  public static final String B = "SmartDevice_VideoData";
+  public static final String C = "SmartDevice_TransferMsg";
+  public static final String D = "SmartDevice_VideoUserChange";
+  public static final String E = "SmartDevice_KickOut";
+  public static final String F = "SmartDevice_receiveDatalineCSReply";
+  public static final String G = "SmartDevice_receiveDatalineCCReply";
+  public static final String H = "SmartDevice_receiveDatalineCCPush";
+  public static final String I = "SmartDevice_clickOnDeviceList";
+  public static final String J = "SmartDevice_QueryIsDeviceBinded";
+  public static final String K = "SmartDevice_SendSharpMsg";
+  public static final String L = "SmartDevice_ReceiveSharpMsg";
+  public static final String M = "SmartDevice_ReceiveSharpAckMsg";
+  public static final String N = "SmartDevice_BlueToothDeviceSesssionKey";
+  public static final String O = "OnSmartlinkTimeout";
+  public static final String P = "SmartDevice_receiveVasFlagResult";
+  public static final String Q = "SmartDevice_devListChangeUI";
+  public static final String R = "SmartDevice_DeviceVasFlagChange";
+  public static final String S = "SmartDevice_OnMiniFileTransferComplete";
+  public static final String T = "SmartDevice_OnMiniFileTransferProgress";
+  public static final String U = "SmartDevice_OnDataPointFileMsgProgress";
+  public static final String V = "SmartDevice_OnDataPointFileMsgSendRet";
+  public static final String W = "SmartDevice_UploadMiniFileBegin";
+  public static final String X = "DeviceSomebodyJoin";
+  public static final String Y = "DeviceSomebodyQuit";
+  public static final String Z = "DeviceSomebodyReject";
+  public static final int a = 1;
+  public static final String a = "SmartDevice_login";
+  public static final String aA = "PublicDeviceName";
+  public static final String aB = "SampleRate";
+  public static final String aC = "ChannelConfig";
+  public static final String aD = "onDeviceBindReq";
+  public static final String aE = "onDeviceHandshakeReq";
+  public static final String aF = "onDevicePukRsp";
+  public static final String aG = "onDeviceDisconnected";
+  public static final String aH = "onDeviceLogined";
+  public static final String aI = "onServerHandshakeRsp";
+  public static final String aJ = "onServerBindRsp";
+  public static final String aK = "onDeviceSetProperty";
+  public static final String aL = "onDeviceGetProperty";
+  public static final String aM = "onDevicePostResult";
+  public static final String aN = "onScanFound";
+  public static final String aO = "onScanTimeout";
+  public static final String aP = "onConnectBegin";
+  public static final String aQ = "onQFindScanTimeout";
+  public static final String aR = "onLightAPPSendResult";
+  public static final String aS = "onDeviceVerifyRsp";
+  public static final String aT = "onServerQueryMac";
+  public static final String aU = "macAddress";
+  public static final String aV = "fakeMacAddress";
+  public static final String aW = "SvrEncryptData";
+  public static final String aX = "SessionKey";
+  public static final String aY = "State";
+  public static final String aZ = "onStartDownloadOtaFile";
+  public static final String aa = "DeviceAdminTransfer";
+  public static final String ab = "CloudPrintJobNotifyEvent";
+  public static final String ac = "SmartDevice_RTMPAudioData";
+  public static final String ad = "SmartDevice_RTMPNotify";
+  public static final String ae = "SmartDevice_Comment_Capture";
+  public static final String af = "On_Device_Auth_Request";
+  public static final String ag = "On_Device_Transfer_Request";
+  public static final String ah = "On_Fetch_Binder_List";
+  public static final String ai = "On_Fetch_Binder_limit";
+  public static final String aj = "logincode";
+  public static final String ak = "deviceopdin";
+  public static final String al = "deviceopuin";
+  public static final String am = "deviceoprstcode";
+  public static final String an = "NotifyData";
+  public static final String ao = "NotifyDataValue";
+  public static final String ap = "NotifyDataLength";
+  public static final String aq = "FrameType";
+  public static final String ar = "TimeStamp";
+  public static final String as = "Type";
+  public static final String at = "Msg";
+  public static final String au = "IsDeviceBinded";
+  public static final String av = "AdminBinderUin";
+  public static final String aw = "DeviceSerialNum";
+  public static final String ax = "DeviceUploadedInfoState";
+  public static final String ay = "PublicDeviceAttrib";
+  public static final String az = "ProductId";
+  public static final int b = 1300000607;
+  public static final String b = "SmartDevice_devListChang";
+  public static final String bA = "qfindReportCount";
+  public static final String bB = "onFaceTransferComplete";
+  public static final String bC = "onFaceTransferError";
+  public static final String bD = "onFaceManagementOpen";
+  public static final String bE = "On_DpNotify_Push";
+  public static final String bF = "On_OccupyMicrophoneNotify_Push";
+  public static final String bG = "on_Nas_Status_Update";
+  public static final String bH = "din";
+  public static final String bI = "status";
+  public static final String bJ = "onVoiceLinkNotify";
+  public static final String bK = "onBindFlowNotify";
+  public static final String bL = "deviceImageUpdate";
+  public static final String bM = "OnHistoryVideoResponse";
+  public static final String bN = "BindListSeq";
+  public static final String bO = "BindListNextIdx";
+  public static final String bP = "BindListUinList";
+  public static final String bQ = "BindListIsAdminList";
+  public static final String bR = "count";
+  public static final String ba = "onOtaFileProgress";
+  public static final String bb = "onOtaFileComplete";
+  public static final String bc = "onReportOtaResult";
+  public static final String bd = "onOtaQueryResult";
+  public static final String be = "onOtaQueryDeviceState";
+  public static final String bf = "onOtaSendResult";
+  public static final String bg = "onStartOta";
+  public static final String bh = "onOtaNotify";
+  public static final String bi = "from";
+  public static final String bj = "errorMsg";
+  public static final String bk = "progress";
+  public static final String bl = "progressMax";
+  public static final String bm = "resultCode";
+  public static final String bn = "otaResult";
+  public static final String bo = "otaSerialNum";
+  public static final String bp = "otaUpdateInfo";
+  public static final String bq = "otaCmd";
+  public static final String br = "otaReplaceTimeout";
+  public static final String bs = "onQFind_FIND_DEVICE";
+  public static final String bt = "onQFindOperationRst";
+  public static final String bu = "onQFindLostDeviceList";
+  public static final String bv = "onQFindReportMyDev";
+  public static final String bw = "qfind_operation";
+  public static final String bx = "qfind_result";
+  public static final String by = "qfind_dins";
+  public static final String bz = "qfindReportInterval";
+  public static final String c = "SmartDevice_nfcDevLstChange";
+  public static final String d = "SmartDevice_DeviceBindRst";
+  public static final String e = "SmartDevice_DeviceRegError";
+  public static final String f = "SmartDevice_DeviceUnBindRst";
+  public static final String g = "SmartDevice_DeviceAdminUnbind";
+  public static final String h = "SmartDevice_DeviceSetRemarkRst";
+  public static final String i = "SmartDevice_ProductFetchRst";
+  public static final String j = "SmartDevice_UpdateDeviceListResult";
+  public static final String k = "SmartDevice_UpdateDeviceStatusResult";
+  public static final String l = "SmartDevice_sendMsgResult";
+  public static final String m = "SmartDevice_sendTextMsgResult";
+  public static final String n = "SmartDevice_sendCCDataPointMsgResult";
+  public static final String o = "SmartDevice_ReceiveDPACKMsg";
+  public static final String p = "SmartDevice_sendCSDataPointMsgResult";
+  public static final String q = "SmartDevice_receiveMsg";
+  public static final String r = "SmartDevice_receiveDPMsg";
+  public static final String s = "SmartDevice_receiveRawMsg";
+  public static final String t = "SmartDevice_receiveOnlineMsg";
+  public static final String u = "SmartDevice_AVSessionConnect";
+  public static final String v = "SmartDevice_AVSessionTimeout";
+  public static final String w = "SmartDevice_AVSessionClose";
+  public static final String x = "SmartDevice_AVSessionReject";
+  public static final String y = "SmartDevice_AVFirstVideoFrame";
+  public static final String z = "SmartDevice_AVNetInfo";
+  
+  public JNICallBackNotifyCenter$NotifyEventDef(JNICallBackNotifyCenter paramJNICallBackNotifyCenter)
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes5-dex2jar.jar!\com\tencent\device\JNICallCenter\JNICallBackNotifyCenter$NotifyEventDef.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

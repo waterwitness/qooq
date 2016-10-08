@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908f9" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908fa" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02035a" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:gravity="center|left" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908fb" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1f52" android:drawableLeft="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02026d" android:drawablePadding="5.0dip" android:layout_weight="1.0" style="@style/common_tips_blue_font" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908fc" android:padding="10.0dip" android:clickable="true" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021735" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908fd" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02035a" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:gravity="center|left" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908fe" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0d78" android:drawablePadding="5.0dip" android:layout_weight="1.0" style="@style/common_tips_blue_font" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908ff" android:padding="10.0dip" android:clickable="true" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020857" />
+    </LinearLayout>
+</LinearLayout>

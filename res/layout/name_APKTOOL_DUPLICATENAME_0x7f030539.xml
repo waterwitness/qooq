@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0334"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0332" android:id="@id/title" android:layout_marginTop="13.0dip" style="@style/TroopInfoExItemTitle" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090362" style="@style/TroopInfoExItemArrow" />
+    <LinearLayout android:id="@id/content" android:layout_marginLeft="4.0dip" android:layout_marginTop="16.0dip" style="@style/TroopInfoExItemContent">
+        <View style="@style/TroopInfoExItemSpace" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0028" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918b4" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020a3e" android:paddingLeft="2.0dip" android:paddingTop="0.0dip" android:paddingRight="2.0dip" android:paddingBottom="0.0dip" android:visibility="gone" android:layout_marginTop="0.0dip" style="@style/TroopInfoExItemInfo" />
+            <TextView android:id="@id/info" android:layout_marginLeft="4.0dip" android:singleLine="true" style="@style/TroopInfoExItemInfo" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09196c" android:paddingTop="112.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09196d" android:layout_width="130.0dip" android:layout_height="130.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="22.0dip" android:textColor="#ffffffff" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09196e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="蜜汁蛋黄哥" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f09196d" android:layout_centerHorizontal="true" />
+        <ProgressBar android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0904a6" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020f2b" android:layout_width="100.0dip" android:layout_height="40.0dip" android:layout_marginTop="33.0dip" android:max="100" android:progress="100" android:indeterminateOnly="false" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f09196e" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="下载" android:layout_alignLeft="@id/name_APKTOOL_DUPLICATENAME_0x7f0904a6" android:layout_alignTop="@id/name_APKTOOL_DUPLICATENAME_0x7f0904a6" android:layout_alignRight="@id/name_APKTOOL_DUPLICATENAME_0x7f0904a6" android:layout_alignBottom="@id/name_APKTOOL_DUPLICATENAME_0x7f0904a6" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091972" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091973" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="174.0dip">
+            <ImageView android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020f6d" android:scaleType="fitCenter" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091974" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="无法获取贴纸，点击重试" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091975" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.tencent.biz.qqstory.storyHome.qqstorylist.view.StoryLoadingView android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginBottom="35.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09196b" android:visibility="invisible" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" android:listSelector="#00000000" android:divider="@null" android:overScrollMode="never" />
+</RelativeLayout>

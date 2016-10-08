@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.widget.SingleLineTextView android:textSize="14.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ce" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0905f3" android:background="@drawable/skin_group_list_sub_entry" android:paddingLeft="10.0dip" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="22.0dip" android:singleLine="true" />
+    <com.dingdong.widget.DingdongSlidableFrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090717" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020325" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090718" android:layout_width="fill_parent" android:layout_height="52.0dip">
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090719" android:layout_width="40.0dip" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09071a" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021536" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a15e3" />
+            </FrameLayout>
+            <com.dingdong.widget.DingdongHeadImageView android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09071b" android:clickable="false" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <com.tencent.widget.SingleLineTextView android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03a6" android:ellipsize="end" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03c8" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09071c" android:background="#ffff3b2f" android:layout_width="70.0dip" android:layout_height="52.0dip" android:layout_marginBottom="1.0px" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1972" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1972" />
+    </com.dingdong.widget.DingdongSlidableFrameLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0918ff" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091900" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_weight="1.0" layout="@layout/qq_yellowpage_city_list_item_city" />
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091901" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0217ae" android:layout_width="1.0px" android:layout_height="fill_parent" />
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091902" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_weight="1.0" layout="@layout/qq_yellowpage_city_list_item_city" />
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091903" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0217ae" android:layout_width="1.0px" android:layout_height="fill_parent" />
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091904" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_weight="1.0" layout="@layout/qq_yellowpage_city_list_item_city" />
+</LinearLayout>

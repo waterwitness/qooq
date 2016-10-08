@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tencent="http://schemas.android.com/apk/res/com.tencent.mobileqq">
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091f00" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f03067f" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" />
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091f01" android:layout="@layout/qzone_custom_commen_title" android:layout_width="fill_parent" android:layout_height="@dimen/title_bar_height" />
+    <FrameLayout android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="14.0sp" android:textColor="#ffababab" android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09046e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@null" android:drawableTop="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0211e5" android:drawablePadding="15.0dip" />
+    </FrameLayout>
+</LinearLayout>

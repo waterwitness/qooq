@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qzone.widget.LinerLayoutForListViewItem android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091f66" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02132e" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:qzone="http://schemas.android.com/apk/res/com.tencent.mobileqq">
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091f67" android:background="#ffd7d7d7" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="9.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.qzone.widget.AvatarImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091f68" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginTop="9.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0212c8" qzone:avatarSize="38.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="14.0dip" android:layout_weight="1.0">
+                    <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip">
+                        <com.qzone.proxy.feedcomponent.adapter.text.CellTextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c069e" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b02a5" android:ellipsize="end" android:layout_gravity="top" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091f69" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:singleLine="true" />
+                        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091f6a" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" />
+                    </LinearLayout>
+                    <TextView android:textSize="11.0sp" android:textColor="#ffa9a9a9" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091563" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="昨天23:55" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.qzone.proxy.feedcomponent.adapter.text.CellTextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0563" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b02d9" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910cf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="说的好像真的一样" android:lineSpacingExtra="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0573" />
+        </LinearLayout>
+        <com.qzone.widget.FeedImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091f6b" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginTop="10.0dip" android:adjustViewBounds="true" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1425" />
+        <com.qzone.proxy.feedcomponent.adapter.text.CellTextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0566" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b02d9" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091f6c" android:background="#ffeeeeee" android:visibility="gone" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginTop="10.0dip" android:maxLines="3" />
+    </LinearLayout>
+</com.qzone.widget.LinerLayoutForListViewItem>

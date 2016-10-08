@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090318" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090319" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c05c0" android:textColor="#ff989898" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09031a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="页面加载失败，" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c05c0" android:textColor="#ff12b7f5" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09031b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="点击刷新" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f09031a" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090319" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginBottom="24.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0200f5" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09031c" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020331" android:scaleType="center" android:layout_centerInParent="true" />
+</RelativeLayout>

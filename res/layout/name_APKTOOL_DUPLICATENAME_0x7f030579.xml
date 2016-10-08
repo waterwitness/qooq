@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="83.0dip" android:layout_height="134.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="83.0dip" android:layout_height="134.0dip">
+        <com.tencent.image.URLImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09195c" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <com.tencent.image.URLImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09195d" android:background="#ffffc97d" android:padding="1.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020fab" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.tencent.biz.qqstory.view.widget.StrokeTextView android:textSize="12.0dip" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09195e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip" android:maxLines="3" android:layout_alignParentBottom="true" />
+        <com.tencent.image.URLImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09195f" android:layout_width="56.0dip" android:layout_height="15.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip" android:scaleType="fitStart" android:maxWidth="66.0dip" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091961" android:layout_width="12.0dip" android:layout_height="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020faf" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091960" android:layout_width="14.0dip" android:layout_height="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="4.5dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020fae" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</merge>

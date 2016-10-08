@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09173a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="个性名片"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09173b" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020dfe" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c00e9" android:layout_marginBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0096" android:src="@drawable/common_loading2" android:scaleType="center" />
+</LinearLayout>

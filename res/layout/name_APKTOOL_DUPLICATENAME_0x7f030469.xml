@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#fffbf9fa" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0904ff" android:layout_width="120.0dip" android:layout_height="120.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020c67" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03c9" android:gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090769" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="这里暂时还没有新的内容哦" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03c9" android:gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090770" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="快来抢个沙发吧" />
+    <View android:layout_width="fill_parent" android:layout_height="60.0dip" />
+</LinearLayout>

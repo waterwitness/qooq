@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mobileqq.widget.InputMethodLinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910f7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:clickable="true" android:layout_width="fill_parent" android:layout_height="122.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="#ff777777" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090bde" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="取消" />
+            <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="鲜花数量" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0dip" android:textColor="#ffff5b84" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090f71" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="确定" />
+        </LinearLayout>
+        <EditText android:textSize="20.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0910fc" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020a3b" android:longClickable="false" android:layout_width="335.0dip" android:layout_height="45.0dip" android:inputType="numberSigned" android:imeOptions="flagNoExtractUi" />
+    </LinearLayout>
+</com.tencent.mobileqq.widget.InputMethodLinearLayout>

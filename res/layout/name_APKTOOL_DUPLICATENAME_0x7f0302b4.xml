@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090635" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.widget.SwipListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09099e" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c7" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:cacheColorHint="@null" android:divider="@null" android:dividerHeight="0.0px"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e27" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f0302b7" android:inflatedId="@id/name_APKTOOL_DUPLICATENAME_0x7f090e27" android:layout_width="fill_parent" android:layout_height="216.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

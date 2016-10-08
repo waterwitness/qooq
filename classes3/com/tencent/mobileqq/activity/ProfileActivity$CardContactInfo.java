@@ -1,0 +1,48 @@
+package com.tencent.mobileqq.activity;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import android.os.Parcelable.Creator;
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import mal;
+
+public class ProfileActivity$CardContactInfo
+  implements Parcelable
+{
+  public static final Parcelable.Creator CREATOR = new mal();
+  public String a;
+  public String b;
+  public String c;
+  
+  static
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+  }
+  
+  private ProfileActivity$CardContactInfo() {}
+  
+  public ProfileActivity$CardContactInfo(String paramString1, String paramString2, String paramString3)
+  {
+    this.a = paramString1;
+    this.c = paramString2;
+    this.b = paramString3;
+  }
+  
+  public int describeContents()
+  {
+    return 0;
+  }
+  
+  public void writeToParcel(Parcel paramParcel, int paramInt)
+  {
+    paramParcel.writeString(this.a);
+    paramParcel.writeString(this.c);
+    paramParcel.writeString(this.b);
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes3-dex2jar.jar!\com\tencent\mobileqq\activity\ProfileActivity$CardContactInfo.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

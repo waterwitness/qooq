@@ -1,0 +1,58 @@
+import android.content.ComponentName;
+import android.content.ServiceConnection;
+import android.os.IBinder;
+import android.os.RemoteException;
+import com.tencent.mobileqq.hotpatch.NotVerifyClass;
+import com.tencent.mobileqq.nearby.ipc.MainProcessInterface;
+import com.tencent.mobileqq.nearby.ipc.MainProcessInterface.Stub;
+import com.tencent.mobileqq.nearby.ipc.NearbyProcess;
+import com.tencent.qphone.base.util.QLog;
+
+public class tkg
+  implements ServiceConnection
+{
+  public tkg(NearbyProcess paramNearbyProcess)
+  {
+    boolean bool = NotVerifyClass.DO_VERIFY_CLASS;
+  }
+  
+  public void onServiceConnected(ComponentName paramComponentName, IBinder paramIBinder)
+  {
+    this.a.jdField_a_of_type_ComTencentMobileqqNearbyIpcMainProcessInterface = MainProcessInterface.Stub.a(paramIBinder);
+    try
+    {
+      this.a.jdField_a_of_type_ComTencentMobileqqNearbyIpcMainProcessInterface.a(this.a.jdField_a_of_type_ComTencentMobileqqNearbyIpcNearbyProcessInterface);
+      if (QLog.isColorLevel()) {
+        QLog.i("nearby_ipc_log_tag", 2, "nearbyProcess onServiceConnected.");
+      }
+      return;
+    }
+    catch (RemoteException paramComponentName)
+    {
+      for (;;)
+      {
+        if (QLog.isDevelopLevel()) {
+          paramComponentName.printStackTrace();
+        }
+      }
+    }
+  }
+  
+  public void onServiceDisconnected(ComponentName arg1)
+  {
+    synchronized (NearbyProcess.a(this.a))
+    {
+      this.a.jdField_a_of_type_ComTencentMobileqqNearbyIpcMainProcessInterface = null;
+      if (QLog.isColorLevel()) {
+        QLog.i("nearby_ipc_log_tag", 2, "nearbyProcess onServiceDisConnected.");
+      }
+      return;
+    }
+  }
+}
+
+
+/* Location:              E:\apk\QQ_91\classes5-dex2jar.jar!\tkg.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

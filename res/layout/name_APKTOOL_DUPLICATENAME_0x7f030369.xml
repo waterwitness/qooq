@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020a4e" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09111f" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020a1a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_alignParentTop="true" />
+    <TextView android:ellipsize="end" android:id="@id/title" android:singleLine="true" android:shadowColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0051" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="1.0" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f09111f" style="@style/TroopInfoExItemTitle2" />
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090362" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f09111f" style="@style/TroopInfoExItemArrow3" />
+</RelativeLayout>

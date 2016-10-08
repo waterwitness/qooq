@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09119a" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0217a0" android:clickable="false" android:layout_width="fill_parent" android:layout_height="18.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09119b" android:paddingBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0123" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f09119a">
+        <TextView android:id="@id/title" android:paddingBottom="0.0dip" style="@style/TroopInfoExItemTitle" />
+        <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091120" android:visibility="invisible" style="@style/TroopInfoExItemReddot4" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090362" style="@style/TroopInfoExItemArrow2" />
+        <LinearLayout android:id="@id/content" android:paddingBottom="0.0dip" style="@style/TroopInfoExItemContent">
+            <View style="@style/TroopInfoExItemSpace" />
+            <TextView android:id="@id/info" style="@style/TroopInfoExItemInfo" />
+        </LinearLayout>
+        <TextView android:textSize="15.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b020a" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09119c" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0125" android:layout_marginBottom="8.0dip" android:layout_toLeftOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090362" android:layout_below="@id/title" android:layout_alignParentLeft="true" android:lineSpacingExtra="4.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

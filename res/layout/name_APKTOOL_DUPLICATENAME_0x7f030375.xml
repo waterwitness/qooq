@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mobileqq.troop.widget.RadarBgView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091142" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.tencent.mobileqq.troop.widget.RadarMembersView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091143" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignLeft="@id/name_APKTOOL_DUPLICATENAME_0x7f091142" android:layout_alignTop="@id/name_APKTOOL_DUPLICATENAME_0x7f091142" android:layout_alignRight="@id/name_APKTOOL_DUPLICATENAME_0x7f091142" android:layout_alignBottom="@id/name_APKTOOL_DUPLICATENAME_0x7f091142" />
+    <com.tencent.mobileqq.troop.widget.RadaScanView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091144" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

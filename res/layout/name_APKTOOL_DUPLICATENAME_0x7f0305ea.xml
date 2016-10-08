@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091af8" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.tencent.mobileqq.maproam.widget.RoamingMapView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091af9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:apiKey="73dfcdeff8636c1d3501fa9a2860ebb7" />
+        <com.tencent.mobileqq.maproam.widget.RoamLocalSearchBar android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091afa" android:background="@drawable/skin_header_bar_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c01a2" android:layout_alignTop="@id/name_APKTOOL_DUPLICATENAME_0x7f091af9" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091afb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/name_APKTOOL_DUPLICATENAME_0x7f091af9">
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091afc" android:paddingBottom="28.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021093" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091afd" android:paddingTop="4.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021092" android:layout_centerInParent="true" />
+            <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0024" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03ef" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091afe" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021739" android:paddingLeft="23.0dip" android:paddingTop="13.0dip" android:paddingRight="23.0dip" android:paddingBottom="30.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="10.0dip" android:maxWidth="254.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a24d5" android:maxLines="2" android:drawablePadding="5.0dip" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f091afc" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091aff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b00" layout="@layout/qvip_maproam_roam_filter" />
+</LinearLayout>

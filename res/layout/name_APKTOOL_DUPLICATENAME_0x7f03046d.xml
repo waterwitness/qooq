@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090103" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.widget.TintableImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091541" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c02b1" android:scaleType="centerCrop" app:tint="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0371" />
+        <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091542" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c023f" android:singleLine="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="16.0dip" android:textColor="#ccffffff" android:gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091543" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:maxLines="2" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f091542" android:layout_centerHorizontal="true" android:lineSpacingExtra="8.0dip" />
+        <com.tencent.image.URLImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cbc" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:visible="true" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff01c194" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="5.0dip" android:text="直播中" android:layout_toLeftOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090cbc" />
+    </RelativeLayout>
+    <com.tencent.mobileqq.freshnews.FLowLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091544" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091540" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c023c" />
+</LinearLayout>

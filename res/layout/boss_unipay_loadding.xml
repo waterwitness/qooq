@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/unipay_id_loading_linear" android:background="@drawable/qb_tenpay_loading_back_bg" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:indeterminateDrawable="@anim/qvip_pay_loading" />
+    <TextView android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0008" android:layout_gravity="center" android:id="@id/unipay_id_LoadingTxt" android:layout_marginTop="20.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a004d" style="@style/boss_unipay_tx.middle" />
+</LinearLayout>

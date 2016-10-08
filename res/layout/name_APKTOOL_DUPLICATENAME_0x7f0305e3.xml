@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ae2" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ffeff8fd" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ae3" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ae4" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="表情" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090515" android:clickable="true" android:layout_width="7.5dip" android:layout_height="13.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021080" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="13.0sp" android:textColor="#ff2761b1" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ae5" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="更多" android:layout_toLeftOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090515" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.tencent.mobileqq.widget.MyGridView android:layout_gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ae6" android:background="#ffffffff" android:paddingLeft="5.0dip" android:paddingTop="0.0dip" android:paddingRight="5.0dip" android:paddingBottom="0.0dip" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:numColumns="2" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090a0d" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090a0e" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.mobileqq.widget.ADView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090a0f" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center" android:id="@id/close" android:clickable="true" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090a10" android:clickable="false" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0202b0" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

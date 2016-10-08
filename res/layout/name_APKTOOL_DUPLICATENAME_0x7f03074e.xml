@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02037d" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c01e8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091628" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+    <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091629" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" style="@style/RecentOptButton" />
+</LinearLayout>

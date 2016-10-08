@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:clickable="true" android:layout_width="fill_parent" android:layout_height="203.0dip" android:layout_alignParentBottom="true" />
+    <com.tencent.widget.HorizontalListView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919f0" android:background="#b3000000" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="43.0dip" android:layout_alignParentBottom="true" />
+    <com.tencent.biz.qqstory.view.EmptySupportViewPager android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919f1" android:background="#7f000000" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f0919f0" />
+    <com.tencent.biz.qqstory.takevideo.pendant.PendantPagerIndicator android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0919f2" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginBottom="5.0dip" android:layout_alignBottom="@id/name_APKTOOL_DUPLICATENAME_0x7f0919f1" android:drawable="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020f9e" android:defaultValue="4" android:horizontalGap="5.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09069f" android:background="#7f000000" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f0919f0">
+        <ImageView android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020f98" android:scaleType="fitCenter" />
+        <TextView android:textSize="13.0dip" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:text="无法获取特效，请稍后重试" />
+    </LinearLayout>
+</RelativeLayout>

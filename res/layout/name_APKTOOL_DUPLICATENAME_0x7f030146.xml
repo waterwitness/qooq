@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b009b" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907ee" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907ef" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="7.0dip">
+            <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907f0" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020c98" android:layout_width="7.0dip" android:layout_height="7.0dip" />
+            <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907f1" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020c98" android:layout_width="7.0dip" android:layout_height="7.0dip" android:layout_marginLeft="5.0dip" />
+            <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907f2" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020c98" android:layout_width="7.0dip" android:layout_height="7.0dip" android:layout_marginLeft="5.0dip" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="7.0dip" android:layout_marginTop="5.0dip">
+            <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907f3" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020c98" android:layout_width="7.0dip" android:layout_height="7.0dip" />
+            <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907f4" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020c98" android:layout_width="7.0dip" android:layout_height="7.0dip" android:layout_marginLeft="5.0dip" />
+            <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907f5" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020c98" android:layout_width="7.0dip" android:layout_height="7.0dip" android:layout_marginLeft="5.0dip" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="7.0dip" android:layout_marginTop="5.0dip">
+            <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907f6" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020c98" android:layout_width="7.0dip" android:layout_height="7.0dip" />
+            <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907f7" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020c98" android:layout_width="7.0dip" android:layout_height="7.0dip" android:layout_marginLeft="5.0dip" />
+            <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907f8" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020c98" android:layout_width="7.0dip" android:layout_height="7.0dip" android:layout_marginLeft="5.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907f9" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_weight="0.0" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0022" android:gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907fa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="40.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2102" />
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907fb" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_weight="0.0" />
+    <com.tencent.mobileqq.gesturelock.LockPatternView android:layout_gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907fc" android:layout_width="288.0dip" android:layout_height="288.0dip" android:layout_marginTop="0.0dip" />
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0907fd" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020328" android:layout_width="fill_parent" android:layout_height="77.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cce" android:layout_width="38.0dip" android:layout_height="57.0dip" android:layout_marginLeft="14.0dip" android:scaleType="fitXY" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="57.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f090ccf">
+            <TextView android:textSize="13.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b002e" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cd0" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@null" android:maxLines="2" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090ccf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:textSize="13.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b002e" android:ellipsize="end" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a2784" android:singleLine="true" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b002e" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090cd1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@null" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

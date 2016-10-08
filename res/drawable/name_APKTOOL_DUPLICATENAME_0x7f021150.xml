@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c055b" />
+            <stroke android:width="2.0px" android:color="#ffcfcfcf" />
+            <solid android:color="#22aaaaaa" />
+        </shape>
+        <bitmap android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021152" android:antialias="true" />
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c055b" />
+            <stroke android:width="2.0px" android:color="#ffcfcfcf" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+        <bitmap android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021152" android:antialias="true" />
+    </item>
+</selector>

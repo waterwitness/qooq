@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fb1" android:background="#ffd13d4b" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fb2" android:layout_alignParentTop="true" layout="@layout/qb_tenpay_hb_header" />
+    <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fb3" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:background="#ffdedfe0" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fb4" android:background="#fff8f9fa" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0537" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fb5" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fb6" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fb7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fb8" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0538" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0538" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020874" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090fb7" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0537" android:textColor="#ffa6a6a6" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fb9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:minWidth="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0537" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090fb8" android:layout_centerVertical="true" android:translationY="-1.0dip" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fba" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fbb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0537" android:textColor="#ffa6a6a6" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fbc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090fbb" android:layout_centerVertical="true" android:translationY="-1.0dip" />
+                <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fbd" android:layout_width="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0538" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0538" android:layout_marginRight="7.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02087a" android:layout_toLeftOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090fbc" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.tenpay.android.qqplugin.control.ObservableScrollView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fbe" android:background="#fff8f9fa" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f090fb3" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090fb2">
+        <RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fbf" android:background="#ffd13d4b" android:layout_width="fill_parent" android:layout_height="119.0dip" android:layout_alignParentTop="true">
+                <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fc0" android:background="#ffd13d4b" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="fitStart" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fc1" android:background="#ffd13d4b" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090fbf">
+                <ImageView android:layout_width="22.0dip" android:layout_height="9.0dip" android:layout_marginLeft="34.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02086c" android:scaleType="fitXY" />
+                <RelativeLayout android:background="#fff8f9fa" android:layout_width="fill_parent" android:layout_height="35.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="#ffa6a6a6" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fc2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="已领取0元/0个，剩余0元" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffd13d4b" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fc3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="继续发送" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <ImageView android:background="#ffdedfe0" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fc4" android:background="#fff8f9fa" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090fc1">
+                <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fc5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="未领完的红包已经退回您的" android:layout_centerInParent="true" />
+                <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020878" android:layout_toLeftOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090fc5" android:layout_centerVertical="true" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffd13d4b" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fc6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="余额" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090fc5" android:layout_centerVertical="true" />
+                <ImageView android:background="#ffdedfe0" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="24.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fc7" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090fc4" />
+            <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fc8" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="15.0dip" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090fc7" layout="@layout/qb_tenpay_hb_listmore" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fc9" android:background="#fff8f9fa" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090fc8">
+                <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fca" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="35.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02087b" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffa6a6a6" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fcb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="等待好友领取" />
+            </LinearLayout>
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fcc" android:background="#ffdedfe0" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090fc9" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="#fff8f9fa" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="90.0dip" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090fcc">
+                <TextView android:textSize="14.0sp" android:textColor="#ffa6a6a6" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fcd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="收到的红包金额已存入" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffd13d4b" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fce" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="余额" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.tenpay.android.qqplugin.control.ObservableScrollView>
+    <ImageView android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginBottom="44.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02086f" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+</RelativeLayout>

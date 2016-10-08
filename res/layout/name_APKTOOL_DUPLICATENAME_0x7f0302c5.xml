@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e5c" android:layout="@layout/name_APKTOOL_DUPLICATENAME_0x7f0302bf" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c03b4" android:textColor="@android:color/black" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c03b7" android:layout_marginTop="15.0dip" android:layout_marginRight="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c03b8" android:includeFontPadding="false" android:lineSpacingExtra="1.5dip" />
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090e46" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c03b7" android:layout_marginTop="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c03bb" android:layout_marginBottom="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c03b9" layout="@layout/qb_public_account_readinjoy_article_item_common" />
+</LinearLayout>

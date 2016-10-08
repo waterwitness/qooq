@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_bar_height">50.0dip</dimen>
+    <dimen name="name_APKTOOL_DUPLICATENAME_0x7f0c002e">25.0dip</dimen>
+    <dimen name="name_APKTOOL_DUPLICATENAME_0x7f0c002f">75.0dip</dimen>
+    <dimen name="name_APKTOOL_DUPLICATENAME_0x7f0c0030">100.0dip</dimen>
+    <dimen name="name_APKTOOL_DUPLICATENAME_0x7f0c0031">100.0dip</dimen>
+    <dimen name="name_APKTOOL_DUPLICATENAME_0x7f0c0032">32.0dip</dimen>
+    <dimen name="name_APKTOOL_DUPLICATENAME_0x7f0c03f1">25.0dip</dimen>
+    <dimen name="name_APKTOOL_DUPLICATENAME_0x7f0c03f3">50.0dip</dimen>
+    <dimen name="name_APKTOOL_DUPLICATENAME_0x7f0c0429">310.0dip</dimen>
+    <dimen name="name_APKTOOL_DUPLICATENAME_0x7f0c04c4">52.0dip</dimen>
+    <dimen name="name_APKTOOL_DUPLICATENAME_0x7f0c04c5">50.0dip</dimen>
+    <dimen name="name_APKTOOL_DUPLICATENAME_0x7f0c0509">25.0dip</dimen>
+    <dimen name="name_APKTOOL_DUPLICATENAME_0x7f0c050a">25.0dip</dimen>
+    <dimen name="name_APKTOOL_DUPLICATENAME_0x7f0c050b">55.0dip</dimen>
+    <dimen name="name_APKTOOL_DUPLICATENAME_0x7f0c050c">50.0dip</dimen>
+    <dimen name="name_APKTOOL_DUPLICATENAME_0x7f0c050d">45.0dip</dimen>
+</resources>

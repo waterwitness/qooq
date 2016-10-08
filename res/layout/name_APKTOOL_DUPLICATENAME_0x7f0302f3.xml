@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0250" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/qb_tenpay_common_title_bar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090f00" android:paddingBottom="9.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090f01" android:paddingLeft="15.0dip" android:paddingTop="35.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0e6e" style="@style/qb_tenpay_dialog_text.dark" />
+                <LinearLayout android:orientation="horizontal" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020836" android:paddingLeft="1.0dip" android:paddingTop="1.0dip" android:paddingRight="1.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.tenpay.android.qqplugin.control.SixPasswdFullScreenEditText android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b023d" android:textColorHint="@color/name_APKTOOL_DUPLICATENAME_0x7f0b023f" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090f02" android:background="@null" android:paddingLeft="0.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="42.0dip" android:singleLine="true" android:maxLength="6" android:inputType="number" />
+                </LinearLayout>
+                <TextView android:textSize="13.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0256" android:paddingLeft="15.0dip" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0e77" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090f03" android:paddingBottom="9.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:paddingLeft="15.0dip" android:paddingTop="35.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0e73" style="@style/qb_tenpay_dialog_text.dark" />
+                <LinearLayout android:orientation="horizontal" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020836" android:paddingLeft="1.0dip" android:paddingTop="1.0dip" android:paddingRight="1.0dip" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.tenpay.android.qqplugin.control.SixPasswdFullScreenEditText android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b023d" android:textColorHint="@color/name_APKTOOL_DUPLICATENAME_0x7f0b023f" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090f04" android:background="@null" android:paddingLeft="0.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="42.0dip" android:singleLine="true" android:maxLength="6" android:inputType="number" />
+                </LinearLayout>
+                <Button android:enabled="false" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090f05" android:clickable="false" android:layout_marginLeft="15.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="15.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0de0" style="@style/qb_tenpay_btn_submit" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090f06" android:paddingBottom="9.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:paddingTop="35.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0eb9" style="@style/qb_tenpay_dialog_text.dark" />
+                    <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090f07" android:paddingLeft="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\ 1861313132" style="@style/qb_tenpay_dialog_text.dark" />
+                    <TextView android:paddingLeft="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="。" style="@style/qb_tenpay_dialog_text.dark" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020836" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.tenpay.android.qqplugin.control.ClearableEditText android:textSize="16.0sp" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090f08" android:paddingLeft="15.0dip" android:layout_width="0.0dip" android:hint="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0eaa" android:singleLine="true" android:maxLength="6" android:layout_weight="1.0" android:inputType="number" style="@style/qb_tenpay_text" />
+                    <View style="@style/qb_tenpay_v_line" />
+                    <Button android:textSize="14.0sp" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090f09" android:clickable="false" android:layout_width="95.0dip" android:layout_height="44.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0e13" style="@style/qb_tenpay_link_blue" />
+                </LinearLayout>
+                <Button android:enabled="false" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090f0a" android:clickable="false" android:layout_marginLeft="15.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="15.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0ead" style="@style/qb_tenpay_btn_submit" />
+                <com.tenpay.android.qqplugin.control.SMSAlertButton android:layout_gravity="right" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090f0b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <com.tenpay.android.qqplugin.control.MyKeyboardWindow android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090f0c" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091873" android:background="@drawable/skin_aio_input_bar_bg" android:paddingLeft="11.0dip" android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03dd" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091e9e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a144e" />
+    <HorizontalScrollView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090517" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="75.0dip" android:layout_marginTop="11.0dip" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f091e9e">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.tencent.widget.GridView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091e9f" android:fadingEdge="none" android:layout_width="100.0dip" android:layout_height="fill_parent" android:listSelector="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:cacheColorHint="@null" android:horizontalSpacing="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0681" android:verticalSpacing="0.0dip" android:stretchMode="none" android:columnWidth="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0680" android:numColumns="1" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ea0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a12ee" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090517" android:layout_alignParentLeft="true" style="@style/SmallButtonWhite" />
+    <TextView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091ea1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_marginRight="11.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a132e" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090517" android:layout_alignParentRight="true" style="@style/SmallButtonBlue" />
+</RelativeLayout>

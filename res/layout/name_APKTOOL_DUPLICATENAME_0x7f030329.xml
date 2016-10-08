@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090c6d" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090faa" android:background="#fff8f9fa" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fab" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="#ffdedfe0" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="43.0dip">
+                    <TextView android:textSize="17.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0f36" />
+                    <LinearLayout android:gravity="center|right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <EditText android:textSize="17.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0243" android:textColorHint="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0241" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0906a6" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:hint="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0f37" android:singleLine="true" android:maxLength="4" android:inputType="number" />
+                    </LinearLayout>
+                    <TextView android:textSize="17.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0f3c" />
+                </LinearLayout>
+                <View android:background="#ffdedfe0" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="43.0dip">
+                <TextView android:textSize="17.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0f38" />
+                <ImageView android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020862" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+                <LinearLayout android:gravity="center|right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <EditText android:textSize="17.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0243" android:textColorHint="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0241" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fac" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:hint="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0f3b" android:singleLine="true" android:maxLength="7" android:inputType="numberDecimal" />
+                </LinearLayout>
+                <TextView android:textSize="17.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0dc8" />
+            </LinearLayout>
+            <View android:background="#ffdedfe0" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        </LinearLayout>
+        <FrameLayout android:background="#fff7f0f2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fad" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitXY" />
+            <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fae" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textColor="#ff808080" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0909a1" android:paddingLeft="15.0dip" android:paddingTop="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="小伙伴领取的金额随机" />
+                <View android:background="#ffdedfe0" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="20.0dip" />
+                <EditText android:textSize="17.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0243" android:textColorHint="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0241" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090faf" android:background="#ffffffff" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="43.0dip" android:hint="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0f3e" android:singleLine="true" android:maxLength="14" />
+                <View android:background="#ffdedfe0" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginBottom="20.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+        <Button android:enabled="false" android:textSize="18.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b035e" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09064c" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02083a" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a0f40" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff808080" android:gravity="center_horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090fb0" android:paddingTop="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="您正在使用个性红包皮肤" />
+    </LinearLayout>
+</ScrollView>

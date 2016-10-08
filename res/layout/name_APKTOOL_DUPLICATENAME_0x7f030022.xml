@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mobileqq.apollo.view.ApolloPanel android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902c0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="196.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mobileqq.widget.QQViewPager android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902c1" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/name_APKTOOL_DUPLICATENAME_0x7f0902c2" android:layout_centerHorizontal="true" />
+    <com.tencent.mobileqq.emoticonview.EmoticonPagerRadioGroup android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902c2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902c3" android:layout_width="fill_parent" android:layout_height="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0117" android:layout_alignParentBottom="true">
+        <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902c4" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902c5" android:layout_width="fill_parent" android:layout_height="39.0dip">
+            <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902c6" android:layout_width="75.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902c7" android:layout_width="48.0dip" android:layout_height="fill_parent" android:layout_centerInParent="true">
+                    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902c8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:scaleType="center" android:layout_centerInParent="true" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a28aa" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <View android:background="#fff8f8f8" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_toLeftOf="@id/name_APKTOOL_DUPLICATENAME_0x7f0902c6" />
+            <com.tencent.widget.HorizontalListView android:orientation="horizontal" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0902c9" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="76.0dip" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.tencent.mobileqq.apollo.view.ApolloPanel>

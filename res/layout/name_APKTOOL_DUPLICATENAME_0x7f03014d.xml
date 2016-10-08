@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090818" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020328" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090819" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020ca3" android:layout_centerVertical="true" android:contentDescription="@null" />
+        <TextView android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09081a" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1f0e" android:singleLine="true" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f090819" android:layout_centerVertical="true" style="@style/B4_Font_white" />
+    </RelativeLayout>
+</RelativeLayout>

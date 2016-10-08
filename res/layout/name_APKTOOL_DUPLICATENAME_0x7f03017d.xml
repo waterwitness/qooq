@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/dialog_bg" android:layout_width="288.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0024" android:gravity="center_vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908e1" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="" />
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908e2" android:background="#ffc2c8cd" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0908e1" />
+    <LinearLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908e3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0908e2">
+        <TextView android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b001b" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908e4" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1d21" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f0908e5" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="26.0dip" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f0908e3">
+        <Button android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b001b" android:gravity="center" android:id="@id/dialog_button_cancel" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0204c1" android:layout_width="122.0dip" android:layout_height="fill_parent" android:layout_marginRight="8.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a175e" />
+        <Button android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b001b" android:gravity="center" android:id="@id/dialog_button_ok" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0204c1" android:layout_width="122.0dip" android:layout_height="fill_parent" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a17cd" />
+    </LinearLayout>
+</RelativeLayout>

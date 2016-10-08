@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092316" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020085" android:layout_alignBottom="@id/name_APKTOOL_DUPLICATENAME_0x7f09230e" />
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09230e" android:layout_width="150.0dip" android:layout_height="160.0dip" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f092316">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="10.0dip">
+            <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0037" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:ellipsize="end" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09230f" android:padding="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0590" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="摄影/美不需要语言" android:maxLines="2" android:layout_centerInParent="true" />
+            <com.tencent.mobileqq.troop.widget.GradientProgressView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092310" android:layout_width="51.0dip" android:layout_height="51.0dip" android:layout_centerInParent="true" />
+            <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092311" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020a78" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_alignParentBottom="true">
+                <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092312" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020a85" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/name_APKTOOL_DUPLICATENAME_0x7f0c0038" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092313" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="5人打赏" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092314" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_centerVertical="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020a7b" android:scaleType="centerCrop" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="该视频格式不符合要求" />
+            <TextView android:textSize="10.0sp" android:textColor="#ffff5b84" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092315" android:padding="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="请选择其它内容" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092317" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020a8d" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="7.0dip" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f09230e" android:layout_alignLeft="@id/name_APKTOOL_DUPLICATENAME_0x7f09230e">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020a7a" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="赞赏照片" />
+    </LinearLayout>
+</RelativeLayout>

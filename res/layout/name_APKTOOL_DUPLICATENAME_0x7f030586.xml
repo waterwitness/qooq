@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="146.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.biz.qqstory.view.PressDarkImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091986" android:layout_width="103.0dip" android:layout_height="fill_parent" android:src="#ff606060" android:scaleType="centerCrop" />
+    <TextView android:textSize="13.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091987" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="-" android:maxLines="1" android:singleLine="true" android:layout_alignLeft="@id/name_APKTOOL_DUPLICATENAME_0x7f091986" android:layout_alignRight="@id/name_APKTOOL_DUPLICATENAME_0x7f091986" android:layout_alignParentBottom="true" />
+    <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091988" android:layout_width="4.0dip" android:layout_height="fill_parent" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f091986" />
+</RelativeLayout>

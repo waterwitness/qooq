@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b50" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b51" android:layout_width="180.0dip" android:layout_height="46.5dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0210d5" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffababab" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b52" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a12a2" />
+    </LinearLayout>
+    <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b53" android:visibility="gone" layout="@layout/qvip_pay_nearby_qqcard_list_footer" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff16a7de" android:gravity="center" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b54" android:paddingTop="10.0dip" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a12a3" />
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b55" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090bad" android:background="#fff0f0f0" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b56" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/name_APKTOOL_DUPLICATENAME_0x7f0a129c" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f090bad" />
+        <LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091b57" android:paddingBottom="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/name_APKTOOL_DUPLICATENAME_0x7f091b56" />
+    </RelativeLayout>
+</LinearLayout>

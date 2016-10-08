@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="15.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b036d" android:layout_gravity="center" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f020ed5" android:layout_width="wrap_content" android:layout_height="46.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091df8" android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b0033" android:focusable="false" android:clickable="false" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/name_APKTOOL_DUPLICATENAME_0x7f0b004f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="110.0dip">
+        <include android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f090501" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/qzone_album_divider" />
+        <ImageView android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091df9" android:background="@drawable/trans" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0213dd" android:layout_centerVertical="true" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a142e" />
+        <ImageButton android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091dfa" android:background="@drawable/trans" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0211d0" android:layout_toRightOf="@id/name_APKTOOL_DUPLICATENAME_0x7f091df9" android:layout_centerVertical="true" android:contentDescription="@string/name_APKTOOL_DUPLICATENAME_0x7f0a1430" />
+        <TextView android:textSize="15.0sp" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f091dfb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="21.0dip" android:text="超出xx个字" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</FrameLayout>

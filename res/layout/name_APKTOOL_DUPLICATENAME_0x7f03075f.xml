@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092151" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f0201c6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f092152" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02034f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+        <android.widget.EditText android:textSize="16.0sp" android:textColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b03dd" android:gravity="center|left|top" android:id="@id/name_APKTOOL_DUPLICATENAME_0x7f09046d" android:background="@drawable/name_APKTOOL_DUPLICATENAME_0x7f02169d" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="210.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:maxHeight="172.0dip" android:minHeight="94.0dip" android:includeFontPadding="false" android:maxLength="140" android:shadowColor="@color/name_APKTOOL_DUPLICATENAME_0x7f0b00d3" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:inputType="textMultiLine" android:textSelectHandle="@drawable/name_APKTOOL_DUPLICATENAME_0x7f021720" />
+    </RelativeLayout>
+</LinearLayout>
